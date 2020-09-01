@@ -199,6 +199,14 @@ if veafCombatZone then
             :setTraining(true)
 	)
 
+	veafCombatZone.AddZone(
+		VeafCombatZone.new()
+			:setMissionEditorZoneName("combatZone_rangeHaifa")
+			:setFriendlyName("Haifa RANGE")
+            :setBriefing("The Haifa RANGE (located 14 nm south of Haifa) is set-up for training")
+            :setTraining(true)
+	)
+
     veaf.logInfo("init - veafCombatZone")
     veafCombatZone.initialize()
 
