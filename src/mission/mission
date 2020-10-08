@@ -4717,6 +4717,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -4895,6 +4896,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -5073,6 +5075,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -5251,6 +5254,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -7172,6 +7176,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -7350,6 +7355,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -7528,6 +7534,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -7706,6 +7713,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -10168,8 +10176,23 @@ mission = {
                                                         [1] = {
                                                             ["auto"] = true,
                                                             ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAS",
                                                             ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Helicopters",
+                                                                    [2] = "Ground Units",
+                                                                    [3] = "Light armed ships",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
                                                             ["params"] = {
                                                                 ["action"] = {
                                                                     ["id"] = "EPLRS",
@@ -10179,13 +10202,13 @@ mission = {
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
-                                                        }, -- end of [1]
+                                                        }, -- end of [2]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -258909.015625,
-                                            ["y"] = -74462.171875,
+                                            ["x"] = -258909.03125,
+                                            ["y"] = -74462.1796875,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -10204,7 +10227,7 @@ mission = {
                                                 ["vangle"] = 0,
                                                 ["vnav"] = 1,
                                             }, -- end of ["properties"]
-                                            ["speed"] = 138.88888888889,
+                                            ["speed"] = 123.33333333333,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -10234,7 +10257,7 @@ mission = {
                                                 ["vangle"] = 0,
                                                 ["vnav"] = 1,
                                             }, -- end of ["properties"]
-                                            ["speed"] = 138.88888888889,
+                                            ["speed"] = 123.33333333333,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -10250,7 +10273,7 @@ mission = {
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
-                                ["task"] = "Ground Attack",
+                                ["task"] = "CAS",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
                                 ["taskSelected"] = true,
@@ -10258,6 +10281,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 48,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -10268,38 +10294,44 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 0.59243560357935,
-                                        ["livery_id"] = "104th FS Maryland ANG, Baltimore (MD)",
+                                        ["livery_id"] = "357th fs davis monthan afb, arizona (dm)",
                                         ["name"] = "DictKey_UnitName_7437",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "26",
-                                        ["parking_id"] = "30",
+                                        ["parking_id"] = "31",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 4023,
+                                            ["fuel"] = 5029,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                                 [1] = {
                                                     ["CLSID"] = "ALQ_184",
                                                 }, -- end of [1]
                                                 [2] = {
-                                                    ["CLSID"] = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+                                                    ["CLSID"] = "{LAU-131 - 7 AGR-20 M282}",
                                                 }, -- end of [2]
                                                 [3] = {
-                                                    ["CLSID"] = "{DAC53A2F-79CA-42FF-A77A-F5649B601308}",
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98452}",
                                                 }, -- end of [3]
                                                 [4] = {
-                                                    ["CLSID"] = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
                                                 }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [5]
                                                 [6] = {
                                                     ["CLSID"] = "{5335D97A-35A5-4643-9D9B-026C75961E52}",
                                                 }, -- end of [6]
+                                                [7] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [7]
                                                 [8] = {
-                                                    ["CLSID"] = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
                                                 }, -- end of [8]
                                                 [9] = {
-                                                    ["CLSID"] = "{DAC53A2F-79CA-42FF-A77A-F5649B601308}",
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98453}",
                                                 }, -- end of [9]
                                                 [10] = {
                                                     ["CLSID"] = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
@@ -10309,15 +10341,18 @@ mission = {
                                                 }, -- end of [11]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.59243560357935,
+                                        ["psi"] = -0.59243557225485,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "A-10C",
+                                        ["type"] = "A-10C_2",
                                         ["unitId"] = 2855,
-                                        ["x"] = -258909.015625,
-                                        ["y"] = -74462.171875,
+                                        ["x"] = -258909.03125,
+                                        ["y"] = -74462.1796875,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["AddPropAircraft"] = {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 48,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -10326,70 +10361,12 @@ mission = {
                                             [3] = 2,
                                             ["name"] = "Enfield12",
                                         }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
                                         ["heading"] = 0.59243560357935,
-                                        ["livery_id"] = "104th FS Maryland ANG, Baltimore (MD)",
+                                        ["livery_id"] = "357th fs davis monthan afb, arizona (dm)",
                                         ["name"] = "DictKey_UnitName_7439",
                                         ["onboard_num"] = "1071",
                                         ["parking"] = "25",
-                                        ["parking_id"] = "31",
-                                        ["payload"] = {
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 240,
-                                            ["flare"] = 120,
-                                            ["fuel"] = 4023,
-                                            ["gun"] = 100,
-                                            ["pylons"] = {
-                                                [1] = {
-                                                    ["CLSID"] = "ALQ_184",
-                                                }, -- end of [1]
-                                                [2] = {
-                                                    ["CLSID"] = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
-                                                }, -- end of [2]
-                                                [3] = {
-                                                    ["CLSID"] = "{DAC53A2F-79CA-42FF-A77A-F5649B601308}",
-                                                }, -- end of [3]
-                                                [4] = {
-                                                    ["CLSID"] = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
-                                                }, -- end of [4]
-                                                [6] = {
-                                                    ["CLSID"] = "{5335D97A-35A5-4643-9D9B-026C75961E52}",
-                                                }, -- end of [6]
-                                                [8] = {
-                                                    ["CLSID"] = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
-                                                }, -- end of [8]
-                                                [9] = {
-                                                    ["CLSID"] = "{DAC53A2F-79CA-42FF-A77A-F5649B601308}",
-                                                }, -- end of [9]
-                                                [10] = {
-                                                    ["CLSID"] = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
-                                                }, -- end of [10]
-                                                [11] = {
-                                                    ["CLSID"] = "{DB434044-F5D0-4F1F-9BA9-B73027E18DD3}",
-                                                }, -- end of [11]
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = -0.59243560357935,
-                                        ["skill"] = "Client",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "A-10C",
-                                        ["unitId"] = 2856,
-                                        ["x"] = -258892.765625,
-                                        ["y"] = -74483.3046875,
-                                    }, -- end of [2]
-                                    [3] = {
-                                        ["alt"] = 48,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] = {
-                                            [1] = 1,
-                                            [2] = 1,
-                                            [3] = 3,
-                                            ["name"] = "Enfield13",
-                                        }, -- end of ["callsign"]
-                                        ["heading"] = 0.59243560357935,
-                                        ["livery_id"] = "104th FS Maryland ANG, Baltimore (MD)",
-                                        ["name"] = "DictKey_UnitName_7440",
-                                        ["onboard_num"] = "1072",
-                                        ["parking"] = "15",
                                         ["parking_id"] = "32",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
@@ -10402,22 +10379,28 @@ mission = {
                                                     ["CLSID"] = "ALQ_184",
                                                 }, -- end of [1]
                                                 [2] = {
-                                                    ["CLSID"] = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+                                                    ["CLSID"] = "{LAU-131 - 7 AGR-20 M282}",
                                                 }, -- end of [2]
                                                 [3] = {
-                                                    ["CLSID"] = "{DAC53A2F-79CA-42FF-A77A-F5649B601308}",
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98452}",
                                                 }, -- end of [3]
                                                 [4] = {
-                                                    ["CLSID"] = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
                                                 }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [5]
                                                 [6] = {
                                                     ["CLSID"] = "{5335D97A-35A5-4643-9D9B-026C75961E52}",
                                                 }, -- end of [6]
+                                                [7] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [7]
                                                 [8] = {
-                                                    ["CLSID"] = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
                                                 }, -- end of [8]
                                                 [9] = {
-                                                    ["CLSID"] = "{DAC53A2F-79CA-42FF-A77A-F5649B601308}",
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98453}",
                                                 }, -- end of [9]
                                                 [10] = {
                                                     ["CLSID"] = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
@@ -10427,28 +10410,32 @@ mission = {
                                                 }, -- end of [11]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.59243560357935,
+                                        ["psi"] = -0.59243557225485,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "A-10C",
-                                        ["unitId"] = 2857,
-                                        ["x"] = -258874.15625,
-                                        ["y"] = -74506.3671875,
-                                    }, -- end of [3]
-                                    [4] = {
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 2856,
+                                        ["x"] = -258892.78125,
+                                        ["y"] = -74483.296875,
+                                    }, -- end of [2]
+                                    [3] = {
+                                        ["AddPropAircraft"] = {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 48,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
                                             [1] = 1,
                                             [2] = 1,
-                                            [3] = 4,
-                                            ["name"] = "Enfield14",
+                                            [3] = 3,
+                                            ["name"] = "Enfield13",
                                         }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
                                         ["heading"] = 0.59243560357935,
-                                        ["livery_id"] = "104th FS Maryland ANG, Baltimore (MD)",
-                                        ["name"] = "DictKey_UnitName_7441",
-                                        ["onboard_num"] = "1073",
-                                        ["parking"] = "14",
+                                        ["livery_id"] = "357th fs davis monthan afb, arizona (dm)",
+                                        ["name"] = "DictKey_UnitName_7440",
+                                        ["onboard_num"] = "1072",
+                                        ["parking"] = "15",
                                         ["parking_id"] = "33",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
@@ -10461,22 +10448,28 @@ mission = {
                                                     ["CLSID"] = "ALQ_184",
                                                 }, -- end of [1]
                                                 [2] = {
-                                                    ["CLSID"] = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+                                                    ["CLSID"] = "{LAU-131 - 7 AGR-20 M282}",
                                                 }, -- end of [2]
                                                 [3] = {
-                                                    ["CLSID"] = "{DAC53A2F-79CA-42FF-A77A-F5649B601308}",
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98452}",
                                                 }, -- end of [3]
                                                 [4] = {
-                                                    ["CLSID"] = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
                                                 }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [5]
                                                 [6] = {
                                                     ["CLSID"] = "{5335D97A-35A5-4643-9D9B-026C75961E52}",
                                                 }, -- end of [6]
+                                                [7] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [7]
                                                 [8] = {
-                                                    ["CLSID"] = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
                                                 }, -- end of [8]
                                                 [9] = {
-                                                    ["CLSID"] = "{DAC53A2F-79CA-42FF-A77A-F5649B601308}",
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98453}",
                                                 }, -- end of [9]
                                                 [10] = {
                                                     ["CLSID"] = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
@@ -10486,17 +10479,86 @@ mission = {
                                                 }, -- end of [11]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.59243560357935,
+                                        ["psi"] = -0.59243557225485,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "A-10C",
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 2857,
+                                        ["x"] = -258874.15625,
+                                        ["y"] = -74506.359375,
+                                    }, -- end of [3]
+                                    [4] = {
+                                        ["AddPropAircraft"] = {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 48,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 4,
+                                            ["name"] = "Enfield14",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0.59243560357935,
+                                        ["livery_id"] = "357th fs davis monthan afb, arizona (dm)",
+                                        ["name"] = "DictKey_UnitName_7441",
+                                        ["onboard_num"] = "1073",
+                                        ["parking"] = "14",
+                                        ["parking_id"] = "34",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 4023,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "ALQ_184",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{LAU-131 - 7 AGR-20 M282}",
+                                                }, -- end of [2]
+                                                [3] = {
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98452}",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [5]
+                                                [6] = {
+                                                    ["CLSID"] = "{5335D97A-35A5-4643-9D9B-026C75961E52}",
+                                                }, -- end of [6]
+                                                [7] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [7]
+                                                [8] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [8]
+                                                [9] = {
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98453}",
+                                                }, -- end of [9]
+                                                [10] = {
+                                                    ["CLSID"] = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+                                                }, -- end of [10]
+                                                [11] = {
+                                                    ["CLSID"] = "{DB434044-F5D0-4F1F-9BA9-B73027E18DD3}",
+                                                }, -- end of [11]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.59243557225485,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
                                         ["unitId"] = 2858,
                                         ["x"] = -258858.09375,
                                         ["y"] = -74527.859375,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = -258909.015625,
-                                ["y"] = -74462.171875,
+                                ["x"] = -258909.03125,
+                                ["y"] = -74462.1796875,
                             }, -- end of [20]
                             [21] = {
                                 ["communication"] = true,
@@ -10596,6 +10658,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 1,
                                             ["LaserCode10"] = 5,
                                             ["LaserCode100"] = 6,
@@ -10759,6 +10822,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 2,
                                             ["LaserCode10"] = 5,
                                             ["LaserCode100"] = 6,
@@ -10921,6 +10985,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 3,
                                             ["LaserCode10"] = 5,
                                             ["LaserCode100"] = 6,
@@ -11083,6 +11148,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 4,
                                             ["LaserCode10"] = 5,
                                             ["LaserCode100"] = 6,
@@ -11345,6 +11411,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -11525,6 +11592,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -11704,6 +11772,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -11883,6 +11952,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -12151,6 +12221,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -12312,6 +12383,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -12472,6 +12544,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -12632,6 +12705,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -12881,6 +12955,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -13042,6 +13117,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -13202,6 +13278,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -13362,6 +13439,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -13524,6 +13602,427 @@ mission = {
                                 ["x"] = -77751.143374634,
                                 ["y"] = -488654.09379862,
                             }, -- end of [24]
+                            [25] = {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 1400,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_7931",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 30,
+                                            ["alt"] = 41,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_7936",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                                ["angle"] = 0,
+                                                ["scale"] = 0,
+                                                ["steer"] = 2,
+                                                ["vangle"] = 0,
+                                                ["vnav"] = 1,
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAS",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Helicopters",
+                                                                    [2] = "Ground Units",
+                                                                    [3] = "Light armed ships",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = {
+                                                                        ["groupId"] = 12,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -258769.09454115,
+                                            ["y"] = -75158.293018261,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 515.70037062704,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_7937",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                                ["angle"] = 0,
+                                                ["scale"] = 0,
+                                                ["steer"] = 2,
+                                                ["vangle"] = 0,
+                                                ["vnav"] = 1,
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 123.33333333333,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -199337.75407473,
+                                            ["y"] = -35178.488894494,
+                                        }, -- end of [2]
+                                        [3] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 1037.080504247,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_7938",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                                ["angle"] = 0,
+                                                ["scale"] = 0,
+                                                ["steer"] = 2,
+                                                ["vangle"] = 0,
+                                                ["vnav"] = 1,
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 123.33333333333,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -258970.34071387,
+                                            ["y"] = -76260.463074168,
+                                        }, -- end of [3]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAS",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 41,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Enfield11",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0.59243560357935,
+                                        ["livery_id"] = "357th fs davis monthan afb, arizona (dm)",
+                                        ["name"] = "DictKey_UnitName_7932",
+                                        ["onboard_num"] = "010",
+                                        ["parking"] = "39",
+                                        ["parking_id"] = "41",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "ALQ_184",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{LAU-131 - 7 AGR-20 M282}",
+                                                }, -- end of [2]
+                                                [3] = {
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98452}",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [5]
+                                                [6] = {
+                                                    ["CLSID"] = "{5335D97A-35A5-4643-9D9B-026C75961E52}",
+                                                }, -- end of [6]
+                                                [7] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [7]
+                                                [8] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [8]
+                                                [9] = {
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98453}",
+                                                }, -- end of [9]
+                                                [10] = {
+                                                    ["CLSID"] = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+                                                }, -- end of [10]
+                                                [11] = {
+                                                    ["CLSID"] = "{DB434044-F5D0-4F1F-9BA9-B73027E18DD3}",
+                                                }, -- end of [11]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.59217185840408,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3056,
+                                        ["x"] = -258769.09454115,
+                                        ["y"] = -75158.293018261,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["AddPropAircraft"] = {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 41,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 2,
+                                            ["name"] = "Enfield12",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0.59243560357935,
+                                        ["livery_id"] = "357th fs davis monthan afb, arizona (dm)",
+                                        ["name"] = "DictKey_UnitName_7933",
+                                        ["onboard_num"] = "1071",
+                                        ["parking"] = "40",
+                                        ["parking_id"] = "40",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 4023,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "ALQ_184",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{LAU-131 - 7 AGR-20 M282}",
+                                                }, -- end of [2]
+                                                [3] = {
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98452}",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [5]
+                                                [6] = {
+                                                    ["CLSID"] = "{5335D97A-35A5-4643-9D9B-026C75961E52}",
+                                                }, -- end of [6]
+                                                [7] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [7]
+                                                [8] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [8]
+                                                [9] = {
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98453}",
+                                                }, -- end of [9]
+                                                [10] = {
+                                                    ["CLSID"] = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+                                                }, -- end of [10]
+                                                [11] = {
+                                                    ["CLSID"] = "{DB434044-F5D0-4F1F-9BA9-B73027E18DD3}",
+                                                }, -- end of [11]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.59217185840408,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3057,
+                                        ["x"] = -258767.25,
+                                        ["y"] = -75131.9765625,
+                                    }, -- end of [2]
+                                    [3] = {
+                                        ["AddPropAircraft"] = {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 41,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 3,
+                                            ["name"] = "Enfield13",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0.59243560357935,
+                                        ["livery_id"] = "357th fs davis monthan afb, arizona (dm)",
+                                        ["name"] = "DictKey_UnitName_7934",
+                                        ["onboard_num"] = "1072",
+                                        ["parking"] = "38",
+                                        ["parking_id"] = "42",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 4023,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "ALQ_184",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{LAU-131 - 7 AGR-20 M282}",
+                                                }, -- end of [2]
+                                                [3] = {
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98452}",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [5]
+                                                [6] = {
+                                                    ["CLSID"] = "{5335D97A-35A5-4643-9D9B-026C75961E52}",
+                                                }, -- end of [6]
+                                                [7] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [7]
+                                                [8] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [8]
+                                                [9] = {
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98453}",
+                                                }, -- end of [9]
+                                                [10] = {
+                                                    ["CLSID"] = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+                                                }, -- end of [10]
+                                                [11] = {
+                                                    ["CLSID"] = "{DB434044-F5D0-4F1F-9BA9-B73027E18DD3}",
+                                                }, -- end of [11]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.59217185840408,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3058,
+                                        ["x"] = -258770.78204115,
+                                        ["y"] = -75185.652393261,
+                                    }, -- end of [3]
+                                    [4] = {
+                                        ["AddPropAircraft"] = {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 41,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 4,
+                                            ["name"] = "Enfield14",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0.59243560357935,
+                                        ["livery_id"] = "357th fs davis monthan afb, arizona (dm)",
+                                        ["name"] = "DictKey_UnitName_7935",
+                                        ["onboard_num"] = "1073",
+                                        ["parking"] = "41",
+                                        ["parking_id"] = "39",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 4023,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "ALQ_184",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{LAU-131 - 7 AGR-20 M282}",
+                                                }, -- end of [2]
+                                                [3] = {
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98452}",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [5]
+                                                [6] = {
+                                                    ["CLSID"] = "{5335D97A-35A5-4643-9D9B-026C75961E52}",
+                                                }, -- end of [6]
+                                                [7] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [7]
+                                                [8] = {
+                                                    ["CLSID"] = "{GBU_54_V_1B}",
+                                                }, -- end of [8]
+                                                [9] = {
+                                                    ["CLSID"] = "{E6A6262A-CA08-4B3D-B030-E1A993B98453}",
+                                                }, -- end of [9]
+                                                [10] = {
+                                                    ["CLSID"] = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+                                                }, -- end of [10]
+                                                [11] = {
+                                                    ["CLSID"] = "{DB434044-F5D0-4F1F-9BA9-B73027E18DD3}",
+                                                }, -- end of [11]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.59217185840408,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3059,
+                                        ["x"] = -258765.29608385,
+                                        ["y"] = -75105.450751544,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = -258769.09454115,
+                                ["y"] = -75158.293018261,
+                            }, -- end of [25]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] = {
@@ -24035,6 +24534,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -24213,6 +24713,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -24391,6 +24892,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -24569,6 +25071,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -24836,6 +25339,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -25014,6 +25518,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -25192,6 +25697,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -25370,6 +25876,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["InnerBoard"] = 0,
                                             ["OuterBoard"] = 0,
                                         }, -- end of ["AddPropAircraft"]
@@ -27354,6 +27861,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -27515,6 +28023,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -27675,6 +28184,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -27835,6 +28345,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -28084,6 +28595,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -28245,6 +28757,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -28405,6 +28918,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -28565,6 +29079,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -29558,7 +30073,7 @@ mission = {
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 2994434,
+    ["currentKey"] = 2995319,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -35842,11 +36357,11 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -256313.13928686,
-        ["centerY"] = -30117.713014048,
-        ["zoom"] = 264703.26609086,
+        ["centerX"] = -259061.60588156,
+        ["centerY"] = -74406.766134286,
+        ["zoom"] = 3989.3590222722,
     }, -- end of ["map"]
-    ["maxDictId"] = 7922,
+    ["maxDictId"] = 7938,
     ["pictureFileNameB"] = {
     }, -- end of ["pictureFileNameB"]
     ["pictureFileNameN"] = {
