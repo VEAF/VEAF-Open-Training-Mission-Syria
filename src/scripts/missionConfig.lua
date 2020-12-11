@@ -227,6 +227,14 @@ if veafCombatZone then
             :setTraining(true)
 	)
 
+	veafCombatZone.AddZone(
+		VeafCombatZone.new()
+			:setMissionEditorZoneName("combatZone_antakya")
+			:setFriendlyName("Antakya Urban Operations")
+            :setBriefing("Destroy the road block located on the West of Antakya City\nNeutralize streets patrols.\nNo fly zone on North-East (Manpads)!")
+            :setTraining(true)
+	)
+
     veaf.logInfo("init - veafCombatZone")
     veafCombatZone.initialize()
 
