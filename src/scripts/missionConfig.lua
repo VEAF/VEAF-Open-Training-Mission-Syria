@@ -193,8 +193,6 @@ Destroy them all in less than 10 minutes !]])
 
 	veaf.logInfo("init - veafCombatMission")
     veafCombatMission.initialize()
-    veaf.logInfo("dumping missions list")
-    veafCombatMission.dumpMissionsList()
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -516,6 +514,16 @@ if ctld then
         "yak #023",
         "yak #024",
         "yak #025",
+        "transport #001",
+        "transport #002",
+        "transport #003",
+        "transport #004",
+        "transport #005",
+        "transport #006",
+        "transport #007",
+        "transport #008",
+        "transport #009",
+        "transport #010",
     }
 
     -- *************** Optional Extractable GROUPS *****************

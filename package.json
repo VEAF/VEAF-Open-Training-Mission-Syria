@@ -1,5 +1,5 @@
 {
-  "name": "veaf-open-training-mission-SR",
+  "name": "veaf-open-training-mission-sr",
   "version": "1.0.0",
   "description": "OpenTraining mission in the Syria map",
   "main": "",
@@ -10,6 +10,6 @@
     "url": "git+https://github.com/VEAF-Open-Training-Mission.git"
   },
   "dependencies": {
-    "veaf-mission-creation-tools": "^2.21.0"
+    "veaf-mission-creation-tools": "^2.26.0"
   }
 }

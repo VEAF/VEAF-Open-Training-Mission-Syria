@@ -4351,8 +4351,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffGround",
-                                            ["x"] = 147731.87385606,
-                                            ["y"] = 38950.694714788,
+                                            ["x"] = 147731.52644058,
+                                            ["y"] = 38951.261505163,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -4466,12 +4466,12 @@ mission = {
                                         ["speed"] = 46.25,
                                         ["type"] = "Mi-8MT",
                                         ["unitId"] = 3083,
-                                        ["x"] = 147731.87385606,
-                                        ["y"] = 38950.694714788,
+                                        ["x"] = 147731.52644058,
+                                        ["y"] = 38951.261505163,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 147731.87385606,
-                                ["y"] = 38950.694714788,
+                                ["x"] = 147731.52644058,
+                                ["y"] = 38951.261505163,
                             }, -- end of [24]
                             [25] = {
                                 ["communication"] = true,
@@ -4501,8 +4501,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffGround",
-                                            ["x"] = 147761.85477226,
-                                            ["y"] = 38979.77799876,
+                                            ["x"] = 147762.13840659,
+                                            ["y"] = 38980.817886137,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -4616,12 +4616,12 @@ mission = {
                                         ["speed"] = 46.25,
                                         ["type"] = "Mi-8MT",
                                         ["unitId"] = 3084,
-                                        ["x"] = 147761.85477226,
-                                        ["y"] = 38979.77799876,
+                                        ["x"] = 147762.13840659,
+                                        ["y"] = 38980.817886137,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 147761.85477226,
-                                ["y"] = 38979.77799876,
+                                ["x"] = 147762.13840659,
+                                ["y"] = 38980.817886137,
                             }, -- end of [25]
                             [26] = {
                                 ["communication"] = true,
@@ -4930,6 +4930,7 @@ mission = {
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_8130",
+                                ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -5102,6 +5103,7 @@ mission = {
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_8137",
+                                ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -5274,6 +5276,7 @@ mission = {
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_8143",
+                                ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -5294,8 +5297,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffGround",
-                                            ["x"] = 220871.55501008,
-                                            ["y"] = -36416.453616863,
+                                            ["x"] = 220869.91353475,
+                                            ["y"] = -36417.329261442,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -5432,12 +5435,12 @@ mission = {
                                         ["speed"] = 46.25,
                                         ["type"] = "UH-1H",
                                         ["unitId"] = 3133,
-                                        ["x"] = 220871.55501008,
-                                        ["y"] = -36416.453616863,
+                                        ["x"] = 220869.91353475,
+                                        ["y"] = -36417.329261442,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 220871.55501008,
-                                ["y"] = -36416.453616863,
+                                ["x"] = 220869.91353475,
+                                ["y"] = -36417.329261442,
                             }, -- end of [30]
                             [31] = {
                                 ["communication"] = true,
@@ -5446,6 +5449,7 @@ mission = {
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_8149",
+                                ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -5618,6 +5622,7 @@ mission = {
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_8155",
+                                ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -5809,6 +5814,7 @@ mission = {
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_8161",
+                                ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -5829,8 +5835,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffGround",
-                                            ["x"] = 220882.8894343,
-                                            ["y"] = -36294.916593902,
+                                            ["x"] = 220900.92403787,
+                                            ["y"] = -36358.004820692,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -5924,7 +5930,7 @@ mission = {
                                             ["name"] = "Springfield21",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = 1.8675022996339,
+                                        ["heading"] = 4.2760566673861,
                                         ["livery_id"] = "Russia_VVS_Standard",
                                         ["name"] = "DictKey_UnitName_8162",
                                         ["onboard_num"] = "1098",
@@ -5936,7 +5942,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.8675022996339,
+                                        ["psi"] = -4.2760566673861,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -5986,13 +5992,385 @@ mission = {
                                         ["speed"] = 46.25,
                                         ["type"] = "Mi-8MT",
                                         ["unitId"] = 3136,
-                                        ["x"] = 220882.8894343,
-                                        ["y"] = -36294.916593902,
+                                        ["x"] = 220900.92403787,
+                                        ["y"] = -36358.004820692,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 220882.8894343,
-                                ["y"] = -36294.916593902,
+                                ["x"] = 220900.92403787,
+                                ["y"] = -36358.004820692,
                             }, -- end of [33]
+                            [34] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 1445,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_8167",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Ground Area",
+                                            ["alt"] = 500,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_8169",
+                                            ["speed"] = 46.25,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAS",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Helicopters",
+                                                                    [2] = "Ground Units",
+                                                                    [3] = "Light armed ships",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffGround",
+                                            ["x"] = 147791.15450401,
+                                            ["y"] = 39069.814271281,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAS",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["alt"] = 500,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 3,
+                                            [2] = 2,
+                                            [3] = 1,
+                                            ["name"] = "Uzi21",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 5.4977871437821,
+                                        ["livery_id"] = "us army",
+                                        ["name"] = "DictKey_UnitName_8168",
+                                        ["onboard_num"] = "1099",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1450",
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4977871437821,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "High",
+                                        ["speed"] = 46.25,
+                                        ["type"] = "Ka-50",
+                                        ["unitId"] = 3137,
+                                        ["x"] = 147791.15450401,
+                                        ["y"] = 39069.814271281,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["alt"] = 500,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 3,
+                                            [2] = 2,
+                                            [3] = 2,
+                                            ["name"] = "Uzi22",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 5.4977871437821,
+                                        ["livery_id"] = "us army",
+                                        ["name"] = "DictKey_UnitName_8170",
+                                        ["onboard_num"] = "1100",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1450",
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4977871437821,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "High",
+                                        ["speed"] = 46.25,
+                                        ["type"] = "Ka-50",
+                                        ["unitId"] = 3138,
+                                        ["x"] = 147763.03152147,
+                                        ["y"] = 39039.515784967,
+                                    }, -- end of [2]
+                                    [3] = {
+                                        ["alt"] = 500,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 3,
+                                            [2] = 2,
+                                            [3] = 3,
+                                            ["name"] = "Uzi23",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 5.4977871437821,
+                                        ["livery_id"] = "us army",
+                                        ["name"] = "DictKey_UnitName_8171",
+                                        ["onboard_num"] = "1101",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1450",
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4977871437821,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "High",
+                                        ["speed"] = 46.25,
+                                        ["type"] = "Ka-50",
+                                        ["unitId"] = 3139,
+                                        ["x"] = 147777.44625263,
+                                        ["y"] = 39054.531129931,
+                                    }, -- end of [3]
+                                    [4] = {
+                                        ["alt"] = 500,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 3,
+                                            [2] = 2,
+                                            [3] = 4,
+                                            ["name"] = "Uzi24",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 5.4977871437821,
+                                        ["livery_id"] = "us army",
+                                        ["name"] = "DictKey_UnitName_8172",
+                                        ["onboard_num"] = "1102",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1450",
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4977871437821,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "High",
+                                        ["speed"] = 46.25,
+                                        ["type"] = "Ka-50",
+                                        ["unitId"] = 3140,
+                                        ["x"] = 147805.27469197,
+                                        ["y"] = 39085.562842858,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = 147791.15450401,
+                                ["y"] = 39069.814271281,
+                            }, -- end of [34]
+                            [35] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 1446,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_8174",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Ground Area",
+                                            ["alt"] = 500,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_8176",
+                                            ["speed"] = 46.25,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAS",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Helicopters",
+                                                                    [2] = "Ground Units",
+                                                                    [3] = "Light armed ships",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = {
+                                                                        ["groupId"] = 2,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffGround",
+                                            ["x"] = 147749.4176087,
+                                            ["y"] = 39022.298189408,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAS",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["alt"] = 500,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 4,
+                                            [2] = 2,
+                                            [3] = 1,
+                                            ["name"] = "Colt21",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 5.4977871437821,
+                                        ["livery_id"] = "us marines fictional",
+                                        ["name"] = "DictKey_UnitName_8175",
+                                        ["onboard_num"] = "1103",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 32,
+                                            ["fuel"] = 416.33,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4977871437821,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "High",
+                                        ["speed"] = 46.25,
+                                        ["type"] = "SA342M",
+                                        ["unitId"] = 3141,
+                                        ["x"] = 147749.4176087,
+                                        ["y"] = 39022.298189408,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["alt"] = 500,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 4,
+                                            [2] = 2,
+                                            [3] = 2,
+                                            ["name"] = "Colt22",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 5.4977871437821,
+                                        ["livery_id"] = "us marines fictional",
+                                        ["name"] = "DictKey_UnitName_8178",
+                                        ["onboard_num"] = "1104",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 32,
+                                            ["fuel"] = 416.33,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4977871437821,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "High",
+                                        ["speed"] = 46.25,
+                                        ["type"] = "SA342M",
+                                        ["unitId"] = 3142,
+                                        ["x"] = 147740.40840172,
+                                        ["y"] = 39013.088777829,
+                                    }, -- end of [2]
+                                    [3] = {
+                                        ["alt"] = 500,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 4,
+                                            [2] = 2,
+                                            [3] = 3,
+                                            ["name"] = "Colt23",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 5.4977871437821,
+                                        ["livery_id"] = "us marines fictional",
+                                        ["name"] = "DictKey_UnitName_8179",
+                                        ["onboard_num"] = "1105",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 32,
+                                            ["fuel"] = 416.33,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4977871437821,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "High",
+                                        ["speed"] = 46.25,
+                                        ["type"] = "SA342M",
+                                        ["unitId"] = 3143,
+                                        ["x"] = 147731.39919474,
+                                        ["y"] = 39001.877320256,
+                                    }, -- end of [3]
+                                    [4] = {
+                                        ["alt"] = 500,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 4,
+                                            [2] = 2,
+                                            [3] = 4,
+                                            ["name"] = "Colt24",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 5.4977871437821,
+                                        ["livery_id"] = "us marines fictional",
+                                        ["name"] = "DictKey_UnitName_8180",
+                                        ["onboard_num"] = "1106",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 32,
+                                            ["fuel"] = 416.33,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4977871437821,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "High",
+                                        ["speed"] = 46.25,
+                                        ["type"] = "SA342M",
+                                        ["unitId"] = 3144,
+                                        ["x"] = 147721.58916936,
+                                        ["y"] = 38992.667908677,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = 147749.4176087,
+                                ["y"] = 39022.298189408,
+                            }, -- end of [35]
                         }, -- end of ["group"]
                     }, -- end of ["helicopter"]
                     ["id"] = 2,
@@ -16355,8 +16733,8 @@ mission = {
                                         ["onboard_num"] = "1087",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
-                                            ["chaff"] = 240,
-                                            ["flare"] = 240,
+                                            ["chaff"] = 120,
+                                            ["flare"] = 360,
                                             ["fuel"] = 4526,
                                             ["gun"] = 100,
                                             ["pylons"] = {
@@ -16411,8 +16789,8 @@ mission = {
                                         ["onboard_num"] = "1088",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
-                                            ["chaff"] = 240,
-                                            ["flare"] = 240,
+                                            ["chaff"] = 120,
+                                            ["flare"] = 360,
                                             ["fuel"] = 4526,
                                             ["gun"] = 100,
                                             ["pylons"] = {
@@ -16467,8 +16845,8 @@ mission = {
                                         ["onboard_num"] = "1089",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
-                                            ["chaff"] = 240,
-                                            ["flare"] = 240,
+                                            ["chaff"] = 120,
+                                            ["flare"] = 360,
                                             ["fuel"] = 4526,
                                             ["gun"] = 100,
                                             ["pylons"] = {
@@ -16523,8 +16901,8 @@ mission = {
                                         ["onboard_num"] = "1090",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
-                                            ["chaff"] = 240,
-                                            ["flare"] = 240,
+                                            ["chaff"] = 120,
+                                            ["flare"] = 360,
                                             ["fuel"] = 4526,
                                             ["gun"] = 100,
                                             ["pylons"] = {
@@ -16689,8 +17067,8 @@ mission = {
                                         ["onboard_num"] = "1087",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
-                                            ["chaff"] = 240,
-                                            ["flare"] = 240,
+                                            ["chaff"] = 120,
+                                            ["flare"] = 360,
                                             ["fuel"] = 4526,
                                             ["gun"] = 100,
                                             ["pylons"] = {
@@ -16745,8 +17123,8 @@ mission = {
                                         ["onboard_num"] = "1088",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
-                                            ["chaff"] = 240,
-                                            ["flare"] = 240,
+                                            ["chaff"] = 120,
+                                            ["flare"] = 360,
                                             ["fuel"] = 4526,
                                             ["gun"] = 100,
                                             ["pylons"] = {
@@ -16801,8 +17179,8 @@ mission = {
                                         ["onboard_num"] = "1089",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
-                                            ["chaff"] = 240,
-                                            ["flare"] = 240,
+                                            ["chaff"] = 120,
+                                            ["flare"] = 360,
                                             ["fuel"] = 4526,
                                             ["gun"] = 100,
                                             ["pylons"] = {
@@ -16857,8 +17235,8 @@ mission = {
                                         ["onboard_num"] = "1090",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
-                                            ["chaff"] = 240,
-                                            ["flare"] = 240,
+                                            ["chaff"] = 120,
+                                            ["flare"] = 360,
                                             ["fuel"] = 4526,
                                             ["gun"] = 100,
                                             ["pylons"] = {
@@ -17969,6 +18347,231 @@ mission = {
                                 ["x"] = 220381.171875,
                                 ["y"] = -36562.65625,
                             }, -- end of [29]
+                            [30] = {
+                                ["communication"] = true,
+                                ["frequency"] = 305,
+                                ["groupId"] = 1447,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_8184",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 16,
+                                            ["alt"] = 70,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_8186",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 221663.3125,
+                                            ["y"] = -35173.65625,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Transport",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["alt"] = 70,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 5,
+                                            [2] = 2,
+                                            [3] = 1,
+                                            ["name"] = "Dodge21",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "DictKey_UnitName_8185",
+                                        ["onboard_num"] = "1107",
+                                        ["parking"] = 34,
+                                        ["parking_id"] = "57",
+                                        ["payload"] = {
+                                            ["chaff"] = 840,
+                                            ["flare"] = 840,
+                                            ["fuel"] = 11855.4,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "High",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "Hercules",
+                                        ["unitId"] = 3145,
+                                        ["x"] = 221663.3125,
+                                        ["y"] = -35173.65625,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 221663.3125,
+                                ["y"] = -35173.65625,
+                            }, -- end of [30]
+                            [31] = {
+                                ["communication"] = true,
+                                ["frequency"] = 305,
+                                ["groupId"] = 1448,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_8188",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 16,
+                                            ["alt"] = 52,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_8190",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 221769.46875,
+                                            ["y"] = -35121.08984375,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Transport",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 5,
+                                            [2] = 2,
+                                            [3] = 1,
+                                            ["name"] = "Dodge21",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "DictKey_UnitName_8189",
+                                        ["onboard_num"] = "1107",
+                                        ["parking"] = 33,
+                                        ["parking_id"] = "58",
+                                        ["payload"] = {
+                                            ["chaff"] = 840,
+                                            ["flare"] = 840,
+                                            ["fuel"] = 11855.4,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "High",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "Hercules",
+                                        ["unitId"] = 3146,
+                                        ["x"] = 221769.46875,
+                                        ["y"] = -35121.08984375,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 221769.46875,
+                                ["y"] = -35121.08984375,
+                            }, -- end of [31]
+                            [32] = {
+                                ["communication"] = true,
+                                ["frequency"] = 305,
+                                ["groupId"] = 1449,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_8191",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 16,
+                                            ["alt"] = 52,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_8193",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 221783.03125,
+                                            ["y"] = -34999.00390625,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Transport",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 5,
+                                            [2] = 2,
+                                            [3] = 1,
+                                            ["name"] = "Dodge21",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "DictKey_UnitName_8192",
+                                        ["onboard_num"] = "1107",
+                                        ["parking"] = 32,
+                                        ["parking_id"] = "59",
+                                        ["payload"] = {
+                                            ["chaff"] = 840,
+                                            ["flare"] = 840,
+                                            ["fuel"] = 11855.4,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "High",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "Hercules",
+                                        ["unitId"] = 3147,
+                                        ["x"] = 221783.03125,
+                                        ["y"] = -34999.00390625,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 221783.03125,
+                                ["y"] = -34999.00390625,
+                            }, -- end of [32]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] = {
@@ -37649,7 +38252,7 @@ mission = {
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 3010775,
+    ["currentKey"] = 3019028,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -43933,11 +44536,11 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = 220842.11836596,
-        ["centerY"] = -36364.035989822,
-        ["zoom"] = 1235.4413948106,
+        ["centerX"] = 220200.13048232,
+        ["centerY"] = -36157.810999767,
+        ["zoom"] = 2527.6462265507,
     }, -- end of ["map"]
-    ["maxDictId"] = 8166,
+    ["maxDictId"] = 8196,
     ["pictureFileNameB"] = {
     }, -- end of ["pictureFileNameB"]
     ["pictureFileNameN"] = {
@@ -43945,6 +44548,7 @@ mission = {
     ["pictureFileNameR"] = {
     }, -- end of ["pictureFileNameR"]
     ["requiredModules"] = {
+        ["Hercules"] = "Hercules",
     }, -- end of ["requiredModules"]
     ["result"] = {
         ["blue"] = {
