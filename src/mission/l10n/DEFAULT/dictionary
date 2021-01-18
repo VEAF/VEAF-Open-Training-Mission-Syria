@@ -108,7 +108,7 @@ assert(loadfile(script))()\
     {name=\"Meet Mig-29*4\", description=\"RED Mig-29x4 (dogfight zone)\", disposable=true, information=\"They spawn near N41° 09' 31\\\" E043° 05' 08\\\"\"},\
 }\
 ",
-    ["DictKey_ActionText_7232"] = "VEAF_DYNAMIC_MISSIONPATH = [[d:\\dev\\_VEAF\\VEAF-Open-Training-Mission-Syria\\]]",
+    ["DictKey_ActionText_7232"] = "VEAF_DYNAMIC_MISSIONPATH = [[D:\\dev\\_VEAF\\VEAF-Open-Training-Mission-Syria\\]]",
     ["DictKey_ActionText_7392"] = "veafCarrierOperations.logDebug(\"activate tacan and ICLS\")",
     ["DictKey_ActionText_7393"] = "veafCarrierOperations.logDebug(\"(re)activate tacan and ICLS\")",
     ["DictKey_ActionText_8197"] = "local script = VEAF_DYNAMIC_PATH .. \"/src/scripts/community/Hercules_Cargo.lua\"\
