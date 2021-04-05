@@ -2,9 +2,17 @@
 -- Mission configuration file for the VEAF framework
 -- see https://github.com/VEAF/VEAF-Mission-Creation-Tools
 --
--- This configuration is tailored for a the Syria OpenTraining mission
+-- This configuration is tailored for the Syria OpenTraining mission
 -- see https://github.com/VEAF/VEAF-Open-Training-Mission-Syria
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+veaf.config.MISSION_NAME = "OpenTraining_Syria"
+veaf.config.MISSION_EXPORT_PATH = nil -- use default folder
+
+-- play the radio beacons (for the public OT mission)
+veafBeacons = false
+
+-- activate the QRA
+qraAnNasiriyah="ready";
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize all the scripts
@@ -12,6 +20,15 @@
 if veafRadio then
     veaf.logInfo("init - veafRadio")
     veafRadio.initialize(true)
+
+    if veafBeacons then
+        -- add the beacons
+        -- veafRadio.startBeacon("Bienvenue-blue", 15, 120, "251.0,124.0,121.5,30.0", "am,am,am,fm", nil, "bienvenue-veaf-fr.mp3", 1.0, 2)
+        -- veafRadio.startBeacon("Bienvenue-red", 45, 120, "251.0,124.0,121.5,30.0", "am,am,am,fm", nil, "bienvenue-veaf-fr.mp3", 1.0, 1)
+        -- veafRadio.startBeacon("Welcome-blue", 75, 120, "251.0,124.0,121.5,30.0", "am,am,am,fm", nil, "bienvenue-veaf-en.mp3", 1.0, 2)
+        -- veafRadio.startBeacon("Welcome-red", 105, 120, "251.0,124.0,121.5,30.0", "am,am,am,fm", nil, "bienvenue-veaf-en.mp3", 1.0, 1)
+        -- veafRadio.startBeacon("Batumi", 5, 90, "122.5,131.0", "am,am", nil, "Batumi.mp3", 1.0, 2)
+    end
 end
 if veafSpawn then
     veaf.logInfo("init - veafSpawn")
@@ -52,32 +69,6 @@ if veafShortcuts then
     --         :setVeafCommand("_spawn group, name sa11")
     --         :setBypassSecurity(true)
     -- )
-
-    -- veafShortcuts.AddAlias(
-    --     VeafAlias.new()
-    --         :setName("-login")
-    --         :setDescription("Unlock the system")
-    --         :setHidden(true)
-    --         :setVeafCommand("_auth")
-    --         :setBypassSecurity(true)
-    -- )
-
-    -- veafShortcuts.AddAlias(
-    --     VeafAlias.new()
-    --         :setName("-logout")
-    --         :setDescription("Lock the system")
-    --         :setHidden(true)
-    --         :setVeafCommand("_auth logout")
-    --         :setBypassSecurity(true)
-    -- )
-
-    -- veafShortcuts.AddAlias(
-    --     VeafAlias.new()
-    --         :setName("-mortar")
-    --         :setDescription("Mortar team")
-    --         :setVeafCommand("_spawn group, name mortar, country USA")
-    --         :setBypassSecurity(true)
-    -- )
 end
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- No MOOSE settings menu. Comment out this line if required.
@@ -86,25 +77,13 @@ if _SETTINGS then
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
--- PSEUDOATC
---pseudoATC=PSEUDOATC:New()
---pseudoATC:Start()
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------
--- SCORING
--- local Scoring = SCORING:New( "Scoring File" )
--- Scoring:SetScaleDestroyScore( 10 )
--- Scoring:SetScaleDestroyPenalty( 40 )
--- Scoring:SetMessagesToCoalition()
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- configure ASSETS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 if veafAssets then
     veafAssets.logInfo("Loading configuration")
     veafAssets.Assets = {
-        -- list the assets common to all missions below
+		-- list the assets in the mission below
         {sort=1, name="CSG-01 Tarawa", description="Tarawa (LHA)", information="Tacan 11X TAA\nU226 (11)"},  
         {sort=2, name="CSG-74 Stennis", description="Stennis (CVN)", information="Tacan 10X STS\nICLS 10\nU225 (10)"},  
         {sort=2, name="CSG-71 Roosevelt", description="Roosevelt (CVN)", information="Tacan 12X RHR\nICLS 11\nU227 (12)"},  
@@ -256,6 +235,8 @@ end
 if veafNamedPoints then
 
     veafNamedPoints.Points = {
+       -- airbases in Turkey
+--     {name="AIRBASE Batumi",  point={x=-356437,y=0,z=618211, atc=true, tower="V131, U260", tacan="16X BTM", runways={{name="13", hdg=125, ils="110.30"}, {name="31", hdg=305}}}},
         -- points of interest
         {name="RANGE Kiryat",point={x=-213227,y=0,z=-34907}},
     }
@@ -281,21 +262,24 @@ end
 -- configure SECURITY
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafSecurity then
-    veafSecurity.password_L9["6ade6629f9219d87a011e7b8fbf8ef9584f2786d"] = true
+    veafSecurity.password_L9["6ade6629f9219d87a011e7b8fbf8ef9584f2786d"] = true -- set the L9 password (the lowest possible security)
     veafSecurity.logInfo("Loading configuration")
     veaf.logInfo("init - veafSecurity")
     veafSecurity.initialize()
-end
 
--- force security in order to test it when dynamic loading is in place
---veaf.SecurityDisabled = false
---veafSecurity.authenticated = false
+    -- force security in order to test it when dynamic loading is in place (change to TRUE)
+    if (false) then
+        veaf.SecurityDisabled = false
+        veafSecurity.authenticated = false
+    end
+end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- configure CARRIER OPERATIONS 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafCarrierOperations then
     veaf.logInfo("init - veafCarrierOperations")
+    -- the carriers will be automatically found
     veafCarrierOperations.initialize(true)
 end
 
@@ -488,43 +472,19 @@ if ctld then
 
     -- Use any of the predefined names or set your own ones
     ctld.transportPilotNames = {
-
-        "yak #001",
-        "yak #002",
-        "yak #003",
-        "yak #004",
-        "yak #005",
-        "yak #006",
-        "yak #007",
-        "yak #008",
-        "yak #009",
-        "yak #010",
-        "yak #011",
-        "yak #012",
-        "yak #013",
-        "yak #014",
-        "yak #015",
-        "yak #016",
-        "yak #017",
-        "yak #018",
-        "yak #019",
-        "yak #020",
-        "yak #021",
-        "yak #022",
-        "yak #023",
-        "yak #024",
-        "yak #025",
-        "transport #001",
-        "transport #002",
-        "transport #003",
-        "transport #004",
-        "transport #005",
-        "transport #006",
-        "transport #007",
-        "transport #008",
-        "transport #009",
-        "transport #010",
     }
+
+    for i = 1, 24 do
+        table.insert(ctld.transportPilotNames, "yak"..i)
+    end
+
+    for i = 1, 10 do
+        table.insert(ctld.transportPilotNames, "transport"..i)
+    end
+
+    for i = 1, 79 do
+        table.insert(ctld.transportPilotNames, "helicargo"..i)
+    end
 
     -- *************** Optional Extractable GROUPS *****************
 
@@ -741,6 +701,15 @@ if ctld then
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- initialize the remote interface
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+if veafRemote then
+    veaf.logInfo("init - veafRemote")
+    veafRemote.initialize()
+end
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize the interpreter
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafInterpreter then
@@ -749,43 +718,21 @@ if veafInterpreter then
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
--- initialize the remote interface
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veafRemote then
-    veaf.logInfo("init - veafRemote")
-    veafRemote.initialize()
-
-    -- combat zones
-    veafRemote.monitorWithSlMod("-veaf start-zone-1"   , [[ veafCombatZone.ActivateZoneNumber(1, true) ]])
-    veafRemote.monitorWithSlMod("-veaf start-zone-2"   , [[ veafCombatZone.ActivateZoneNumber(2, true) ]])
-    veafRemote.monitorWithSlMod("-veaf start-zone-3"   , [[ veafCombatZone.ActivateZoneNumber(3, true) ]])
-    veafRemote.monitorWithSlMod("-veaf start-zone-4"   , [[ veafCombatZone.ActivateZoneNumber(4, true) ]])
-    veafRemote.monitorWithSlMod("-veaf start-zone-5"   , [[ veafCombatZone.ActivateZoneNumber(5, true) ]])
-    veafRemote.monitorWithSlMod("-veaf start-zone-6"   , [[ veafCombatZone.ActivateZoneNumber(6, true) ]])
-    veafRemote.monitorWithSlMod("-veaf start-zone-7"   , [[ veafCombatZone.ActivateZoneNumber(7, true) ]])
-    veafRemote.monitorWithSlMod("-veaf start-zone-8"   , [[ veafCombatZone.ActivateZoneNumber(8, true) ]])
-    veafRemote.monitorWithSlMod("-veaf start-zone-9"   , [[ veafCombatZone.ActivateZoneNumber(9, true) ]])
-    veafRemote.monitorWithSlMod("-veaf stop-zone-1"    , [[ veafCombatZone.DesactivateZoneNumber(1, true) ]])
-    veafRemote.monitorWithSlMod("-veaf stop-zone-2"    , [[ veafCombatZone.DesactivateZoneNumber(2, true) ]])
-    veafRemote.monitorWithSlMod("-veaf stop-zone-3"    , [[ veafCombatZone.DesactivateZoneNumber(3, true) ]])
-    veafRemote.monitorWithSlMod("-veaf stop-zone-4"    , [[ veafCombatZone.DesactivateZoneNumber(4, true) ]])
-    veafRemote.monitorWithSlMod("-veaf stop-zone-5"    , [[ veafCombatZone.DesactivateZoneNumber(5, true) ]])
-    veafRemote.monitorWithSlMod("-veaf stop-zone-6"    , [[ veafCombatZone.DesactivateZoneNumber(6, true) ]])
-    veafRemote.monitorWithSlMod("-veaf stop-zone-7"    , [[ veafCombatZone.DesactivateZoneNumber(7, true) ]])
-    veafRemote.monitorWithSlMod("-veaf stop-zone-8"    , [[ veafCombatZone.DesactivateZoneNumber(8, true) ]])
-    veafRemote.monitorWithSlMod("-veaf stop-zone-9"    , [[ veafCombatZone.DesactivateZoneNumber(9, true) ]])
-end
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize Skynet-IADS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafSkynet then
     veaf.logInfo("init - veafSkynet")
     veafSkynet.initialize(
-        true, --includeRedInRadio=true
+        false, --includeRedInRadio=true
         false, --debugRed
-        true, --includeBlueInRadio
+        false, --includeBlueInRadio
         false --debugBlue
     )
 end
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- initialize veafSanctuary
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+if veafSanctuary then
+    veafSanctuary.initialize()
+end
