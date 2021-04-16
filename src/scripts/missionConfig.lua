@@ -9,10 +9,13 @@ veaf.config.MISSION_NAME = "OpenTraining_Syria"
 veaf.config.MISSION_EXPORT_PATH = nil -- use default folder
 
 -- play the radio beacons (for the public OT mission)
-veafBeacons = false
+--TODO (Zip)
+veafBeacons = true
 
--- activate the QRA
-qraAnNasiriyah="ready";
+-- activate the QRA if it is defined in the mission
+--TODO (Zip)
+--qraPalmyra="ready";
+--qraBassel="ready";
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize all the scripts
@@ -24,10 +27,6 @@ if veafRadio then
     if veafBeacons then
         -- add the beacons
         -- veafRadio.startBeacon("Bienvenue-blue", 15, 120, "251.0,124.0,121.5,30.0", "am,am,am,fm", nil, "bienvenue-veaf-fr.mp3", 1.0, 2)
-        -- veafRadio.startBeacon("Bienvenue-red", 45, 120, "251.0,124.0,121.5,30.0", "am,am,am,fm", nil, "bienvenue-veaf-fr.mp3", 1.0, 1)
-        -- veafRadio.startBeacon("Welcome-blue", 75, 120, "251.0,124.0,121.5,30.0", "am,am,am,fm", nil, "bienvenue-veaf-en.mp3", 1.0, 2)
-        -- veafRadio.startBeacon("Welcome-red", 105, 120, "251.0,124.0,121.5,30.0", "am,am,am,fm", nil, "bienvenue-veaf-en.mp3", 1.0, 1)
-        -- veafRadio.startBeacon("Batumi", 5, 90, "122.5,131.0", "am,am", nil, "Batumi.mp3", 1.0, 2)
     end
 end
 if veafSpawn then
@@ -84,18 +83,23 @@ if veafAssets then
     veafAssets.logInfo("Loading configuration")
     veafAssets.Assets = {
 		-- list the assets in the mission below
-        {sort=1, name="CSG-01 Tarawa", description="Tarawa (LHA)", information="Tacan 11X TAA\nU226 (11)"},  
-        {sort=2, name="CSG-74 Stennis", description="Stennis (CVN)", information="Tacan 10X STS\nICLS 10\nU225 (10)"},  
-        {sort=2, name="CSG-71 Roosevelt", description="Roosevelt (CVN)", information="Tacan 12X RHR\nICLS 11\nU227 (12)"},  
-        {sort=3, name="T1-Arco-1", description="Arco-1 (KC-135)", information="Tacan 64X\nU290.50 (20)\nZone OUEST", linked="T1-Arco-1 escort"}, 
-        {sort=4, name="T2-Shell-1", description="Shell-1 (KC-135 MPRS)", information="Tacan 62X\nU290.30 (18)\nZone EST", linked="T2-Shell-1 escort"},  
-        {sort=5, name="T3-Texaco-1", description="Texaco-1 (KC-135 MPRS)", information="Tacan 60X\nU290.10 (17)\nZone OUEST", linked="T3-Texaco-1 escort"},  
-        {sort=6, name="T4-Shell-2", description="Shell-2 (KC-135)", information="Tacan 63X\nU290.40 (19)\nZone EST", linked="T4-Shell-2 escort"},  
-        {sort=7, name="CVN-74 Stennis S3B-Tanker", description="Texaco-7 (S3-B)", information="Tacan 75X\nU290.90\nZone PA"},  
-        {sort=7, name="CVN-71 Roosevelt S3B-Tanker", description="Texaco-8 (S3-B)", information="Tacan 76X\nU290.80\nZone PA"},  
-        {sort=8, name="Bizmuth", description="Colt-1 AFAC Bizmuth (MQ-9)", information="V118.80 (18)", jtac=1688, freq=118.80, mod="am"},
-        {sort=9, name="Agate", description="Dodge-1 AFAC Agate (MQ-9)", information="V118.90 (19)", jtac=1687, freq=118.90, mod="am"},  
-        {sort=10, name="A1-Magic", description="Magic (E-2D)", information="Datalink 315.3 Mhz\nU282.20 (13)", linked="A1-Magic escort"},  
+		{sort=1, name="A1-Magic", description="Magic (E-2D)", information="U282.20 (15)", linked="A1-Magic-escort"},  
+		{sort=2, name="A2-Focus", description="Focus (E-3A)", information="U281.10 (16)", linked="A2-Focus-escort"},  
+        
+        {sort=3, name="CSG-71 Roosevelt", description="Roosevelt (CVN)", information="Tacan 12X RHR\nICLS 11\nU227 (12)"},  
+		{sort=4, name="CSG-74 Stennis", description="Stennis (CVN)", information="Tacan 13X STS\nICLS 13\nU221 (13)"},  
+		{sort=5, name="CSG-01 Tarawa", description="Tarawa (LHA)", information="Tacan 14X TAA\nU225 (14)"},  
+		
+        {sort=6, name="T1-Texaco-N-1", description="Texaco-N (KC-135 MPRS)", information="Tacan 60Y\nU290.10 (17)\nZone NORD", linked="T1-Texaco-N-escort"},  
+		{sort=7, name="T2-Texaco-S-1", description="Texaco-S (KC-135 MPRS)", information="Tacan 61Y\nU290.30 (18)\nZone SUD", linked="T2-Texaco-S-escort"},  
+		{sort=8, name="S1-Shell-N-1", description="Shell-N (KC-135)", information="Tacan 62Y\nU290.40 (19)\nZone NORD", linked="S1-Shell-N-escort"},  
+		{sort=9, name="S2-Shell-S-1", description="Shell-S (KC-135)", information="Tacan 63Y\nU290.50 (20)\nZone SUD", linked="S2-Shell-S-escort"},  
+        
+		{sort=10, name="CVN-74 Stennis S3B-Tanker", description="Texaco-7 (S3-B)", information="Tacan 74X\nU290.70\nZone PA"},  
+		{sort=11, name="CVN-71 Roosevelt S3B-Tanker", description="Texaco-8 (S3-B)", information="Tacan 71X\nU290.80\nZone PA"},  
+        
+		{sort=12, name="Overlordsky", description="100 (A-50, RED)", information="U312", linked="Overlordsky-escort"}, 
+        {sort=13, name="P1-Petrolsky", description="900 (IL-78M, RED)", information="U267", linked="P1-Petrolsky-escort"},  
     }
 
     veaf.logInfo("init - veafAssets")
@@ -118,57 +122,8 @@ end
 
 if veafCombatMission then 
 	veafCombatMission.logInfo("Loading configuration")
-    
-    veafCombatMission.addCapMission("CAP-AnNasiriyah-Mig21", "Mig21 on AnNasiriyah", "A Syrian Mig-21 patrol is taking off from AnNasiriyah.", true, true)
-    
-    veafCombatMission.addCapMission("training-radar-tu22-FL300", "Turkey - Tu22 FL300", "Russian TU-22 patrols at FL300 south of Turkey", false, true)
-    veafCombatMission.addCapMission("training-radar-bear-FL200", "Turkey - Bear FL200", "Russian TU-95 patrols at FL200 south of Turkey ; ECM on", false, false)
-    veafCombatMission.addCapMission("training-radar-mig23-FL300", "Turkey - Mig23 FL300", "Mig-23MLD on CAP (R-24R = Fox1 MR) at FL300 south of Turkey", false, false)
-    veafCombatMission.addCapMission("training-radar-mig29-FL300", "Turkey - Mig29 FL300", "Mig-29S on CAP (R-77 = Fox 3 MR) at FL300 south of Turkey", false, true)
-    veafCombatMission.addCapMission("training-radar-mig31-FL300", "Turkey - Mig31 FL300", "Mig-31 on CAP (R-33 = Fox 3 LR) at FL300 south of Turkey", false, false)
-    veafCombatMission.addCapMission("training-radar-mig23-FL300-notch", "Turkey - Mig23 notching", "Mig-23MLD on CAP (R-24R = Fox1 MR) notching W-E at FL300 south of Turkey", false, false)
-    
-	veafCombatMission.AddMission(
-		VeafCombatMission.new()
-		:setName("Training-Bomber-1-slow")
-		:setFriendlyName("Training - Bomber Scenario 1 - slow Tu-160")
-		:setBriefing([[
-You're head-on at 25nm with 11 Tu-160, FL200, Mach 0.8.
-Destroy them all in less than 10 minutes !]])
-		:addElement(
-			VeafCombatMissionElement.new()
-			:setName("Bombers")
-			:setGroups({
-				"Red Tu-160 Bomber Wave1-1",
-				"Red Tu-160 Bomber Wave1-2",
-				"Red Tu-160 Bomber Wave1-3",
-				"Red Tu-160 Bomber Wave1-4",
-				"Red Tu-160 Bomber Wave1-5",
-				"Red Tu-160 Bomber Wave1-6",
-				"Red Tu-160 Bomber Wave1-7",
-				"Red Tu-160 Bomber Wave1-8",
-                "Red Tu-160 Bomber Wave1-9",
-                "Red Tu-160 Bomber Wave1-10",
-                "Red Tu-160 Bomber Wave1-11",
-            })
-			:setSkill("Good")
-		)
-		:addObjective(
-			VeafCombatMissionObjective.new()
-			:setName("< 15 minutes")
-			:setDescription("the mission will be over after 15 minutes")
-			:setMessage("the 15 minutes have passed !")
-			:configureAsTimedObjective(900)
-		)
-		:addObjective(
-			VeafCombatMissionObjective.new()
-			:setName("Kill all the bombers")
-			:setDescription("you must kill or route all bombers")
-			:setMessage("%d bombers destroyed or routed !")
-			:configureAsKillEnemiesObjective(-1, 50)
-		)
-		:initialize()
-	)
+
+    veafCombatMission.addCapMission("CAP-DEF-Kuznetsov-Easy", "CAP over Kuznetzov", "Kill the fighters defending the russian fleet.", true, true)
 
 	veaf.logInfo("init - veafCombatMission")
     veafCombatMission.initialize()
@@ -182,34 +137,27 @@ if veafCombatZone then
 
 	veafCombatZone.AddZone(
 		VeafCombatZone.new()
-			:setMissionEditorZoneName("combatZone_rangeKiryatEasy")
-			:setFriendlyName("Kiryat RANGE - easy")
-			:setBriefing("The Kiryat RANGE (located 7 nm south of Kiryat airbase) is set-up for training with defenseless targets")
+			:setMissionEditorZoneName("combatZone_rangeEasy")
+			:setFriendlyName("Training at KhalKhalah RANGE")
+			:setBriefing("The KhalKhalah RANGE is located 35 nm east of the KhalKhalah airbase")
             :setTraining(true)
 	)
 
-	veafCombatZone.AddZone(
+    veafCombatZone.AddZone(
 		VeafCombatZone.new()
-			:setMissionEditorZoneName("combatZone_rangeKiryatMedium")
-			:setFriendlyName("Kiryat RANGE - medium")
-            :setBriefing("The Kiryat RANGE (located 7 nm south of Kiryat airbase) is set-up for training with some defense")
-            :setTraining(true)
-	)
+			:setMissionEditorZoneName("combatZone_Camp")
+			:setFriendlyName("Camp militaire")
+			:setBriefing(
+[[Nos services de renseignements on localisé un camp Syrien aux coordonnés N33°46’423 E37°19’659 // 37S CT 45146 38323 qui sert de camp d’entrainement aux TALIBAN pour déstabiliser nos défenses par des actions kamikazes. 
+Il est impératif de neutraliser ce camp avant que les premiers Djihadistes aient fini leur formation.
+Les photos prises par les Mirages F1 de la ER 2/33 montre quelques ZU-23, mais il y a une grande possibilité de présence de MANPADS]])
+    )
 
 	veafCombatZone.AddZone(
 		VeafCombatZone.new()
-			:setMissionEditorZoneName("combatZone_rangeHaifa")
-			:setFriendlyName("Haifa RANGE")
-            :setBriefing("The Haifa RANGE (located 14 nm south of Haifa) is set-up for training")
-            :setTraining(true)
-	)
-
-	veafCombatZone.AddZone(
-		VeafCombatZone.new()
-			:setMissionEditorZoneName("combatZone_antakya")
-			:setFriendlyName("Antakya Urban Operations")
-            :setBriefing("Destroy the road block located on the West of Antakya City\nNeutralize streets patrols.\nNo fly zone on North-East (Manpads)!")
-            :setTraining(true)
+			:setMissionEditorZoneName("combatZone_SCUD_Factory")
+			:setFriendlyName("combatZone_SCUD_Factory")
+			:setBriefing("TBD briefing for combatZone_SCUD_Factory")
 	)
 
     veaf.logInfo("init - veafCombatZone")
@@ -234,12 +182,11 @@ end
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafNamedPoints then
 
-    veafNamedPoints.Points = {
+	veafNamedPoints.Points = {
        -- airbases in Turkey
---     {name="AIRBASE Batumi",  point={x=-356437,y=0,z=618211, atc=true, tower="V131, U260", tacan="16X BTM", runways={{name="13", hdg=125, ils="110.30"}, {name="31", hdg=305}}}},
         -- points of interest
-        {name="RANGE Kiryat",point={x=-213227,y=0,z=-34907}},
-    }
+        {name="RANGE KhalKhalah",point={x=-217000,y=0,z=123000}},
+	}
 
     veafNamedPoints.logInfo("Loading configuration")
 

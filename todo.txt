@@ -1,0 +1,133 @@
+Faire un range avancé pour les A-10 de Incirlik
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------
+Triggers pour QRA
+---------------------------------------------------------------------------
+
+
+---
+QraInit ONCE NO EVENT
+
+-
+
+DO SCRIPT 
+	qraMinevodyTimer=0;
+GROUP DEACTIVATE 
+	Minevody QRA
+DO SCRIPT 
+	if qraPalmyra=="ready" then
+		qraPalmyraTimer=0;
+		local msg = "QRA - Palmyra - activated"
+		veaf.logInfo(msg)
+		trigger.action.outText(msg, 10)
+	end
+
+	if qraBassel=="ready" then
+		qraBasselTimer=0;
+		local msg = "QRA - Bassel - activated"
+		veaf.logInfo(msg)
+		trigger.action.outText(msg, 10)
+	end
+
+---
+QRA Palmyra Start REPETITIVE NO EVENT
+
+PART OF COA IN ZONE
+	Blue
+	QRA Palmyra
+	ALL
+LUA
+	return qraPalmyra=="ready"
+
+DO SCRIPT 
+	qraPalmyra="doing";
+	qraPalmyraTimer=0;
+	mist.respawnGroup("Palmyra QRA", true);
+MSG TO COA
+	Blue
+	QRA detected near Palmyra
+	30
+	no clear
+	0
+	
+---
+QRA Palmyra Finished REPETITIVE NO EVENT
+
+LUA
+	return qraPalmyra=="doing"
+LUA
+	return not Group.getByName("Palmyra QRA")
+
+DO SCRIPT
+	qraPalmyra="dead";
+MSG TO COA
+	Blue
+	QRA destroyed near Palmyra 
+	20
+	no clear
+	0
+
+---
+QRA Palmyra Reload REPETITIVE NO EVENT
+
+ALL OF COA OUT OF ZONE
+	Blue
+	QRA Palmyra
+LUA
+	return qraPalmyra=="dead"
+
+MSG TO COA
+	Blue
+	QRA near Palmyra is ready again.	
+	20
+	no clear
+	0
+DO SCRIPT
+	qraPalmyra="ready";
+GROUP DEACTIVATE
+	Palmyra QRA
+
+
+
+
+
+
+---------------------------------------------------------------------------
+BRIEFING
+---------------------------------------------------------------------------
+
+
+zone sanctuaire
+----------------
+sanctuary zone
+
+=======
+
+PvP n'est autorisé
+------
+PvP is only authorized
+
+=======
+
+Documentation de la mission http://veaf.org/opentraining-syria
+
+Nous contacter:
+- Site : https://www.veaf.org/
+- Discord: http://veaf.org/discord
+- TeamSpeak: ts.veaf.org
+
+=======
+
+METAR : ${METAR}
