@@ -90,10 +90,10 @@ if veafAssets then
 		{sort=4, name="CSG-74 Stennis", description="Stennis (CVN)", information="Tacan 13X STS\nICLS 13\nU221 (13)"},  
 		{sort=5, name="CSG-01 Tarawa", description="Tarawa (LHA)", information="Tacan 14X TAA\nU225 (14)"},  
 		
-        {sort=6, name="T1-Texaco-N-1", description="Texaco-N (KC-135 MPRS)", information="Tacan 60Y\nU290.10 (17)\nZone NORD", linked="T1-Texaco-N-escort"},  
-		{sort=7, name="T2-Texaco-S-1", description="Texaco-S (KC-135 MPRS)", information="Tacan 61Y\nU290.30 (18)\nZone SUD", linked="T2-Texaco-S-escort"},  
-		{sort=8, name="S1-Shell-N-1", description="Shell-N (KC-135)", information="Tacan 62Y\nU290.40 (19)\nZone NORD", linked="S1-Shell-N-escort"},  
-		{sort=9, name="S2-Shell-S-1", description="Shell-S (KC-135)", information="Tacan 63Y\nU290.50 (20)\nZone SUD", linked="S2-Shell-S-escort"},  
+        {sort=6, name="T1-Texaco-N", description="Texaco-N (KC-135 MPRS)", information="Tacan 60Y\nU290.10 (17)\nZone NORD", linked="T1-Texaco-N-escort"},  
+		{sort=7, name="T2-Texaco-S", description="Texaco-S (KC-135 MPRS)", information="Tacan 61Y\nU290.30 (18)\nZone SUD", linked="T2-Texaco-S-escort"},  
+		{sort=8, name="S1-Shell-N", description="Shell-N (KC-135)", information="Tacan 62Y\nU290.40 (19)\nZone NORD", linked="S1-Shell-N-escort"},  
+		{sort=9, name="S2-Shell-S", description="Shell-S (KC-135)", information="Tacan 63Y\nU290.50 (20)\nZone SUD", linked="S2-Shell-S-escort"},  
         
 		{sort=10, name="CVN-74 Stennis S3B-Tanker", description="Texaco-7 (S3-B)", information="Tacan 74X\nU290.70\nZone PA"},  
 		{sort=11, name="CVN-71 Roosevelt S3B-Tanker", description="Texaco-8 (S3-B)", information="Tacan 71X\nU290.80\nZone PA"},  
@@ -158,6 +158,14 @@ Les photos prises par les Mirages F1 de la ER 2/33 montre quelques ZU-23, mais i
 			:setMissionEditorZoneName("combatZone_SCUD_Factory")
 			:setFriendlyName("combatZone_SCUD_Factory")
 			:setBriefing("TBD briefing for combatZone_SCUD_Factory")
+	)
+
+	veafCombatZone.AddZone(
+		VeafCombatZone.new()
+			:setMissionEditorZoneName("combatZone_antakya")
+			:setFriendlyName("Antakya Urban Operations")
+            :setBriefing("Destroy the road block located on the West of Antakya City\nNeutralize streets patrols.\nNo fly zone on North-East (Manpads)!")
+            :setTraining(true)
 	)
 
     veaf.logInfo("init - veafCombatZone")
