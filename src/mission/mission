@@ -25753,6 +25753,84 @@ mission = {
                             }, -- end of [3]
                         }, -- end of ["group"]
                     }, -- end of ["ship"]
+                    ["static"] = {
+                        ["group"] = {
+                            [1] = {
+                                ["dead"] = false,
+                                ["groupId"] = 1449,
+                                ["heading"] = 0,
+                                ["name"] = "pickzone1",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -225524.5333308,
+                                            ["y"] = -37594.764629619,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] = {
+                                    [1] = {
+                                        ["category"] = "Fortifications",
+                                        ["effectPreset"] = "1",
+                                        ["effectTransparency"] = 1,
+                                        ["heading"] = 0,
+                                        ["name"] = "pickzone1-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "SetkaKP",
+                                        ["type"] = "FARP Ammo Dump Coating",
+                                        ["unitId"] = 3154,
+                                        ["x"] = -225524.5333308,
+                                        ["y"] = -37594.764629619,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -225524.5333308,
+                                ["y"] = -37594.764629619,
+                            }, -- end of [1]
+                            [2] = {
+                                ["dead"] = false,
+                                ["groupId"] = 1450,
+                                ["heading"] = 0,
+                                ["name"] = "pickzone2",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -172527.32038219,
+                                            ["y"] = 24896.803281753,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] = {
+                                    [1] = {
+                                        ["category"] = "Fortifications",
+                                        ["effectPreset"] = "1",
+                                        ["effectTransparency"] = 1,
+                                        ["heading"] = 0,
+                                        ["name"] = "pickzone1-2-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "SetkaKP",
+                                        ["type"] = "FARP Ammo Dump Coating",
+                                        ["unitId"] = 3155,
+                                        ["x"] = -172527.32038219,
+                                        ["y"] = 24896.803281753,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -172527.32038219,
+                                ["y"] = 24896.803281753,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
                     ["vehicle"] = {
                         ["group"] = {
                             [1] = {
@@ -46430,7 +46508,7 @@ mission = {
             [8] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 194555,
+    ["currentKey"] = 196495,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -52699,9 +52777,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -188594.09949149,
-        ["centerY"] = 36580.811298329,
-        ["zoom"] = 536995.54165567,
+        ["centerX"] = -38918.94633766,
+        ["centerY"] = 52841.999607083,
+        ["zoom"] = 380448.66726065,
     }, -- end of ["map"]
     ["maxDictId"] = 1914,
     ["pictureFileNameB"] = {
@@ -52926,6 +53004,40 @@ mission = {
                 ["y"] = -36850.22754195,
                 ["zoneId"] = 1753,
             }, -- end of [8]
+            [9] = {
+                ["color"] = {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "pickzone1",
+                ["properties"] = {
+                }, -- end of ["properties"]
+                ["radius"] = 60.96,
+                ["type"] = 0,
+                ["x"] = -225523.16698369,
+                ["y"] = -37592.650795351,
+                ["zoneId"] = 2109,
+            }, -- end of [9]
+            [10] = {
+                ["color"] = {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "pickzone2",
+                ["properties"] = {
+                }, -- end of ["properties"]
+                ["radius"] = 60.96,
+                ["type"] = 0,
+                ["x"] = -172513.22036089,
+                ["y"] = 24856.789707787,
+                ["zoneId"] = 2110,
+            }, -- end of [10]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] = {
