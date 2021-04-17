@@ -168,6 +168,23 @@ Les photos prises par les Mirages F1 de la ER 2/33 montre quelques ZU-23, mais i
             :setTraining(true)
 	)
 
+    veafCombatZone.AddZone(
+		VeafCombatZone.new()
+			:setMissionEditorZoneName("combatZone_rangeKiryatEasy")
+			:setFriendlyName("Kiryat RANGE - easy")
+			:setBriefing("The Kiryat RANGE (located 7 nm south of Kiryat airbase) is set-up for training with defenseless targets")
+            :setTraining(true)
+	)
+
+	veafCombatZone.AddZone(
+		VeafCombatZone.new()
+			:setMissionEditorZoneName("combatZone_rangeKiryatMedium")
+			:setFriendlyName("Kiryat RANGE - medium")
+            :setBriefing("The Kiryat RANGE (located 7 nm south of Kiryat airbase) is set-up for training with some defense")
+            :setTraining(true)
+	)
+
+
     veaf.logInfo("init - veafCombatZone")
     veafCombatZone.initialize()
 
