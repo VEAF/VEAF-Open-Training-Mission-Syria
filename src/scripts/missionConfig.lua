@@ -137,9 +137,9 @@ if veafCombatZone then
 
 	veafCombatZone.AddZone(
 		VeafCombatZone.new()
-			:setMissionEditorZoneName("combatZone_rangeEasy")
-			:setFriendlyName("Training at KhalKhalah RANGE")
-			:setBriefing("The KhalKhalah RANGE is located 35 nm east of the KhalKhalah airbase")
+			:setMissionEditorZoneName("combatZone_desertRangeEasy")
+			:setFriendlyName("Training at KhalKhalah Desert RANGE")
+			:setBriefing("The KhalKhalah RANGE is located 35 nm east of the KhalKhalah airbase, in the desert")
             :setTraining(true)
 	)
 

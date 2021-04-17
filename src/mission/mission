@@ -15,13 +15,13 @@ mission = {
                                 ["groupId"] = 163,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "Ka-50 Sultan South-1",
+                                ["name"] = "Ka-50 Mezzeh-1",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 8,
+                                            ["airdromeId"] = 25,
                                             ["alt"] = 612,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
@@ -53,8 +53,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -171646.5625,
-                                            ["y"] = 48235.890625,
+                                            ["x"] = -172635.484375,
+                                            ["y"] = 24848.1875,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -74,8 +74,8 @@ mission = {
                                         ["livery_id"] = "ukraine camo 1 dirt",
                                         ["name"] = "Ka-50 Sultan South-1-1",
                                         ["onboard_num"] = "050",
-                                        ["parking"] = "10",
-                                        ["parking_id"] = "06",
+                                        ["parking"] = 30,
+                                        ["parking_id"] = "H03",
                                         ["payload"] = {
                                             ["chaff"] = 0,
                                             ["flare"] = 128,
@@ -168,8 +168,8 @@ mission = {
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "Ka-50",
                                         ["unitId"] = 442,
-                                        ["x"] = -171646.5625,
-                                        ["y"] = 48235.890625,
+                                        ["x"] = -172635.484375,
+                                        ["y"] = 24848.1875,
                                     }, -- end of [1]
                                     [2] = {
                                         ["alt"] = 612,
@@ -177,10 +177,10 @@ mission = {
                                         ["callsign"] = 103,
                                         ["heading"] = 0,
                                         ["livery_id"] = "ukraine camo 1 dirt",
-                                        ["name"] = "Ka-50 Sultan South-1-2",
+                                        ["name"] = "Ka-50 Mezzeh-1-2",
                                         ["onboard_num"] = "051",
-                                        ["parking"] = "11",
-                                        ["parking_id"] = "08",
+                                        ["parking"] = 32,
+                                        ["parking_id"] = "H02",
                                         ["payload"] = {
                                             ["chaff"] = 0,
                                             ["flare"] = 128,
@@ -273,8 +273,8 @@ mission = {
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "Ka-50",
                                         ["unitId"] = 443,
-                                        ["x"] = -171656.25,
-                                        ["y"] = 48179.6640625,
+                                        ["x"] = -172643.75,
+                                        ["y"] = 24899.298828125,
                                     }, -- end of [2]
                                     [3] = {
                                         ["alt"] = 612,
@@ -282,10 +282,10 @@ mission = {
                                         ["callsign"] = 104,
                                         ["heading"] = 0,
                                         ["livery_id"] = "ukraine camo 1 dirt",
-                                        ["name"] = "Ka-50 Sultan South-1-3",
+                                        ["name"] = "Ka-50 Mezzeh-1-3",
                                         ["onboard_num"] = "052",
-                                        ["parking"] = "7",
-                                        ["parking_id"] = "07",
+                                        ["parking"] = 33,
+                                        ["parking_id"] = "H01",
                                         ["payload"] = {
                                             ["chaff"] = 0,
                                             ["flare"] = 128,
@@ -378,8 +378,8 @@ mission = {
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "Ka-50",
                                         ["unitId"] = 444,
-                                        ["x"] = -171767.15625,
-                                        ["y"] = 48195.12109375,
+                                        ["x"] = -172618.59375,
+                                        ["y"] = 24960.681640625,
                                     }, -- end of [3]
                                     [4] = {
                                         ["alt"] = 612,
@@ -387,10 +387,10 @@ mission = {
                                         ["callsign"] = 105,
                                         ["heading"] = 0,
                                         ["livery_id"] = "ukraine camo 1 dirt",
-                                        ["name"] = "Ka-50 Sultan South-1-4",
+                                        ["name"] = "Ka-50 Mezzeh-1-4",
                                         ["onboard_num"] = "053",
-                                        ["parking"] = "6",
-                                        ["parking_id"] = "05",
+                                        ["parking"] = 31,
+                                        ["parking_id"] = "H04",
                                         ["payload"] = {
                                             ["chaff"] = 0,
                                             ["flare"] = 128,
@@ -483,12 +483,12 @@ mission = {
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "Ka-50",
                                         ["unitId"] = 445,
-                                        ["x"] = -171779.828125,
-                                        ["y"] = 48248.85546875,
+                                        ["x"] = -172608.5625,
+                                        ["y"] = 24787.755859375,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = -171646.5625,
-                                ["y"] = 48235.890625,
+                                ["x"] = -172635.484375,
+                                ["y"] = 24848.1875,
                             }, -- end of [1]
                             [2] = {
                                 ["communication"] = true,
@@ -496,13 +496,13 @@ mission = {
                                 ["groupId"] = 161,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "Mi-8MTV2 Sultan South-1",
+                                ["name"] = "Mi-8MTV2 Mezzeh-1",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 8,
+                                            ["airdromeId"] = 25,
                                             ["alt"] = 612,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
@@ -519,8 +519,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -171651.875,
-                                            ["y"] = 48367.8515625,
+                                            ["x"] = -172389.671875,
+                                            ["y"] = 24866.978515625,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -550,8 +550,8 @@ mission = {
                                         ["livery_id"] = "Ukraine",
                                         ["name"] = "helicargo #001",
                                         ["onboard_num"] = "088",
-                                        ["parking"] = "3",
-                                        ["parking_id"] = "02",
+                                        ["parking"] = "38",
+                                        ["parking_id"] = "H09",
                                         ["payload"] = {
                                             ["chaff"] = 0,
                                             ["flare"] = 128,
@@ -628,12 +628,12 @@ mission = {
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "Mi-8MT",
                                         ["unitId"] = 434,
-                                        ["x"] = -171651.875,
-                                        ["y"] = 48367.8515625,
+                                        ["x"] = -172389.671875,
+                                        ["y"] = 24866.978515625,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -171651.875,
-                                ["y"] = 48367.8515625,
+                                ["x"] = -172389.671875,
+                                ["y"] = 24866.978515625,
                             }, -- end of [2]
                             [3] = {
                                 ["communication"] = true,
@@ -641,13 +641,13 @@ mission = {
                                 ["groupId"] = 211,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "Mi-8MTV2 Sultan South-2",
+                                ["name"] = "Mi-8MTV2 Mezzeh-2",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 8,
+                                            ["airdromeId"] = 25,
                                             ["alt"] = 612,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
@@ -664,8 +664,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -171654.703125,
-                                            ["y"] = 48291.1796875,
+                                            ["x"] = -172430.765625,
+                                            ["y"] = 24968.0546875,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -695,8 +695,8 @@ mission = {
                                         ["livery_id"] = "Ukraine",
                                         ["name"] = "helicargo #002",
                                         ["onboard_num"] = "088",
-                                        ["parking"] = "9",
-                                        ["parking_id"] = "04",
+                                        ["parking"] = "40",
+                                        ["parking_id"] = "H11",
                                         ["payload"] = {
                                             ["chaff"] = 0,
                                             ["flare"] = 128,
@@ -773,12 +773,12 @@ mission = {
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "Mi-8MT",
                                         ["unitId"] = 499,
-                                        ["x"] = -171654.703125,
-                                        ["y"] = 48291.1796875,
+                                        ["x"] = -172430.765625,
+                                        ["y"] = 24968.0546875,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -171654.703125,
-                                ["y"] = 48291.1796875,
+                                ["x"] = -172430.765625,
+                                ["y"] = 24968.0546875,
                             }, -- end of [3]
                             [4] = {
                                 ["communication"] = true,
@@ -786,13 +786,13 @@ mission = {
                                 ["groupId"] = 212,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "Mi-8MTV2 Sultan South-3",
+                                ["name"] = "Mi-8MTV2 Mezzeh-3",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 8,
+                                            ["airdromeId"] = 25,
                                             ["alt"] = 611,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
@@ -809,8 +809,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -171767,
-                                            ["y"] = 48305.7265625,
+                                            ["x"] = -172420.4375,
+                                            ["y"] = 24927.71875,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -840,8 +840,8 @@ mission = {
                                         ["livery_id"] = "Ukraine",
                                         ["name"] = "helicargo #003",
                                         ["onboard_num"] = "088",
-                                        ["parking"] = "8",
-                                        ["parking_id"] = "03",
+                                        ["parking"] = "39",
+                                        ["parking_id"] = "H10",
                                         ["payload"] = {
                                             ["chaff"] = 0,
                                             ["flare"] = 128,
@@ -918,12 +918,12 @@ mission = {
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "Mi-8MT",
                                         ["unitId"] = 500,
-                                        ["x"] = -171767,
-                                        ["y"] = 48305.7265625,
+                                        ["x"] = -172420.4375,
+                                        ["y"] = 24927.71875,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -171767,
-                                ["y"] = 48305.7265625,
+                                ["x"] = -172420.4375,
+                                ["y"] = 24927.71875,
                             }, -- end of [4]
                             [5] = {
                                 ["communication"] = true,
@@ -931,13 +931,13 @@ mission = {
                                 ["groupId"] = 213,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "Mi-8MTV2 Sultan South-4",
+                                ["name"] = "Mi-8MTV2 Mezzeh-4",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 8,
+                                            ["airdromeId"] = 25,
                                             ["alt"] = 610,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
@@ -954,8 +954,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -171771.4375,
-                                            ["y"] = 48372.2265625,
+                                            ["x"] = -172383.453125,
+                                            ["y"] = 24812.70703125,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -985,8 +985,8 @@ mission = {
                                         ["livery_id"] = "Ukraine",
                                         ["name"] = "helicargo #004",
                                         ["onboard_num"] = "088",
-                                        ["parking"] = "4",
-                                        ["parking_id"] = "01",
+                                        ["parking"] = "37",
+                                        ["parking_id"] = "H08",
                                         ["payload"] = {
                                             ["chaff"] = 0,
                                             ["flare"] = 128,
@@ -1063,12 +1063,12 @@ mission = {
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "Mi-8MT",
                                         ["unitId"] = 501,
-                                        ["x"] = -171771.4375,
-                                        ["y"] = 48372.2265625,
+                                        ["x"] = -172383.453125,
+                                        ["y"] = 24812.70703125,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -171771.4375,
-                                ["y"] = 48372.2265625,
+                                ["x"] = -172383.453125,
+                                ["y"] = 24812.70703125,
                             }, -- end of [5]
                             [6] = {
                                 ["communication"] = true,
@@ -3247,13 +3247,13 @@ mission = {
                                 ["groupId"] = 164,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "UH-1H Sultan South-1",
+                                ["name"] = "UH-1H Mezzeh-1",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 8,
+                                            ["airdromeId"] = 25,
                                             ["alt"] = 613,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
@@ -3270,8 +3270,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -171981.046875,
-                                            ["y"] = 48210.8515625,
+                                            ["x"] = -172490.828125,
+                                            ["y"] = 24998.720703125,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -3303,8 +3303,8 @@ mission = {
                                         ["livery_id"] = "US DOS",
                                         ["name"] = "helicargo #005",
                                         ["onboard_num"] = "092",
-                                        ["parking"] = 20,
-                                        ["parking_id"] = "17",
+                                        ["parking"] = "41",
+                                        ["parking_id"] = "H12",
                                         ["payload"] = {
                                             ["chaff"] = 0,
                                             ["flare"] = 60,
@@ -3359,12 +3359,12 @@ mission = {
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "UH-1H",
                                         ["unitId"] = 446,
-                                        ["x"] = -171981.046875,
-                                        ["y"] = 48210.8515625,
+                                        ["x"] = -172490.828125,
+                                        ["y"] = 24998.720703125,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -171981.046875,
-                                ["y"] = 48210.8515625,
+                                ["x"] = -172490.828125,
+                                ["y"] = 24998.720703125,
                             }, -- end of [3]
                             [4] = {
                                 ["communication"] = true,
@@ -3594,13 +3594,13 @@ mission = {
                                 ["groupId"] = 217,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "UH-1H Sultan South-2",
+                                ["name"] = "UH-1H Mezzeh-2",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 8,
+                                            ["airdromeId"] = 25,
                                             ["alt"] = 611,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
@@ -3617,8 +3617,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -171918.421875,
-                                            ["y"] = 48256.94921875,
+                                            ["x"] = -172529.3125,
+                                            ["y"] = 24713.166015625,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -3650,8 +3650,8 @@ mission = {
                                         ["livery_id"] = "US DOS",
                                         ["name"] = "helicargo #006",
                                         ["onboard_num"] = "092",
-                                        ["parking"] = "18",
-                                        ["parking_id"] = "18",
+                                        ["parking"] = "35",
+                                        ["parking_id"] = "H06",
                                         ["payload"] = {
                                             ["chaff"] = 0,
                                             ["flare"] = 60,
@@ -3706,12 +3706,12 @@ mission = {
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "UH-1H",
                                         ["unitId"] = 505,
-                                        ["x"] = -171918.421875,
-                                        ["y"] = 48256.94921875,
+                                        ["x"] = -172529.3125,
+                                        ["y"] = 24713.166015625,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -171918.421875,
-                                ["y"] = 48256.94921875,
+                                ["x"] = -172529.3125,
+                                ["y"] = 24713.166015625,
                             }, -- end of [7]
                             [8] = {
                                 ["communication"] = true,
@@ -3719,13 +3719,13 @@ mission = {
                                 ["groupId"] = 218,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "UH-1H Sultan South-3",
+                                ["name"] = "UH-1H Mezzeh-3",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 8,
+                                            ["airdromeId"] = 25,
                                             ["alt"] = 612,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
@@ -3742,8 +3742,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -172001.609375,
-                                            ["y"] = 48264.4140625,
+                                            ["x"] = -172412.15625,
+                                            ["y"] = 24750.208984375,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -3775,8 +3775,8 @@ mission = {
                                         ["livery_id"] = "US DOS",
                                         ["name"] = "helicargo #007",
                                         ["onboard_num"] = "092",
-                                        ["parking"] = "19",
-                                        ["parking_id"] = "19",
+                                        ["parking"] = "36",
+                                        ["parking_id"] = "H07",
                                         ["payload"] = {
                                             ["chaff"] = 0,
                                             ["flare"] = 60,
@@ -3831,12 +3831,12 @@ mission = {
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "UH-1H",
                                         ["unitId"] = 506,
-                                        ["x"] = -172001.609375,
-                                        ["y"] = 48264.4140625,
+                                        ["x"] = -172412.15625,
+                                        ["y"] = 24750.208984375,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -172001.609375,
-                                ["y"] = 48264.4140625,
+                                ["x"] = -172412.15625,
+                                ["y"] = 24750.208984375,
                             }, -- end of [8]
                             [9] = {
                                 ["communication"] = true,
@@ -3844,13 +3844,13 @@ mission = {
                                 ["groupId"] = 219,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "UH-1H Sultan South-4",
+                                ["name"] = "UH-1H Mezzeh-4",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 8,
+                                            ["airdromeId"] = 25,
                                             ["alt"] = 611,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
@@ -3867,8 +3867,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -171934.328125,
-                                            ["y"] = 48309.90625,
+                                            ["x"] = -172593.421875,
+                                            ["y"] = 24736.400390625,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -3900,8 +3900,8 @@ mission = {
                                         ["livery_id"] = "US DOS",
                                         ["name"] = "helicargo #008",
                                         ["onboard_num"] = "092",
-                                        ["parking"] = "17",
-                                        ["parking_id"] = "20",
+                                        ["parking"] = "34",
+                                        ["parking_id"] = "H05",
                                         ["payload"] = {
                                             ["chaff"] = 0,
                                             ["flare"] = 60,
@@ -3956,12 +3956,12 @@ mission = {
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "UH-1H",
                                         ["unitId"] = 507,
-                                        ["x"] = -171934.328125,
-                                        ["y"] = 48309.90625,
+                                        ["x"] = -172593.421875,
+                                        ["y"] = 24736.400390625,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -171934.328125,
-                                ["y"] = 48309.90625,
+                                ["x"] = -172593.421875,
+                                ["y"] = 24736.400390625,
                             }, -- end of [9]
                             [10] = {
                                 ["communication"] = true,
@@ -5283,7 +5283,7 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6705.6,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 548.82325031124,
+                                            ["ETA"] = 425.44062506336,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "",
@@ -16581,13 +16581,13 @@ mission = {
                                 ["groupId"] = 50,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "F/A-18C Marj-1",
+                                ["name"] = "F/A-18C Mezzeh-1",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 23,
+                                            ["airdromeId"] = 25,
                                             ["alt"] = 659,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
@@ -16632,8 +16632,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -194124.578125,
-                                            ["y"] = 44277.484375,
+                                            ["x"] = -171956.25,
+                                            ["y"] = 26037.0234375,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -16702,12 +16702,12 @@ mission = {
                                         }, -- end of [4]
                                         [5] = {
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 909,
+                                            ["alt"] = 684.8856,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 3717.9701822479,
+                                            ["ETA"] = 3628.6641992508,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["name"] = "range",
+                                            ["name"] = "DESERT range",
                                             ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -16718,9 +16718,30 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -216941.41984485,
-                                            ["y"] = 122716.74638328,
+                                            ["x"] = -222803.41529189,
+                                            ["y"] = 114212.31960471,
                                         }, -- end of [5]
+                                        [6] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 131.064,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 4720.3827950834,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "KIRYAT range",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -218981.50517973,
+                                            ["y"] = -37367.088149373,
+                                        }, -- end of [6]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -16767,12 +16788,12 @@ mission = {
                                             }, -- end of ["Points"]
                                         }, -- end of ["dataCartridge"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.23915772776657,
+                                        ["heading"] = -0.13888761787777,
                                         ["livery_id"] = "14.735 Corsairs - VEAF",
-                                        ["name"] = "F/A-18C Marj-1-1",
+                                        ["name"] = "F/A-18C Mezzeh-1-1",
                                         ["onboard_num"] = "062",
-                                        ["parking"] = 5,
-                                        ["parking_id"] = "12",
+                                        ["parking"] = 9,
+                                        ["parking_id"] = "17",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 60,
@@ -16809,7 +16830,7 @@ mission = {
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.23915772776657,
+                                        ["psi"] = 0.13888761787777,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -16908,8 +16929,8 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 145,
-                                        ["x"] = -194124.578125,
-                                        ["y"] = 44277.484375,
+                                        ["x"] = -171956.25,
+                                        ["y"] = 26037.0234375,
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
@@ -16948,12 +16969,12 @@ mission = {
                                             }, -- end of ["Points"]
                                         }, -- end of ["dataCartridge"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.23915772776657,
+                                        ["heading"] = -0.13888761787777,
                                         ["livery_id"] = "14.735 Corsairs - VEAF",
-                                        ["name"] = "F/A-18C Marj-1-2",
+                                        ["name"] = "F/A-18C Mezzeh-1-2",
                                         ["onboard_num"] = "071",
-                                        ["parking"] = 6,
-                                        ["parking_id"] = "13",
+                                        ["parking"] = 28,
+                                        ["parking_id"] = "24",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 60,
@@ -16990,7 +17011,7 @@ mission = {
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.23915772776657,
+                                        ["psi"] = 0.13888761787777,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -17089,8 +17110,8 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 149,
-                                        ["x"] = -194099.359375,
-                                        ["y"] = 44293.890625,
+                                        ["x"] = -172171.921875,
+                                        ["y"] = 26050.841796875,
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
@@ -17129,12 +17150,12 @@ mission = {
                                             }, -- end of ["Points"]
                                         }, -- end of ["dataCartridge"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.23915772776657,
+                                        ["heading"] = -0.13888761787777,
                                         ["livery_id"] = "14.735 Corsairs - VEAF",
-                                        ["name"] = "F/A-18C Marj-1-3",
+                                        ["name"] = "F/A-18C Mezzeh-1-3",
                                         ["onboard_num"] = "072",
-                                        ["parking"] = 2,
-                                        ["parking_id"] = "10",
+                                        ["parking"] = "26",
+                                        ["parking_id"] = "26",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 60,
@@ -17171,7 +17192,7 @@ mission = {
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.23915772776657,
+                                        ["psi"] = 0.13888761787777,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -17270,8 +17291,8 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 150,
-                                        ["x"] = -194282.1875,
-                                        ["y"] = 44230.58984375,
+                                        ["x"] = -171956.796875,
+                                        ["y"] = 25702.974609375,
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
@@ -17310,12 +17331,12 @@ mission = {
                                             }, -- end of ["Points"]
                                         }, -- end of ["dataCartridge"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.23915772776657,
+                                        ["heading"] = -0.13888761787777,
                                         ["livery_id"] = "14.735 Corsairs - VEAF",
-                                        ["name"] = "F/A-18C Marj-1-4",
+                                        ["name"] = "F/A-18C Mezzeh-1-4",
                                         ["onboard_num"] = "073",
-                                        ["parking"] = 1,
-                                        ["parking_id"] = "11",
+                                        ["parking"] = "27",
+                                        ["parking_id"] = "25",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 60,
@@ -17352,7 +17373,7 @@ mission = {
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.23915772776657,
+                                        ["psi"] = 0.13888761787777,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -17451,12 +17472,12 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 151,
-                                        ["x"] = -194252.21875,
-                                        ["y"] = 44232.859375,
+                                        ["x"] = -171904.296875,
+                                        ["y"] = 25872.267578125,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = -194124.578125,
-                                ["y"] = 44277.484375,
+                                ["x"] = -171956.25,
+                                ["y"] = 26037.0234375,
                             }, -- end of [27]
                             [28] = {
                                 ["communication"] = true,
@@ -17464,13 +17485,13 @@ mission = {
                                 ["groupId"] = 51,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "F/A-18C Marj-2 HOT",
+                                ["name"] = "F/A-18C Mezzeh-2 HOT",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "From Parking Area Hot",
-                                            ["airdromeId"] = 23,
+                                            ["airdromeId"] = 25,
                                             ["alt"] = 659,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
@@ -17517,8 +17538,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParkingHot",
-                                            ["x"] = -194605.65625,
-                                            ["y"] = 44400.296875,
+                                            ["x"] = -171618.53125,
+                                            ["y"] = 25034.96484375,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -17546,7 +17567,7 @@ mission = {
                                             ["airdromeId"] = 9,
                                             ["alt"] = 630,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 1571.9808890334,
+                                            ["ETA"] = 1458.870925444,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "Deroutement",
@@ -17587,12 +17608,12 @@ mission = {
                                         }, -- end of [4]
                                         [5] = {
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 909,
+                                            ["alt"] = 688.848,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 3617.8549896617,
+                                            ["ETA"] = 3524.2724311663,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["name"] = "range",
+                                            ["name"] = "DESERT range",
                                             ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -17603,8 +17624,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -216991.83896816,
-                                            ["y"] = 122607.76693233,
+                                            ["x"] = -222742.55493289,
+                                            ["y"] = 114303.6101432,
                                         }, -- end of [5]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -17653,12 +17674,12 @@ mission = {
                                             }, -- end of ["Points"]
                                         }, -- end of ["dataCartridge"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.23656305186159,
+                                        ["heading"] = -0.1282135335964,
                                         ["livery_id"] = "14.735 Corsairs - VEAF",
-                                        ["name"] = "F/A-18C Marj-2 HOT-1",
+                                        ["name"] = "F/A-18C Mezzeh-2 HOT-1",
                                         ["onboard_num"] = "062",
-                                        ["parking"] = 4,
-                                        ["parking_id"] = "08",
+                                        ["parking"] = "10",
+                                        ["parking_id"] = "12",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 60,
@@ -17695,7 +17716,7 @@ mission = {
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.23656305186159,
+                                        ["psi"] = 0.1282135335964,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -17794,8 +17815,8 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 152,
-                                        ["x"] = -194605.65625,
-                                        ["y"] = 44400.296875,
+                                        ["x"] = -171618.53125,
+                                        ["y"] = 25034.96484375,
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
@@ -17834,12 +17855,12 @@ mission = {
                                             }, -- end of ["Points"]
                                         }, -- end of ["dataCartridge"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.23656305186159,
+                                        ["heading"] = -0.1282135335964,
                                         ["livery_id"] = "14.735 Corsairs - VEAF",
-                                        ["name"] = "F/A-18C Marj-2 HOT-2",
+                                        ["name"] = "F/A-18C Mezzeh-2 HOT-2",
                                         ["onboard_num"] = "070",
-                                        ["parking"] = 3,
-                                        ["parking_id"] = "09",
+                                        ["parking"] = "11",
+                                        ["parking_id"] = "13",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 60,
@@ -17876,7 +17897,7 @@ mission = {
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.23656305186159,
+                                        ["psi"] = 0.1282135335964,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -17975,12 +17996,12 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 153,
-                                        ["x"] = -194587.84375,
-                                        ["y"] = 44375.6875,
+                                        ["x"] = -171582.265625,
+                                        ["y"] = 25078.34375,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = -194605.65625,
-                                ["y"] = 44400.296875,
+                                ["x"] = -171618.53125,
+                                ["y"] = 25034.96484375,
                             }, -- end of [28]
                             [29] = {
                                 ["communication"] = true,
@@ -17988,13 +18009,13 @@ mission = {
                                 ["groupId"] = 52,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "AV-8B N/A Marj",
+                                ["name"] = "AV-8B N/A Mezzeh-1",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 23,
+                                            ["airdromeId"] = 25,
                                             ["alt"] = 659,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
@@ -18026,8 +18047,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -192876.46875,
-                                            ["y"] = 47011.1953125,
+                                            ["x"] = -172511.28125,
+                                            ["y"] = 23612.505859375,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -18096,12 +18117,12 @@ mission = {
                                         }, -- end of [4]
                                         [5] = {
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 909,
+                                            ["alt"] = 688.848,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 3632.574898197,
+                                            ["ETA"] = 3474.9926256315,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["name"] = "range",
+                                            ["name"] = "DESERT range",
                                             ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -18112,9 +18133,30 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -217133.8714498,
-                                            ["y"] = 122506.15960702,
+                                            ["x"] = -222719.23073686,
+                                            ["y"] = 114307.1737575,
                                         }, -- end of [5]
+                                        [6] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 131.064,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 4567.4532308589,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "KIRYAT range",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -218990.72808585,
+                                            ["y"] = -37377.648376871,
+                                        }, -- end of [6]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -18152,12 +18194,12 @@ mission = {
                                             ["name"] = "Chevy21",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.25981882033048,
+                                        ["heading"] = -0.12050859592632,
                                         ["livery_id"] = "VMA-214",
-                                        ["name"] = "AV-8B N/A Marj-1",
+                                        ["name"] = "AV-8B N/A Mezzeh-1-1",
                                         ["onboard_num"] = "074",
-                                        ["parking"] = 25,
-                                        ["parking_id"] = "16",
+                                        ["parking"] = 14,
+                                        ["parking_id"] = "01",
                                         ["payload"] = {
                                             ["chaff"] = 60,
                                             ["flare"] = 120,
@@ -18187,7 +18229,7 @@ mission = {
                                                 }, -- end of [8]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.25981882033048,
+                                        ["psi"] = 0.12050859592632,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -18376,8 +18418,8 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "AV8BNA",
                                         ["unitId"] = 154,
-                                        ["x"] = -192876.46875,
-                                        ["y"] = 47011.1953125,
+                                        ["x"] = -172511.28125,
+                                        ["y"] = 23612.505859375,
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
@@ -18407,12 +18449,12 @@ mission = {
                                             ["name"] = "Chevy22",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.25981882033048,
+                                        ["heading"] = -0.12050859592632,
                                         ["livery_id"] = "VMA-214",
-                                        ["name"] = "AV-8B N/A Marj-2",
+                                        ["name"] = "AV-8B N/A Mezzeh-1-2",
                                         ["onboard_num"] = "075",
-                                        ["parking"] = 24,
-                                        ["parking_id"] = "17",
+                                        ["parking"] = 15,
+                                        ["parking_id"] = "02",
                                         ["payload"] = {
                                             ["chaff"] = 60,
                                             ["flare"] = 120,
@@ -18442,7 +18484,7 @@ mission = {
                                                 }, -- end of [8]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.25981882033048,
+                                        ["psi"] = 0.12050859592632,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -18631,8 +18673,8 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "AV8BNA",
                                         ["unitId"] = 157,
-                                        ["x"] = -192887.953125,
-                                        ["y"] = 47039.4375,
+                                        ["x"] = -172528.015625,
+                                        ["y"] = 23638.708984375,
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
@@ -18662,12 +18704,12 @@ mission = {
                                             ["name"] = "Chevy23",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.25981882033048,
+                                        ["heading"] = -0.12050859592632,
                                         ["livery_id"] = "VMA-214",
-                                        ["name"] = "AV-8B N/A Marj-3",
+                                        ["name"] = "AV-8B N/A Mezzeh-1-3",
                                         ["onboard_num"] = "076",
-                                        ["parking"] = 27,
-                                        ["parking_id"] = "18",
+                                        ["parking"] = 12,
+                                        ["parking_id"] = "03",
                                         ["payload"] = {
                                             ["chaff"] = 60,
                                             ["flare"] = 120,
@@ -18697,7 +18739,7 @@ mission = {
                                                 }, -- end of [8]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.25981882033048,
+                                        ["psi"] = 0.12050859592632,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -18886,8 +18928,8 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "AV8BNA",
                                         ["unitId"] = 158,
-                                        ["x"] = -192731.890625,
-                                        ["y"] = 47309.10546875,
+                                        ["x"] = -172922.15625,
+                                        ["y"] = 23871.599609375,
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
@@ -18917,12 +18959,12 @@ mission = {
                                             ["name"] = "Chevy24",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.25981882033048,
+                                        ["heading"] = -0.12050859592632,
                                         ["livery_id"] = "VMA-214",
-                                        ["name"] = "AV-8B N/A Marj-4",
+                                        ["name"] = "AV-8B N/A Mezzeh-1-4",
                                         ["onboard_num"] = "077",
-                                        ["parking"] = 26,
-                                        ["parking_id"] = "19",
+                                        ["parking"] = 13,
+                                        ["parking_id"] = "04",
                                         ["payload"] = {
                                             ["chaff"] = 60,
                                             ["flare"] = 120,
@@ -18952,7 +18994,7 @@ mission = {
                                                 }, -- end of [8]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.25981882033048,
+                                        ["psi"] = 0.12050859592632,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -19141,12 +19183,12 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "AV8BNA",
                                         ["unitId"] = 159,
-                                        ["x"] = -192748.25,
-                                        ["y"] = 47334.66015625,
+                                        ["x"] = -172891.4375,
+                                        ["y"] = 23873.232421875,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = -192876.46875,
-                                ["y"] = 47011.1953125,
+                                ["x"] = -172511.28125,
+                                ["y"] = 23612.505859375,
                             }, -- end of [29]
                             [30] = {
                                 ["communication"] = true,
@@ -19154,13 +19196,13 @@ mission = {
                                 ["groupId"] = 54,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "AV-8B N/A Marj HOT",
+                                ["name"] = "AV-8B N/A Mezzeh-2 HOT",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "From Parking Area Hot",
-                                            ["airdromeId"] = 23,
+                                            ["airdromeId"] = 25,
                                             ["alt"] = 658,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
@@ -19192,8 +19234,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParkingHot",
-                                            ["x"] = -193324.265625,
-                                            ["y"] = 47615.76953125,
+                                            ["x"] = -172214.40625,
+                                            ["y"] = 24238.7578125,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -19262,12 +19304,12 @@ mission = {
                                         }, -- end of [4]
                                         [5] = {
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 909,
+                                            ["alt"] = 687.9336,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 3631.5912798685,
+                                            ["ETA"] = 3469.5213788126,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["name"] = "range",
+                                            ["name"] = "DESERT range",
                                             ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -19278,9 +19320,30 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -216905.13933813,
-                                            ["y"] = 122607.76693233,
+                                            ["x"] = -222742.55493289,
+                                            ["y"] = 114273.1799637,
                                         }, -- end of [5]
+                                        [6] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 131.064,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 4561.6934755093,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "KIRYAT range",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -218976.80149762,
+                                            ["y"] = -37370.638968226,
+                                        }, -- end of [6]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -19318,12 +19381,12 @@ mission = {
                                             ["name"] = "Chevy21",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.26340776202853,
+                                        ["heading"] = -0.12602510718494,
                                         ["livery_id"] = "VMA-214",
-                                        ["name"] = "AV-8B N/A Marj HOT-1",
+                                        ["name"] = "AV-8B N/A Mezzeh-2 HOT-1",
                                         ["onboard_num"] = "074",
-                                        ["parking"] = 20,
-                                        ["parking_id"] = "22",
+                                        ["parking"] = "25",
+                                        ["parking_id"] = "27",
                                         ["payload"] = {
                                             ["chaff"] = 60,
                                             ["flare"] = 120,
@@ -19353,7 +19416,7 @@ mission = {
                                                 }, -- end of [8]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.26340776202853,
+                                        ["psi"] = 0.12602510718494,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -19542,8 +19605,8 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "AV8BNA",
                                         ["unitId"] = 160,
-                                        ["x"] = -193324.265625,
-                                        ["y"] = 47615.76953125,
+                                        ["x"] = -172214.40625,
+                                        ["y"] = 24238.7578125,
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
@@ -19573,12 +19636,12 @@ mission = {
                                             ["name"] = "Chevy22",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.26340776202853,
+                                        ["heading"] = -0.12602510718494,
                                         ["livery_id"] = "VMA-214",
-                                        ["name"] = "AV-8B N/A Marj HOT-2",
+                                        ["name"] = "AV-8B N/A Mezzeh-2 HOT-2",
                                         ["onboard_num"] = "078",
-                                        ["parking"] = 21,
-                                        ["parking_id"] = "23",
+                                        ["parking"] = 24,
+                                        ["parking_id"] = "28",
                                         ["payload"] = {
                                             ["chaff"] = 60,
                                             ["flare"] = 120,
@@ -19608,7 +19671,7 @@ mission = {
                                                 }, -- end of [8]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.26340776202853,
+                                        ["psi"] = 0.12602510718494,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -19797,12 +19860,12 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "AV8BNA",
                                         ["unitId"] = 164,
-                                        ["x"] = -193352.515625,
-                                        ["y"] = 47604.828125,
+                                        ["x"] = -172339.21875,
+                                        ["y"] = 24013.982421875,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = -193324.265625,
-                                ["y"] = 47615.76953125,
+                                ["x"] = -172214.40625,
+                                ["y"] = 24238.7578125,
                             }, -- end of [30]
                             [31] = {
                                 ["communication"] = true,
@@ -19863,8 +19926,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -171956.796875,
-                                            ["y"] = 25702.974609375,
+                                            ["x"] = -171630.90625,
+                                            ["y"] = 26241.94921875,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -19958,12 +20021,12 @@ mission = {
                                             ["name"] = "Pontiac21",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.13561184505251,
+                                        ["heading"] = -0.14024771142897,
                                         ["livery_id"] = "IAF 115th aggressors squadron",
                                         ["name"] = "F-16CM Mezzeh-1-1",
                                         ["onboard_num"] = "079",
-                                        ["parking"] = "26",
-                                        ["parking_id"] = "26",
+                                        ["parking"] = 16,
+                                        ["parking_id"] = "18",
                                         ["payload"] = {
                                             ["ammo_type"] = 5,
                                             ["chaff"] = 60,
@@ -20003,7 +20066,7 @@ mission = {
                                                 }, -- end of [11]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.13561184505251,
+                                        ["psi"] = 0.14024771142897,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -20102,8 +20165,8 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-16C_50",
                                         ["unitId"] = 167,
-                                        ["x"] = -171956.796875,
-                                        ["y"] = 25702.974609375,
+                                        ["x"] = -171630.90625,
+                                        ["y"] = 26241.94921875,
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
@@ -20122,12 +20185,12 @@ mission = {
                                             ["name"] = "Pontiac22",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.13561184505251,
+                                        ["heading"] = -0.14024771142897,
                                         ["livery_id"] = "IAF 115th aggressors squadron",
                                         ["name"] = "F-16CM Mezzeh-1-2",
                                         ["onboard_num"] = "081",
-                                        ["parking"] = "27",
-                                        ["parking_id"] = "25",
+                                        ["parking"] = 6,
+                                        ["parking_id"] = "19",
                                         ["payload"] = {
                                             ["ammo_type"] = 5,
                                             ["chaff"] = 60,
@@ -20167,7 +20230,7 @@ mission = {
                                                 }, -- end of [11]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.13561184505251,
+                                        ["psi"] = 0.14024771142897,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -20266,8 +20329,8 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-16C_50",
                                         ["unitId"] = 170,
-                                        ["x"] = -171904.296875,
-                                        ["y"] = 25872.267578125,
+                                        ["x"] = -171606.046875,
+                                        ["y"] = 26258.921875,
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
@@ -20286,12 +20349,12 @@ mission = {
                                             ["name"] = "Pontiac23",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.13561184505251,
+                                        ["heading"] = -0.14024771142897,
                                         ["livery_id"] = "IAF 115th aggressors squadron",
                                         ["name"] = "F-16CM Mezzeh-1-3",
                                         ["onboard_num"] = "082",
-                                        ["parking"] = "9",
-                                        ["parking_id"] = "17",
+                                        ["parking"] = 8,
+                                        ["parking_id"] = "20",
                                         ["payload"] = {
                                             ["ammo_type"] = 5,
                                             ["chaff"] = 60,
@@ -20331,7 +20394,7 @@ mission = {
                                                 }, -- end of [11]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.13561184505251,
+                                        ["psi"] = 0.14024771142897,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -20430,8 +20493,8 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-16C_50",
                                         ["unitId"] = 171,
-                                        ["x"] = -171956.25,
-                                        ["y"] = 26037.0234375,
+                                        ["x"] = -171343.9375,
+                                        ["y"] = 26082.59375,
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
@@ -20450,12 +20513,12 @@ mission = {
                                             ["name"] = "Pontiac24",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.13561184505251,
+                                        ["heading"] = -0.14024771142897,
                                         ["livery_id"] = "IAF 115th aggressors squadron",
                                         ["name"] = "F-16CM Mezzeh-1-4",
                                         ["onboard_num"] = "083",
-                                        ["parking"] = "28",
-                                        ["parking_id"] = "24",
+                                        ["parking"] = 7,
+                                        ["parking_id"] = "21",
                                         ["payload"] = {
                                             ["ammo_type"] = 5,
                                             ["chaff"] = 60,
@@ -20495,7 +20558,7 @@ mission = {
                                                 }, -- end of [11]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.13561184505251,
+                                        ["psi"] = 0.14024771142897,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -20594,12 +20657,12 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-16C_50",
                                         ["unitId"] = 172,
-                                        ["x"] = -172171.921875,
-                                        ["y"] = 26050.841796875,
+                                        ["x"] = -171359.1875,
+                                        ["y"] = 26056.25390625,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = -171956.796875,
-                                ["y"] = 25702.974609375,
+                                ["x"] = -171630.90625,
+                                ["y"] = 26241.94921875,
                             }, -- end of [31]
                             [32] = {
                                 ["communication"] = true,
@@ -20660,8 +20723,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParkingHot",
-                                            ["x"] = -172387.5,
-                                            ["y"] = 24179.1640625,
+                                            ["x"] = -171426.296875,
+                                            ["y"] = 25749.833984375,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -20755,12 +20818,12 @@ mission = {
                                             ["name"] = "Pontiac21",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.12287902249027,
+                                        ["heading"] = -0.13635715540634,
                                         ["livery_id"] = "IAF 115th aggressors squadron",
                                         ["name"] = "F-16CM Mezzeh-2 HOT-1",
                                         ["onboard_num"] = "079",
-                                        ["parking"] = "20",
-                                        ["parking_id"] = "07",
+                                        ["parking"] = 23,
+                                        ["parking_id"] = "22",
                                         ["payload"] = {
                                             ["ammo_type"] = 5,
                                             ["chaff"] = 60,
@@ -20800,7 +20863,7 @@ mission = {
                                                 }, -- end of [11]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.12287902249027,
+                                        ["psi"] = 0.13635715540634,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -20899,8 +20962,8 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-16C_50",
                                         ["unitId"] = 168,
-                                        ["x"] = -172387.5,
-                                        ["y"] = 24179.1640625,
+                                        ["x"] = -171426.296875,
+                                        ["y"] = 25749.833984375,
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
@@ -20919,12 +20982,12 @@ mission = {
                                             ["name"] = "Pontiac22",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.12287902249027,
+                                        ["heading"] = -0.13635715540634,
                                         ["livery_id"] = "IAF 115th aggressors squadron",
                                         ["name"] = "F-16CM Mezzeh-2 HOT-2",
                                         ["onboard_num"] = "080",
-                                        ["parking"] = "19",
-                                        ["parking_id"] = "08",
+                                        ["parking"] = 29,
+                                        ["parking_id"] = "23",
                                         ["payload"] = {
                                             ["ammo_type"] = 5,
                                             ["chaff"] = 60,
@@ -20964,7 +21027,7 @@ mission = {
                                                 }, -- end of [11]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.12287902249027,
+                                        ["psi"] = 0.13635715540634,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -21063,12 +21126,12 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-16C_50",
                                         ["unitId"] = 169,
-                                        ["x"] = -172321.125,
-                                        ["y"] = 24304.59375,
+                                        ["x"] = -171705.78125,
+                                        ["y"] = 26361.802734375,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = -172387.5,
-                                ["y"] = 24179.1640625,
+                                ["x"] = -171426.296875,
+                                ["y"] = 25749.833984375,
                             }, -- end of [32]
                             [33] = {
                                 ["communication"] = true,
@@ -22546,13 +22609,13 @@ mission = {
                                 ["groupId"] = 220,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "A-10C II Marj-1",
+                                ["name"] = "A-10C II Mezzeh-1",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 23,
+                                            ["airdromeId"] = 25,
                                             ["alt"] = 659,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
@@ -22605,8 +22668,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -193676.015625,
-                                            ["y"] = 47342.40625,
+                                            ["x"] = -172558.390625,
+                                            ["y"] = 23857.439453125,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -22694,12 +22757,12 @@ mission = {
                                         }, -- end of [4]
                                         [5] = {
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 2000,
+                                            ["alt"] = 687.0192,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 3640.2196900932,
+                                            ["ETA"] = 3477.3788174613,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["name"] = "range",
+                                            ["name"] = "DESERT range",
                                             ["properties"] = {
                                                 ["angle"] = 0,
                                                 ["scale"] = 0,
@@ -22717,9 +22780,37 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -217075.92174286,
-                                            ["y"] = 122638.65054164,
+                                            ["x"] = -222772.98511239,
+                                            ["y"] = 114242.7497842,
                                         }, -- end of [5]
+                                        [6] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 131.064,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 4569.3971088276,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "KIRYAT range",
+                                            ["properties"] = {
+                                                ["angle"] = 0,
+                                                ["scale"] = 0,
+                                                ["steer"] = 2,
+                                                ["vangle"] = 0,
+                                                ["vnav"] = 1,
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -218987.77675589,
+                                            ["y"] = -37379.21627091,
+                                        }, -- end of [6]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -22741,12 +22832,12 @@ mission = {
                                             ["name"] = "Uzi31",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.25996594001178,
+                                        ["heading"] = -0.12176697034355,
                                         ["livery_id"] = "74th FS Moody AFB, Georgia (FT)",
-                                        ["name"] = "A-10C II Marj-1-1",
+                                        ["name"] = "A-10C II Mezzeh-1-1",
                                         ["onboard_num"] = "098",
-                                        ["parking"] = 34,
-                                        ["parking_id"] = "28",
+                                        ["parking"] = 22,
+                                        ["parking_id"] = "05",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
@@ -22780,13 +22871,13 @@ mission = {
                                                 }, -- end of [11]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.25996594001178,
+                                        ["psi"] = 0.12176697034355,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 533,
-                                        ["x"] = -193676.015625,
-                                        ["y"] = 47342.40625,
+                                        ["x"] = -172558.390625,
+                                        ["y"] = 23857.439453125,
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
@@ -22799,12 +22890,12 @@ mission = {
                                             [3] = 2,
                                             ["name"] = "Uzi32",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -0.25996594001178,
+                                        ["heading"] = -0.12176697034355,
                                         ["livery_id"] = "74th FS Moody AFB, Georgia (FT)",
-                                        ["name"] = "A-10C II Marj-1-2",
+                                        ["name"] = "A-10C II Mezzeh-1-2",
                                         ["onboard_num"] = "099",
-                                        ["parking"] = "33",
-                                        ["parking_id"] = "29",
+                                        ["parking"] = 21,
+                                        ["parking_id"] = "06",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
@@ -22838,13 +22929,13 @@ mission = {
                                                 }, -- end of [11]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.25996594001178,
+                                        ["psi"] = 0.12176697034355,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 537,
-                                        ["x"] = -193694.734375,
-                                        ["y"] = 47301.58203125,
+                                        ["x"] = -172467.09375,
+                                        ["y"] = 24034.341796875,
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
@@ -22857,12 +22948,12 @@ mission = {
                                             [3] = 3,
                                             ["name"] = "Uzi33",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -0.25996594001178,
+                                        ["heading"] = -0.12176697034355,
                                         ["livery_id"] = "74th FS Moody AFB, Georgia (FT)",
-                                        ["name"] = "A-10C II Marj-1-3",
+                                        ["name"] = "A-10C II Mezzeh-1-3",
                                         ["onboard_num"] = "100",
-                                        ["parking"] = "32",
-                                        ["parking_id"] = "30",
+                                        ["parking"] = 20,
+                                        ["parking_id"] = "07",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
@@ -22896,13 +22987,13 @@ mission = {
                                                 }, -- end of [11]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.25996594001178,
+                                        ["psi"] = 0.12176697034355,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 538,
-                                        ["x"] = -193714.84375,
-                                        ["y"] = 47261.66015625,
+                                        ["x"] = -172387.5,
+                                        ["y"] = 24179.1640625,
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
@@ -22915,12 +23006,12 @@ mission = {
                                             [3] = 4,
                                             ["name"] = "Uzi34",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -0.25996594001178,
+                                        ["heading"] = -0.12176697034355,
                                         ["livery_id"] = "74th FS Moody AFB, Georgia (FT)",
-                                        ["name"] = "A-10C II Marj-1-4",
+                                        ["name"] = "A-10C II Mezzeh-1-4",
                                         ["onboard_num"] = "101",
-                                        ["parking"] = "31",
-                                        ["parking_id"] = "31",
+                                        ["parking"] = 19,
+                                        ["parking_id"] = "08",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
@@ -22954,17 +23045,17 @@ mission = {
                                                 }, -- end of [11]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.25996594001178,
+                                        ["psi"] = 0.12176697034355,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 539,
-                                        ["x"] = -193735.03125,
-                                        ["y"] = 47218.38671875,
+                                        ["x"] = -172321.125,
+                                        ["y"] = 24304.59375,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = -193676.015625,
-                                ["y"] = 47342.40625,
+                                ["x"] = -172558.390625,
+                                ["y"] = 23857.439453125,
                             }, -- end of [37]
                             [38] = {
                                 ["communication"] = true,
@@ -22972,13 +23063,13 @@ mission = {
                                 ["groupId"] = 221,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "A-10C II Marj-2",
+                                ["name"] = "A-10C II Mezzeh-2",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 23,
+                                            ["airdromeId"] = 25,
                                             ["alt"] = 612,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
@@ -23031,8 +23122,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -193775.9375,
-                                            ["y"] = 47133.484375,
+                                            ["x"] = -172219.59375,
+                                            ["y"] = 24488.287109375,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -23122,10 +23213,10 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 3640.2196900932,
+                                            ["ETA"] = 3474.8180352652,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["name"] = "range",
+                                            ["name"] = "DESERT range",
                                             ["properties"] = {
                                                 ["angle"] = 0,
                                                 ["scale"] = 0,
@@ -23143,9 +23234,37 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -217158.78965164,
-                                            ["y"] = 122466.36146614,
+                                            ["x"] = -222742.55493289,
+                                            ["y"] = 114303.6101432,
                                         }, -- end of [5]
+                                        [6] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 131.064,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 4567.2648529573,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "KIRYAT range",
+                                            ["properties"] = {
+                                                ["angle"] = 0,
+                                                ["scale"] = 0,
+                                                ["steer"] = 2,
+                                                ["vangle"] = 0,
+                                                ["vnav"] = 1,
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -218984.64096781,
+                                            ["y"] = -37378.570667483,
+                                        }, -- end of [6]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -23167,12 +23286,12 @@ mission = {
                                             ["name"] = "Uzi31",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.25970176455141,
+                                        ["heading"] = -0.12855276976883,
                                         ["livery_id"] = "74th FS Moody AFB, Georgia (FT)",
-                                        ["name"] = "A-10C II Marj-2-1",
+                                        ["name"] = "A-10C II Mezzeh-2-1",
                                         ["onboard_num"] = "098",
-                                        ["parking"] = "29",
-                                        ["parking_id"] = "33",
+                                        ["parking"] = "18",
+                                        ["parking_id"] = "09",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
@@ -23206,13 +23325,13 @@ mission = {
                                                 }, -- end of [11]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.25970176455141,
+                                        ["psi"] = 0.12855276976883,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 540,
-                                        ["x"] = -193775.9375,
-                                        ["y"] = 47133.484375,
+                                        ["x"] = -172219.59375,
+                                        ["y"] = 24488.287109375,
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
@@ -23225,12 +23344,12 @@ mission = {
                                             [3] = 2,
                                             ["name"] = "Uzi32",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -0.25970176455141,
+                                        ["heading"] = -0.12855276976883,
                                         ["livery_id"] = "74th FS Moody AFB, Georgia (FT)",
-                                        ["name"] = "A-10C II Marj-2-2",
+                                        ["name"] = "A-10C II Mezzeh-2-2",
                                         ["onboard_num"] = "102",
-                                        ["parking"] = "30",
-                                        ["parking_id"] = "32",
+                                        ["parking"] = "17",
+                                        ["parking_id"] = "10",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
@@ -23264,17 +23383,75 @@ mission = {
                                                 }, -- end of [11]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.25970176455141,
+                                        ["psi"] = 0.12855276976883,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 544,
-                                        ["x"] = -193754.9375,
-                                        ["y"] = 47177.62109375,
+                                        ["x"] = -172090.21875,
+                                        ["y"] = 24730.08203125,
                                     }, -- end of [2]
+                                    [3] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 612,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 3,
+                                            [2] = 3,
+                                            [3] = 3,
+                                            ["name"] = "Uzi33",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = -0.12855276976883,
+                                        ["livery_id"] = "74th FS Moody AFB, Georgia (FT)",
+                                        ["name"] = "A-10C II Mezzeh-2-3",
+                                        ["onboard_num"] = "109",
+                                        ["parking"] = "3",
+                                        ["parking_id"] = "11",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 240,
+                                            ["fuel"] = 4023,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "ALQ_184",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+                                                }, -- end of [2]
+                                                [3] = {
+                                                    ["CLSID"] = "{444BA8AE-82A7-4345-842E-76154EFCCA46}",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{LAU-131 - 7 AGR-20 M282}",
+                                                }, -- end of [4]
+                                                [8] = {
+                                                    ["CLSID"] = "{LAU-131 - 7 AGR-20 M282}",
+                                                }, -- end of [8]
+                                                [9] = {
+                                                    ["CLSID"] = "{444BA8AE-82A7-4345-842E-76154EFCCA46}",
+                                                }, -- end of [9]
+                                                [10] = {
+                                                    ["CLSID"] = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+                                                }, -- end of [10]
+                                                [11] = {
+                                                    ["CLSID"] = "{DB434044-F5D0-4F1F-9BA9-B73027E18DD3}",
+                                                }, -- end of [11]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0.12855276976883,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3153,
+                                        ["x"] = -172004.765625,
+                                        ["y"] = 24883.302734375,
+                                    }, -- end of [3]
                                 }, -- end of ["units"]
-                                ["x"] = -193775.9375,
-                                ["y"] = 47133.484375,
+                                ["x"] = -172219.59375,
+                                ["y"] = 24488.287109375,
                             }, -- end of [38]
                             [39] = {
                                 ["communication"] = true,
@@ -30441,7 +30618,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 98,
                                 ["heading"] = 4.3982297150257,
-                                ["name"] = "combatZone_rangeEasy-statics #001",
+                                ["name"] = "combatZone_desertRangeEasy-statics #001",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30461,7 +30638,7 @@ mission = {
                                         ["category"] = "Armor",
                                         ["heading"] = 4.3982297150257,
                                         ["livery_id"] = "desert",
-                                        ["name"] = "combatZone_rangeEasy-statics #001",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #001",
                                         ["type"] = "T-55",
                                         ["unitId"] = 359,
                                         ["x"] = -223845.2762413,
@@ -30475,7 +30652,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 99,
                                 ["heading"] = 4.3982297150257,
-                                ["name"] = "combatZone_rangeEasy-statics #002",
+                                ["name"] = "combatZone_desertRangeEasy-statics #002",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30495,7 +30672,7 @@ mission = {
                                         ["category"] = "Armor",
                                         ["heading"] = 4.3982297150257,
                                         ["livery_id"] = "desert",
-                                        ["name"] = "combatZone_rangeEasy-statics #002",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #002",
                                         ["type"] = "T-55",
                                         ["unitId"] = 360,
                                         ["x"] = -223859.42822489,
@@ -30509,7 +30686,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 100,
                                 ["heading"] = 4.3982297150257,
-                                ["name"] = "combatZone_rangeEasy-statics #003",
+                                ["name"] = "combatZone_desertRangeEasy-statics #003",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30529,7 +30706,7 @@ mission = {
                                         ["category"] = "Armor",
                                         ["heading"] = 4.3982297150257,
                                         ["livery_id"] = "desert",
-                                        ["name"] = "combatZone_rangeEasy-statics #003",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #003",
                                         ["type"] = "T-55",
                                         ["unitId"] = 361,
                                         ["x"] = -223874.28845614,
@@ -30543,7 +30720,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 101,
                                 ["heading"] = 4.3982297150257,
-                                ["name"] = "combatZone_rangeEasy-statics #004",
+                                ["name"] = "combatZone_desertRangeEasy-statics #004",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30563,7 +30740,7 @@ mission = {
                                         ["category"] = "Armor",
                                         ["heading"] = 4.3982297150257,
                                         ["livery_id"] = "desert",
-                                        ["name"] = "combatZone_rangeEasy-statics #004",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #004",
                                         ["type"] = "T-55",
                                         ["unitId"] = 362,
                                         ["x"] = -223889.79309345,
@@ -30577,7 +30754,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 102,
                                 ["heading"] = 4.3982297150257,
-                                ["name"] = "combatZone_rangeEasy-statics #005",
+                                ["name"] = "combatZone_desertRangeEasy-statics #005",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30596,7 +30773,7 @@ mission = {
                                     [1] = {
                                         ["category"] = "Unarmed",
                                         ["heading"] = 4.3982297150257,
-                                        ["name"] = "combatZone_rangeEasy-statics #005",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #005",
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 363,
                                         ["x"] = -224222.81612433,
@@ -30610,7 +30787,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 103,
                                 ["heading"] = 4.3982297150257,
-                                ["name"] = "combatZone_rangeEasy-statics #006",
+                                ["name"] = "combatZone_desertRangeEasy-statics #006",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30629,7 +30806,7 @@ mission = {
                                     [1] = {
                                         ["category"] = "Unarmed",
                                         ["heading"] = 4.3982297150257,
-                                        ["name"] = "combatZone_rangeEasy-statics #006",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #006",
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 364,
                                         ["x"] = -224209.07288072,
@@ -30643,7 +30820,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 104,
                                 ["heading"] = 4.3982297150257,
-                                ["name"] = "combatZone_rangeEasy-statics #007",
+                                ["name"] = "combatZone_desertRangeEasy-statics #007",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30662,7 +30839,7 @@ mission = {
                                     [1] = {
                                         ["category"] = "Unarmed",
                                         ["heading"] = 4.3982297150257,
-                                        ["name"] = "combatZone_rangeEasy-statics #007",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #007",
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 365,
                                         ["x"] = -224196.86776792,
@@ -30676,7 +30853,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 105,
                                 ["heading"] = 2.8274333882308,
-                                ["name"] = "combatZone_rangeEasy-statics #008",
+                                ["name"] = "combatZone_desertRangeEasy-statics #008",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30695,7 +30872,7 @@ mission = {
                                     [1] = {
                                         ["category"] = "Unarmed",
                                         ["heading"] = 2.8274333882308,
-                                        ["name"] = "combatZone_rangeEasy-statics #008",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #008",
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 366,
                                         ["x"] = -226268.07826363,
@@ -30709,7 +30886,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 106,
                                 ["heading"] = 4.0491638646268,
-                                ["name"] = "combatZone_rangeEasy-statics #009",
+                                ["name"] = "combatZone_desertRangeEasy-statics #009",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30731,7 +30908,7 @@ mission = {
                                         ["effectTransparency"] = 1,
                                         ["heading"] = 4.0491638646268,
                                         ["livery_id"] = "standard 1",
-                                        ["name"] = "combatZone_rangeEasy-statics #009",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #009",
                                         ["rate"] = "30",
                                         ["type"] = "Mi-24V",
                                         ["unitId"] = 367,
@@ -30746,7 +30923,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 107,
                                 ["heading"] = 4.0491638646268,
-                                ["name"] = "combatZone_rangeEasy-statics #010",
+                                ["name"] = "combatZone_desertRangeEasy-statics #010",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30765,7 +30942,7 @@ mission = {
                                     [1] = {
                                         ["category"] = "Fortifications",
                                         ["heading"] = 4.0491638646268,
-                                        ["name"] = "combatZone_rangeEasy-statics #010",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #010",
                                         ["shape_name"] = "H-Flag_W",
                                         ["type"] = "White_Flag",
                                         ["unitId"] = 368,
@@ -30780,7 +30957,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 108,
                                 ["heading"] = 4.0491638646268,
-                                ["name"] = "combatZone_rangeEasy-statics #011",
+                                ["name"] = "combatZone_desertRangeEasy-statics #011",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30799,7 +30976,7 @@ mission = {
                                     [1] = {
                                         ["category"] = "Fortifications",
                                         ["heading"] = 4.0491638646268,
-                                        ["name"] = "combatZone_rangeEasy-statics #011",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #011",
                                         ["shape_name"] = "H-Flag_W",
                                         ["type"] = "White_Flag",
                                         ["unitId"] = 369,
@@ -30814,7 +30991,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 109,
                                 ["heading"] = 3.1415926535898,
-                                ["name"] = "combatZone_rangeEasy-statics #012",
+                                ["name"] = "combatZone_desertRangeEasy-statics #012",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30833,7 +31010,7 @@ mission = {
                                     [1] = {
                                         ["category"] = "Fortifications",
                                         ["heading"] = 3.1415926535898,
-                                        ["name"] = "combatZone_rangeEasy-statics #012",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #012",
                                         ["shape_name"] = "konteiner_white",
                                         ["type"] = "Container white",
                                         ["unitId"] = 370,
@@ -30848,7 +31025,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 110,
                                 ["heading"] = 4.5378560551853,
-                                ["name"] = "combatZone_rangeEasy-statics #013",
+                                ["name"] = "combatZone_desertRangeEasy-statics #013",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30868,7 +31045,7 @@ mission = {
                                         ["category"] = "Planes",
                                         ["heading"] = 4.5378560551853,
                                         ["livery_id"] = "egypt - grey 1982",
-                                        ["name"] = "combatZone_rangeEasy-statics #013",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #013",
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 371,
                                         ["x"] = -222873.95258898,
@@ -30882,7 +31059,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 111,
                                 ["heading"] = 4.5378560551853,
-                                ["name"] = "combatZone_rangeEasy-statics #014",
+                                ["name"] = "combatZone_desertRangeEasy-statics #014",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30902,7 +31079,7 @@ mission = {
                                         ["category"] = "Planes",
                                         ["heading"] = 4.5378560551853,
                                         ["livery_id"] = "egypt - grey 1982",
-                                        ["name"] = "combatZone_rangeEasy-statics #014",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #014",
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 372,
                                         ["x"] = -222928.72849099,
@@ -30916,7 +31093,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 112,
                                 ["heading"] = 4.5378560551853,
-                                ["name"] = "combatZone_rangeEasy-statics #015",
+                                ["name"] = "combatZone_desertRangeEasy-statics #015",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30936,7 +31113,7 @@ mission = {
                                         ["category"] = "Planes",
                                         ["heading"] = 4.5378560551853,
                                         ["livery_id"] = "egypt - grey 1982",
-                                        ["name"] = "combatZone_rangeEasy-statics #015",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #015",
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 373,
                                         ["x"] = -222897.44705626,
@@ -30950,7 +31127,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 113,
                                 ["heading"] = 4.5378560551853,
-                                ["name"] = "combatZone_rangeEasy-statics #016",
+                                ["name"] = "combatZone_desertRangeEasy-statics #016",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -30970,7 +31147,7 @@ mission = {
                                         ["category"] = "Planes",
                                         ["heading"] = 4.5378560551853,
                                         ["livery_id"] = "egypt - grey 1982",
-                                        ["name"] = "combatZone_rangeEasy-statics #016",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #016",
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 374,
                                         ["x"] = -222961.95225423,
@@ -30984,7 +31161,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 114,
                                 ["heading"] = 4.3284165449459,
-                                ["name"] = "combatZone_rangeEasy-statics #017",
+                                ["name"] = "combatZone_desertRangeEasy-statics #017",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -31003,7 +31180,7 @@ mission = {
                                     [1] = {
                                         ["category"] = "Unarmed",
                                         ["heading"] = 4.3284165449459,
-                                        ["name"] = "combatZone_rangeEasy-statics #017",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #017",
                                         ["type"] = "Ural-4320 APA-5D",
                                         ["unitId"] = 375,
                                         ["x"] = -223762.50187936,
@@ -31017,7 +31194,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 115,
                                 ["heading"] = 4.5378560551853,
-                                ["name"] = "combatZone_rangeEasy-statics #018",
+                                ["name"] = "combatZone_desertRangeEasy-statics #018",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -31036,7 +31213,7 @@ mission = {
                                     [1] = {
                                         ["category"] = "Unarmed",
                                         ["heading"] = 4.5378560551853,
-                                        ["name"] = "combatZone_rangeEasy-statics #018",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #018",
                                         ["type"] = "Ural-4320 APA-5D",
                                         ["unitId"] = 376,
                                         ["x"] = -223752.41115274,
@@ -31050,7 +31227,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 116,
                                 ["heading"] = 4.3284165449459,
-                                ["name"] = "combatZone_rangeEasy-statics #019",
+                                ["name"] = "combatZone_desertRangeEasy-statics #019",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -31069,7 +31246,7 @@ mission = {
                                     [1] = {
                                         ["category"] = "Unarmed",
                                         ["heading"] = 4.3284165449459,
-                                        ["name"] = "combatZone_rangeEasy-statics #019",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #019",
                                         ["type"] = "Ural-4320 APA-5D",
                                         ["unitId"] = 377,
                                         ["x"] = -223743.36050635,
@@ -31083,7 +31260,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 117,
                                 ["heading"] = 4.3284165449459,
-                                ["name"] = "combatZone_rangeEasy-statics #020",
+                                ["name"] = "combatZone_desertRangeEasy-statics #020",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -31102,7 +31279,7 @@ mission = {
                                     [1] = {
                                         ["category"] = "Unarmed",
                                         ["heading"] = 4.3284165449459,
-                                        ["name"] = "combatZone_rangeEasy-statics #020",
+                                        ["name"] = "combatZone_desertRangeEasy-statics #020",
                                         ["type"] = "Ural-4320 APA-5D",
                                         ["unitId"] = 378,
                                         ["x"] = -223735.12894046,
@@ -32387,7 +32564,7 @@ mission = {
                                 ["dead"] = false,
                                 ["groupId"] = 97,
                                 ["heading"] = 4.0491638646268,
-                                ["name"] = "combatZone_rangeEasy-barrage-routier",
+                                ["name"] = "combatZone_desertRangeEasy-barrage-routier",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -32406,7 +32583,7 @@ mission = {
                                     [1] = {
                                         ["category"] = "Fortifications",
                                         ["heading"] = 4.0491638646268,
-                                        ["name"] = "combatZone_rangeEasy-barrage-routier",
+                                        ["name"] = "combatZone_desertRangeEasy-barrage-routier",
                                         ["rate"] = 5,
                                         ["type"] = "outpost_road",
                                         ["unitId"] = 358,
@@ -33652,7 +33829,7 @@ mission = {
                             [12] = {
                                 ["groupId"] = 119,
                                 ["hidden"] = false,
-                                ["name"] = "combatZone_rangeEasy-transportNorth",
+                                ["name"] = "combatZone_desertRangeEasy-transportNorth",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -33708,7 +33885,7 @@ mission = {
                             [13] = {
                                 ["groupId"] = 121,
                                 ["hidden"] = false,
-                                ["name"] = "combatZone_rangeEasy-transportEast",
+                                ["name"] = "combatZone_desertRangeEasy-transportEast",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -33764,7 +33941,7 @@ mission = {
                             [14] = {
                                 ["groupId"] = 122,
                                 ["hidden"] = false,
-                                ["name"] = "combatZone_rangeEasy-transportSouth",
+                                ["name"] = "combatZone_desertRangeEasy-transportSouth",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -33820,7 +33997,7 @@ mission = {
                             [15] = {
                                 ["groupId"] = 123,
                                 ["hidden"] = false,
-                                ["name"] = "combatZone_rangeEasy-transportWest",
+                                ["name"] = "combatZone_desertRangeEasy-transportWest",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -33876,7 +34053,7 @@ mission = {
                             [16] = {
                                 ["groupId"] = 124,
                                 ["hidden"] = false,
-                                ["name"] = "combatZone_rangeEasy-mobileTransport #001",
+                                ["name"] = "combatZone_desertRangeEasy-mobileTransport #001",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -34159,7 +34336,7 @@ mission = {
                             [17] = {
                                 ["groupId"] = 125,
                                 ["hidden"] = false,
-                                ["name"] = "combatZone_rangeEasy-mobileTransport #002",
+                                ["name"] = "combatZone_desertRangeEasy-mobileTransport #002",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -36790,7 +36967,7 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
-                                        ["heading"] = 1.4716893771058,
+                                        ["heading"] = 1.471689377095,
                                         ["name"] = "#command=\"-transport, size 5, defense 0, armor 0\" #004",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
@@ -46253,7 +46430,7 @@ mission = {
             [8] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 179539,
+    ["currentKey"] = 192671,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -52522,9 +52699,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -225714.48736152,
-        ["centerY"] = -37965.838419667,
-        ["zoom"] = 1341.0770208147,
+        ["centerX"] = -219289.98228368,
+        ["centerY"] = -41478.933246879,
+        ["zoom"] = 40960.776474168,
     }, -- end of ["map"]
     ["maxDictId"] = 1914,
     ["pictureFileNameB"] = {
@@ -52689,13 +52866,13 @@ mission = {
                     [4] = 0.15,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "combatZone_rangeEasy",
+                ["name"] = "combatZone_desertRangeEasy",
                 ["properties"] = {
                 }, -- end of ["properties"]
-                ["radius"] = 21336,
+                ["radius"] = 9144,
                 ["type"] = 0,
-                ["x"] = -217064.35135244,
-                ["y"] = 122595.1099529,
+                ["x"] = -222754.79491885,
+                ["y"] = 114318.10112902,
                 ["zoneId"] = 238,
             }, -- end of [5]
             [6] = {
