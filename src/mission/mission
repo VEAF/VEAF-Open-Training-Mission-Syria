@@ -46430,7 +46430,7 @@ mission = {
             [8] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 192671,
+    ["currentKey"] = 194555,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -52677,31 +52677,31 @@ mission = {
         ["isPilotControlVehicles"] = true,
         ["roles"] = {
             ["artillery_commander"] = {
-                ["blue"] = 1,
-                ["neutrals"] = 1,
-                ["red"] = 1,
+                ["blue"] = 2,
+                ["neutrals"] = 0,
+                ["red"] = 2,
             }, -- end of ["artillery_commander"]
             ["forward_observer"] = {
-                ["blue"] = 1,
-                ["neutrals"] = 1,
-                ["red"] = 1,
+                ["blue"] = 2,
+                ["neutrals"] = 0,
+                ["red"] = 2,
             }, -- end of ["forward_observer"]
             ["instructor"] = {
-                ["blue"] = 1,
-                ["neutrals"] = 1,
-                ["red"] = 1,
+                ["blue"] = 5,
+                ["neutrals"] = 0,
+                ["red"] = 5,
             }, -- end of ["instructor"]
             ["observer"] = {
-                ["blue"] = 1,
-                ["neutrals"] = 1,
-                ["red"] = 1,
+                ["blue"] = 5,
+                ["neutrals"] = 0,
+                ["red"] = 5,
             }, -- end of ["observer"]
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -219289.98228368,
-        ["centerY"] = -41478.933246879,
-        ["zoom"] = 40960.776474168,
+        ["centerX"] = -188594.09949149,
+        ["centerY"] = 36580.811298329,
+        ["zoom"] = 536995.54165567,
     }, -- end of ["map"]
     ["maxDictId"] = 1914,
     ["pictureFileNameB"] = {
