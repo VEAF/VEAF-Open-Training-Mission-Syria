@@ -3212,7 +3212,7 @@ mission = {
                                             [3] = 1,
                                             ["name"] = "Focus11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 1.5878887436572,
+                                        ["heading"] = 1.5878887436574,
                                         ["livery_id"] = "nato",
                                         ["name"] = "A2-Focus-1",
                                         ["onboard_num"] = "013",
@@ -3224,7 +3224,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.5878887436572,
+                                        ["psi"] = -1.5878887436574,
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "E-3A",
@@ -3580,7 +3580,7 @@ mission = {
                                             [3] = 1,
                                             ["name"] = "Texaco21",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 1.7582649367954,
+                                        ["heading"] = 1.7582649367945,
                                         ["livery_id"] = "100th arw",
                                         ["name"] = "T2-Texaco-S-1",
                                         ["onboard_num"] = "016",
@@ -3592,7 +3592,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.7582649367954,
+                                        ["psi"] = -1.7582649367945,
                                         ["skill"] = "High",
                                         ["speed"] = 241.52777777778,
                                         ["type"] = "KC135MPRS",
@@ -3948,7 +3948,7 @@ mission = {
                                             [3] = 1,
                                             ["name"] = "Shell21",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -1.4088867665459,
+                                        ["heading"] = -1.408886766545,
                                         ["livery_id"] = "Standard USAF",
                                         ["name"] = "S2-Shell-S-1",
                                         ["onboard_num"] = "019",
@@ -3960,7 +3960,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 1.4088867665459,
+                                        ["psi"] = 1.408886766545,
                                         ["skill"] = "High",
                                         ["speed"] = 241.52777777778,
                                         ["type"] = "KC-135",
@@ -4672,7 +4672,7 @@ mission = {
                                             [3] = 1,
                                             ["name"] = "Shell11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -1.7343281977095,
+                                        ["heading"] = -1.7343281977089,
                                         ["livery_id"] = "Standard USAF",
                                         ["name"] = "S1-Shell-N-1",
                                         ["onboard_num"] = "025",
@@ -4684,7 +4684,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 1.7343281977095,
+                                        ["psi"] = 1.7343281977089,
                                         ["skill"] = "High",
                                         ["speed"] = 241.52777777778,
                                         ["type"] = "KC-135",
@@ -13864,7 +13864,7 @@ mission = {
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
-                                            ["action"] = "From Parking Area",
+                                            ["action"] = "From Parking Area Hot",
                                             ["airdromeId"] = 6,
                                             ["alt"] = 12,
                                             ["alt_type"] = "BARO",
@@ -13881,7 +13881,7 @@ mission = {
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
-                                            ["type"] = "TakeOffParking",
+                                            ["type"] = "TakeOffParkingHot",
                                             ["x"] = -131488.5625,
                                             ["y"] = -41470.69140625,
                                         }, -- end of [1]
@@ -17422,7 +17422,7 @@ mission = {
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
-                                            ["action"] = "From Parking Area",
+                                            ["action"] = "From Parking Area Hot",
                                             ["airdromeId"] = 23,
                                             ["alt"] = 658,
                                             ["alt_type"] = "BARO",
@@ -17454,7 +17454,7 @@ mission = {
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
-                                            ["type"] = "TakeOffParking",
+                                            ["type"] = "TakeOffParkingHot",
                                             ["x"] = -193324.265625,
                                             ["y"] = 47615.76953125,
                                         }, -- end of [1]
@@ -39573,7 +39573,7 @@ mission = {
             [8] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 168583,
+    ["currentKey"] = 170405,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -45842,8 +45842,8 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -91170.534091163,
-        ["centerY"] = 14590.125614105,
+        ["centerX"] = -91170.534091155,
+        ["centerY"] = 28566.193991994,
         ["zoom"] = 1260272.4322281,
     }, -- end of ["map"]
     ["maxDictId"] = 1914,
