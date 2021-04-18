@@ -28172,6 +28172,558 @@ mission = {
                                 ["x"] = -199700.22489132,
                                 ["y"] = -34799.96031596,
                             }, -- end of [3]
+                            [4] = {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 1460,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "M-2000C King Hussein-1",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 19,
+                                            ["alt"] = 672,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -295737.98838044,
+                                            ["y"] = 23716.448777959,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 4572,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 682.69299530809,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "ligne de front",
+                                            ["speed"] = 231.25,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -144942.15311662,
+                                            ["y"] = 68375.734525889,
+                                        }, -- end of [2]
+                                        [3] = {
+                                            ["action"] = "LandingReFuAr",
+                                            ["airdromeId"] = 5,
+                                            ["alt"] = 733,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 777.48561285434,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "Deroutement",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["timeReFuAr"] = 10,
+                                            ["type"] = "LandingReFuAr",
+                                            ["x"] = -258434.929688,
+                                            ["y"] = 40368.677734,
+                                        }, -- end of [3]
+                                        [4] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 909,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 2487.0058339207,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "Bulls",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -148908.13419038,
+                                            ["y"] = 119877.67142576,
+                                        }, -- end of [4]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["ForceINSRules"] = false,
+                                            ["GunBurst"] = 1,
+                                            ["LaserCode1"] = 8,
+                                            ["LaserCode10"] = 8,
+                                            ["LaserCode100"] = 6,
+                                            ["LoadNVGCase"] = false,
+                                            ["NoDDMSensor"] = true,
+                                            ["RocketBurst"] = 6,
+                                            ["WpBullseye"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 672,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 7,
+                                            [2] = 2,
+                                            [3] = 1,
+                                            ["name"] = "Chevy21",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0.27931388179975,
+                                        ["livery_id"] = "14.735 Corsairs - VEAF",
+                                        ["name"] = "M-2000C King Hussein-1-1",
+                                        ["onboard_num"] = "069",
+                                        ["parking"] = 43,
+                                        ["parking_id"] = "14",
+                                        ["payload"] = {
+                                            ["chaff"] = 112,
+                                            ["flare"] = 16,
+                                            ["fuel"] = 3165,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{MMagicII}",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{Matra_S530D}",
+                                                }, -- end of [2]
+                                                [5] = {
+                                                    ["CLSID"] = "{M2KC_RPL_522}",
+                                                }, -- end of [5]
+                                                [8] = {
+                                                    ["CLSID"] = "{Matra_S530D}",
+                                                }, -- end of [8]
+                                                [9] = {
+                                                    ["CLSID"] = "{MMagicII}",
+                                                }, -- end of [9]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.28792765356477,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 121.5,
+                                                    [2] = 120,
+                                                    [3] = 120.1,
+                                                    [4] = 120.2,
+                                                    [5] = 120.3,
+                                                    [6] = 120.4,
+                                                    [7] = 120.5,
+                                                    [8] = 120.6,
+                                                    [9] = 120.7,
+                                                    [10] = 120.8,
+                                                    [11] = 120.9,
+                                                    [12] = 121.1,
+                                                    [13] = 121.2,
+                                                    [14] = 121.3,
+                                                    [15] = 121.4,
+                                                    [16] = 121.6,
+                                                    [17] = 121.7,
+                                                    [18] = 127.15,
+                                                    [19] = 127.25,
+                                                    [20] = 127.85,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "M-2000C",
+                                        ["unitId"] = 3189,
+                                        ["x"] = -295737.98838044,
+                                        ["y"] = 23716.448777959,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["AddPropAircraft"] = {
+                                            ["ForceINSRules"] = false,
+                                            ["GunBurst"] = 1,
+                                            ["LaserCode1"] = 8,
+                                            ["LaserCode10"] = 8,
+                                            ["LaserCode100"] = 6,
+                                            ["LoadNVGCase"] = false,
+                                            ["NoDDMSensor"] = true,
+                                            ["RocketBurst"] = 6,
+                                            ["WpBullseye"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 672,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 7,
+                                            [2] = 2,
+                                            [3] = 2,
+                                            ["name"] = "Chevy22",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "14.735 Corsairs - VEAF",
+                                        ["name"] = "M-2000C King Hussein-1-2",
+                                        ["onboard_num"] = "079",
+                                        ["parking"] = "39",
+                                        ["parking_id"] = "13",
+                                        ["payload"] = {
+                                            ["chaff"] = 112,
+                                            ["flare"] = 16,
+                                            ["fuel"] = 3165,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{MMagicII}",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{Matra_S530D}",
+                                                }, -- end of [2]
+                                                [5] = {
+                                                    ["CLSID"] = "{M2KC_RPL_522}",
+                                                }, -- end of [5]
+                                                [8] = {
+                                                    ["CLSID"] = "{Matra_S530D}",
+                                                }, -- end of [8]
+                                                [9] = {
+                                                    ["CLSID"] = "{MMagicII}",
+                                                }, -- end of [9]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.28792765356477,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 121.5,
+                                                    [2] = 120,
+                                                    [3] = 120.1,
+                                                    [4] = 120.2,
+                                                    [5] = 120.3,
+                                                    [6] = 120.4,
+                                                    [7] = 120.5,
+                                                    [8] = 120.6,
+                                                    [9] = 120.7,
+                                                    [10] = 120.8,
+                                                    [11] = 120.9,
+                                                    [12] = 121.1,
+                                                    [13] = 121.2,
+                                                    [14] = 121.3,
+                                                    [15] = 121.4,
+                                                    [16] = 121.6,
+                                                    [17] = 121.7,
+                                                    [18] = 127.15,
+                                                    [19] = 127.25,
+                                                    [20] = 127.85,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "M-2000C",
+                                        ["unitId"] = 3193,
+                                        ["x"] = -295819.07191023,
+                                        ["y"] = 23633.595176932,
+                                    }, -- end of [2]
+                                    [3] = {
+                                        ["AddPropAircraft"] = {
+                                            ["ForceINSRules"] = false,
+                                            ["GunBurst"] = 1,
+                                            ["LaserCode1"] = 8,
+                                            ["LaserCode10"] = 8,
+                                            ["LaserCode100"] = 6,
+                                            ["LoadNVGCase"] = false,
+                                            ["NoDDMSensor"] = true,
+                                            ["RocketBurst"] = 6,
+                                            ["WpBullseye"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 672,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 7,
+                                            [2] = 2,
+                                            [3] = 3,
+                                            ["name"] = "Chevy23",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "14.735 Corsairs - VEAF",
+                                        ["name"] = "M-2000C King Hussein-1-3",
+                                        ["onboard_num"] = "080",
+                                        ["parking"] = "42",
+                                        ["parking_id"] = "15",
+                                        ["payload"] = {
+                                            ["chaff"] = 112,
+                                            ["flare"] = 16,
+                                            ["fuel"] = 3165,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{MMagicII}",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{Matra_S530D}",
+                                                }, -- end of [2]
+                                                [5] = {
+                                                    ["CLSID"] = "{M2KC_RPL_522}",
+                                                }, -- end of [5]
+                                                [8] = {
+                                                    ["CLSID"] = "{Matra_S530D}",
+                                                }, -- end of [8]
+                                                [9] = {
+                                                    ["CLSID"] = "{MMagicII}",
+                                                }, -- end of [9]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.28792765356477,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 121.5,
+                                                    [2] = 120,
+                                                    [3] = 120.1,
+                                                    [4] = 120.2,
+                                                    [5] = 120.3,
+                                                    [6] = 120.4,
+                                                    [7] = 120.5,
+                                                    [8] = 120.6,
+                                                    [9] = 120.7,
+                                                    [10] = 120.8,
+                                                    [11] = 120.9,
+                                                    [12] = 121.1,
+                                                    [13] = 121.2,
+                                                    [14] = 121.3,
+                                                    [15] = 121.4,
+                                                    [16] = 121.6,
+                                                    [17] = 121.7,
+                                                    [18] = 127.15,
+                                                    [19] = 127.25,
+                                                    [20] = 127.85,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "M-2000C",
+                                        ["unitId"] = 3194,
+                                        ["x"] = -295690.30251845,
+                                        ["y"] = 23596.532376325,
+                                    }, -- end of [3]
+                                    [4] = {
+                                        ["AddPropAircraft"] = {
+                                            ["ForceINSRules"] = false,
+                                            ["GunBurst"] = 1,
+                                            ["LaserCode1"] = 8,
+                                            ["LaserCode10"] = 8,
+                                            ["LaserCode100"] = 6,
+                                            ["LoadNVGCase"] = false,
+                                            ["NoDDMSensor"] = true,
+                                            ["RocketBurst"] = 6,
+                                            ["WpBullseye"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 672,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 7,
+                                            [2] = 2,
+                                            [3] = 4,
+                                            ["name"] = "Chevy24",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "14.735 Corsairs - VEAF",
+                                        ["name"] = "M-2000C King Hussein-1-4",
+                                        ["onboard_num"] = "081",
+                                        ["parking"] = "38",
+                                        ["parking_id"] = "12",
+                                        ["payload"] = {
+                                            ["chaff"] = 112,
+                                            ["flare"] = 16,
+                                            ["fuel"] = 3165,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{MMagicII}",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{Matra_S530D}",
+                                                }, -- end of [2]
+                                                [5] = {
+                                                    ["CLSID"] = "{M2KC_RPL_522}",
+                                                }, -- end of [5]
+                                                [8] = {
+                                                    ["CLSID"] = "{Matra_S530D}",
+                                                }, -- end of [8]
+                                                [9] = {
+                                                    ["CLSID"] = "{MMagicII}",
+                                                }, -- end of [9]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.28792765356477,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 121.5,
+                                                    [2] = 120,
+                                                    [3] = 120.1,
+                                                    [4] = 120.2,
+                                                    [5] = 120.3,
+                                                    [6] = 120.4,
+                                                    [7] = 120.5,
+                                                    [8] = 120.6,
+                                                    [9] = 120.7,
+                                                    [10] = 120.8,
+                                                    [11] = 120.9,
+                                                    [12] = 121.1,
+                                                    [13] = 121.2,
+                                                    [14] = 121.3,
+                                                    [15] = 121.4,
+                                                    [16] = 121.6,
+                                                    [17] = 121.7,
+                                                    [18] = 127.15,
+                                                    [19] = 127.25,
+                                                    [20] = 127.85,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "M-2000C",
+                                        ["unitId"] = 3195,
+                                        ["x"] = -295941.34375,
+                                        ["y"] = 23674.439453125,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = -295737.98838044,
+                                ["y"] = 23716.448777959,
+                            }, -- end of [4]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["vehicle"] = {
@@ -48276,7 +48828,7 @@ mission = {
             [8] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 212726,
+    ["currentKey"] = 214728,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -54545,9 +55097,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -294534.40145059,
-        ["centerY"] = 23788.991759709,
-        ["zoom"] = 23342.624391463,
+        ["centerX"] = -295963.43693098,
+        ["centerY"] = 24381.764370926,
+        ["zoom"] = 4178.5541848775,
     }, -- end of ["map"]
     ["maxDictId"] = 1914,
     ["pictureFileNameB"] = {
