@@ -12,10 +12,26 @@ veaf.config.MISSION_EXPORT_PATH = nil -- use default folder
 --TODO (Zip)
 veafBeacons = true
 
--- activate the QRA if it is defined in the mission
---TODO (Zip)
---qraPalmyra="ready";
---qraBassel="ready";
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- initialize QRA
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+if veaf then
+    VeafQRA.new()
+    :setName("QRA_Palmyra")
+    :addGroup("QRA_Palmyra")
+    :setRadius(30000)
+    :setCoalition(coalition.side.RED)
+    :addEnnemyCoalition(coalition.side.BLUE)
+    :start()
+
+    VeafQRA.new()
+    :setName("QRA_Bassel")
+    :addGroup("QRA_Bassel")
+    :setRadius(30000)
+    :setCoalition(coalition.side.RED)
+    :addEnnemyCoalition(coalition.side.BLUE)
+    :start()
+end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize all the scripts
