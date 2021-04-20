@@ -233,52 +233,57 @@ end
 if veafNamedPoints then
 
 	veafNamedPoints.Points = {
-        -- Turkish Airports
-		{name="AIRBASE Batumi",  point={x=-356437,y=0,z=618211}},
-        {name="INCIRLIK AB", point=veafNamedPoints.addDataToPoint(veafNamedPoints.pointFromLL(37.001944,35.425833), {atc=true, tower="V129.40, U360.10", tacan="21X", runways={{name="05", hdg=50, ils="109.30"}, {name="23", hdg=230, ils="111.70"}}})},
-        {name="ADANA SAKIRPASA INTL", point=veafNamedPoints.pointFromLL(36.981944, 35.280278)},
-        {name="HATAY AIRPORT", point=veafNamedPoints.pointFromLL(36.360278, 36.285000)},
+               -- Turkish Airports
+            {name="INCIRLIK AB", point=veafNamedPoints.addDataToPoint(veafNamedPoints.pointFromLL(37.001944,35.425833), {atc=true, tower="V129.40, U360.10", tacan="21X", runways={{name="05", hdg=50, ils="109.30"}, {name="23", hdg=230, ils="111.70"}}})},
+            {name="ADANA SAKIRPASA INTL", point=veafNamedPoints.pointFromLL(36.981944, 35.280278)},
+            {name="HATAY AIRPORT", point=veafNamedPoints.pointFromLL(36.360278, 36.285000)},
+            {name="GANZIANTEP",point=veafNamedPoints.pointFromLL(36.947057, 37.478579)},
 
-        -- Syrian Airports
-        {name="MINAKH HELIPT", point=veafNamedPoints.pointFromLL(36.521944, 37.041111)},
-        {name="ALEPPO INTL", point=veafNamedPoints.pointFromLL(36.180556, 37.224167)},
-        {name="KUWEIRES AB", point=veafNamedPoints.pointFromLL(36.186944, 37.583056)},
-        {name="JIRAH AB", point=veafNamedPoints.pointFromLL(36.097500, 37.940278)},
-        {name="TAFTANAZ HELIPT", point=veafNamedPoints.pointFromLL(35.972222, 36.783056)},
-        {name="ABU AL DUHUR AB", point=veafNamedPoints.pointFromLL(35.732778, 37.101667)},
-        {name="TABQA AB", point=veafNamedPoints.pointFromLL(35.754444, 38.566667)},
-        {name="BASSEL AL ASSAD (KHMEIMIM)", point=veafNamedPoints.pointFromLL(35.400833, 35.948611)},
-        {name="HAMA AB", point=veafNamedPoints.pointFromLL(35.118056, 36.711111)},
-        {name="AL QUSAYR AB", point=veafNamedPoints.pointFromLL(34.570833, 36.571944)},
-        {name="PALYMYRA AIRPORT", point=veafNamedPoints.pointFromLL(34.557222, 38.316667)},
-        {name="AN NASIRIYAH AB", point=veafNamedPoints.pointFromLL(33.918889, 36.866389)},
-        {name="AL DUMAYR AB", point=veafNamedPoints.pointFromLL(33.609444, 36.748889)},
-        {name="MEZZEH AB", point=veafNamedPoints.pointFromLL(33.477500, 36.223333)},
-        {name="MARJ AS SULTAN NTH HELIPT", point=veafNamedPoints.pointFromLL(33.500278, 36.466944)},
-        {name="MARJ AS SULTAN STH HELIPT", point=veafNamedPoints.pointFromLL(33.486944, 36.475278)},
-        {name="QABR AS SITT HELIPT", point=veafNamedPoints.pointFromLL(33.458611, 36.357500)},
-        {name="DAMASCUS INTL", point=veafNamedPoints.pointFromLL(33.415000, 36.519444)},
-        {name="MARJ RUHAYYIL AB", point=veafNamedPoints.pointFromLL(33.286389, 36.457222)},
-        {name="KHALKHALAH AB", point=veafNamedPoints.pointFromLL(33.077222, 36.558056)},
+            -- Syrian Airports
+            {name="MINAKH HELIPT", point=veafNamedPoints.pointFromLL(36.521944, 37.041111)},
+            {name="ALEPPO INTL", point=veafNamedPoints.pointFromLL(36.180556, 37.224167)},
+            {name="KUWEIRES AB", point=veafNamedPoints.pointFromLL(36.186944, 37.583056)},
+            {name="JIRAH AB", point=veafNamedPoints.pointFromLL(36.097500, 37.940278)},
+            {name="TAFTANAZ HELIPT", point=veafNamedPoints.pointFromLL(35.972222, 36.783056)},
+            {name="ABU AL DUHUR AB", point=veafNamedPoints.pointFromLL(35.732778, 37.101667)},
+            {name="TABQA AB", point=veafNamedPoints.pointFromLL(35.754444, 38.566667)},
+            {name="BASSEL AL ASSAD (KHMEIMIM)", point=veafNamedPoints.pointFromLL(35.400833, 35.948611)},
+            {name="HAMA AB", point=veafNamedPoints.pointFromLL(35.118056, 36.711111)},
+            {name="AL QUSAYR AB", point=veafNamedPoints.pointFromLL(34.570833, 36.571944)},
+            {name="PALYMYRA AIRPORT", point=veafNamedPoints.pointFromLL(34.557222, 38.316667)},
+            {name="AN NASIRIYAH AB", point=veafNamedPoints.pointFromLL(33.918889, 36.866389)},
+            {name="AL DUMAYR AB", point=veafNamedPoints.pointFromLL(33.609444, 36.748889)},
+            {name="MEZZEH AB", point=veafNamedPoints.pointFromLL(33.477500, 36.223333)},
+            {name="MARJ AS SULTAN NTH HELIPT", point=veafNamedPoints.pointFromLL(33.500278, 36.466944)},
+            {name="MARJ AS SULTAN STH HELIPT", point=veafNamedPoints.pointFromLL(33.486944, 36.475278)},
+            {name="QABR AS SITT HELIPT", point=veafNamedPoints.pointFromLL(33.458611, 36.357500)},
+            {name="DAMASCUS INTL", point=veafNamedPoints.pointFromLL(33.415000, 36.519444)},
+            {name="MARJ RUHAYYIL AB", point=veafNamedPoints.pointFromLL(33.286389, 36.457222)},
+            {name="KHALKHALAH AB", point=veafNamedPoints.pointFromLL(33.077222, 36.558056)},
+            {name="SAYQUAL AB",point=veafNamedPoints.pointFromLL(33.679816, 37.218204)},
+            {name="SHAYRAT AB",point=veafNamedPoints.pointFromLL(34.494819, 36.903173)},
+            {name="TIYAS AB",point=veafNamedPoints.pointFromLL(34.522645, 37.627498)},
+        
+            -- Lebanese Airports
+            {name="RENE MOUAWAD AB", point=veafNamedPoints.pointFromLL(34.589444, 36.011389)},
+            {name="HAJAR AB", point=veafNamedPoints.pointFromLL(34.283333, 35.680278)},
+            {name="BEIRUT INTL", point=veafNamedPoints.pointFromLL(33.821111, 35.488333)},
+            {name="RAYAK AB", point=veafNamedPoints.pointFromLL(33.852222, 35.990278)},
+            {name="NAQOURA HELIPT",point=veafNamedPoints.pointFromLL(33.107877, 35.127728)},
+    
+            -- Israeli Airports
+            {name="KIRYAT SHMONA AIRPORT", point=veafNamedPoints.pointFromLL(33.216667, 35.596667)},
+            {name="HAIFA INTL", point=veafNamedPoints.pointFromLL(32.809167, 35.043056)},
+            {name="RAMAT DAVID INTL", point=veafNamedPoints.pointFromLL(32.665000, 35.179444)},
+            {name="MEGIDDO AIRFIELD", point=veafNamedPoints.pointFromLL(32.597222, 35.228611)},
+            {name="EYN SHEMER AIRFIELD", point=veafNamedPoints.pointFromLL(32.440556, 35.007500)},
+    
+            -- Jordan Airports
+            {name="MAFRAQ AB", point=veafNamedPoints.pointFromLL(32.356389, 36.259167)},
+            {name="H4",point=veafNamedPoints.pointFromLL(32.539122, 38.195841)},
 
-        -- Lebanese Airports
-        {name="RENE MOUAWAD AB", point=veafNamedPoints.pointFromLL(34.589444, 36.011389)},
-        {name="HAJAR AB", point=veafNamedPoints.pointFromLL(34.283333, 35.680278)},
-        {name="BEIRUT INTL", point=veafNamedPoints.pointFromLL(33.821111, 35.488333)},
-        {name="RAYAK AB", point=veafNamedPoints.pointFromLL(33.852222, 35.990278)},
-
-        -- Israeli Airports
-        {name="KIRYAT SHMONA AIRPORT", point=veafNamedPoints.pointFromLL(33.216667, 35.596667)},
-        {name="HAIFA INTL", point=veafNamedPoints.pointFromLL(32.809167, 35.043056)},
-        {name="RAMAT DAVID INTL", point=veafNamedPoints.pointFromLL(32.665000, 35.179444)},
-        {name="MEGIDDO AIRFIELD", point=veafNamedPoints.pointFromLL(32.597222, 35.228611)},
-        {name="EYN SHEMER AIRFIELD", point=veafNamedPoints.pointFromLL(32.440556, 35.007500)},
-
-        -- Jordan Airports
-        {name="MAFRAQ AB", point=veafNamedPoints.pointFromLL(32.356389, 36.259167)},
-
-        -- points of interest
-        {name="RANGE KhalKhalah",point={x=-217000,y=0,z=123000}},
+              -- points of interest
+            {name="RANGE KhalKhalah",point=veafNamedPoints.pointFromLL(33.036180, 37.196608)},
 	}
 
     veafNamedPoints.logInfo("Loading configuration")
