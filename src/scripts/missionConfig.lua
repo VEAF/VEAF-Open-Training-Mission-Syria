@@ -234,61 +234,62 @@ if veafNamedPoints then
 
 	veafNamedPoints.Points = {
                -- Turkish Airports
-            {name="INCIRLIK AB", point=veafNamedPoints.addDataToPoint(veafNamedPoints.pointFromLL(37.001944,35.425833), {atc=true, tower="V129.40, U360.10", tacan="21X", runways={{name="05", hdg=50, ils="109.30"}, {name="23", hdg=230, ils="111.70"}}})},
-            {name="ADANA SAKIRPASA INTL", point=veafNamedPoints.pointFromLL(36.981944, 35.280278)},
-            {name="HATAY AIRPORT", point=veafNamedPoints.pointFromLL(36.360278, 36.285000)},
-            {name="GANZIANTEP",point=veafNamedPoints.pointFromLL(36.947057, 37.478579)},
+            {name="INCIRLIK AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("37.001944", "35.425833"), {atc=true, tower="V129.40, U360.10", tacan="21X", runways={{name="05", hdg=50, ils="109.30"}, {name="23", hdg=230, ils="111.70"}}})},
+            {name="ADANA SAKIRPASA INTL", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("36.981944", "35.280278"), {atc=true, tower="V121.10, U251.00", runways={{name="05", hdg=50, ils="108.70"}, {name="23", hdg=230}}})},
+            {name="HATAY AIRPORT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("36.360278", "36.285000"), {atc=true, tower="V128.50, U250.25", runways={{name="04", hdg=40, ils="108.90"}, {name="22", hdg=220, ils="108.15"}}})},
+            {name="GANZIANTEP",point=veafNamedPoints.addDataToPoint(coord.LLtoLO("36.947057", "37.478579"), {atc=true, tower="V120.10, U250.05", runways={{name="10", hdg=100}, {name="28", hdg=280, ils="109.10"}}})},
 
             -- Syrian Airports
-            {name="MINAKH HELIPT", point=veafNamedPoints.pointFromLL(36.521944, 37.041111)},
-            {name="ALEPPO INTL", point=veafNamedPoints.pointFromLL(36.180556, 37.224167)},
-            {name="KUWEIRES AB", point=veafNamedPoints.pointFromLL(36.186944, 37.583056)},
-            {name="JIRAH AB", point=veafNamedPoints.pointFromLL(36.097500, 37.940278)},
-            {name="TAFTANAZ HELIPT", point=veafNamedPoints.pointFromLL(35.972222, 36.783056)},
-            {name="ABU AL DUHUR AB", point=veafNamedPoints.pointFromLL(35.732778, 37.101667)},
-            {name="TABQA AB", point=veafNamedPoints.pointFromLL(35.754444, 38.566667)},
-            {name="BASSEL AL ASSAD (KHMEIMIM)", point=veafNamedPoints.pointFromLL(35.400833, 35.948611)},
-            {name="HAMA AB", point=veafNamedPoints.pointFromLL(35.118056, 36.711111)},
-            {name="AL QUSAYR AB", point=veafNamedPoints.pointFromLL(34.570833, 36.571944)},
-            {name="PALYMYRA AIRPORT", point=veafNamedPoints.pointFromLL(34.557222, 38.316667)},
-            {name="AN NASIRIYAH AB", point=veafNamedPoints.pointFromLL(33.918889, 36.866389)},
-            {name="AL DUMAYR AB", point=veafNamedPoints.pointFromLL(33.609444, 36.748889)},
-            {name="MEZZEH AB", point=veafNamedPoints.pointFromLL(33.477500, 36.223333)},
-            {name="MARJ AS SULTAN NTH HELIPT", point=veafNamedPoints.pointFromLL(33.500278, 36.466944)},
-            {name="MARJ AS SULTAN STH HELIPT", point=veafNamedPoints.pointFromLL(33.486944, 36.475278)},
-            {name="QABR AS SITT HELIPT", point=veafNamedPoints.pointFromLL(33.458611, 36.357500)},
-            {name="DAMASCUS INTL", point=veafNamedPoints.pointFromLL(33.415000, 36.519444)},
-            {name="MARJ RUHAYYIL AB", point=veafNamedPoints.pointFromLL(33.286389, 36.457222)},
-            {name="KHALKHALAH AB", point=veafNamedPoints.pointFromLL(33.077222, 36.558056)},
-            {name="SAYQUAL AB",point=veafNamedPoints.pointFromLL(33.679816, 37.218204)},
-            {name="SHAYRAT AB",point=veafNamedPoints.pointFromLL(34.494819, 36.903173)},
-            {name="TIYAS AB",point=veafNamedPoints.pointFromLL(34.522645, 37.627498)},
+            {name="MINAKH HELIPT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("36.521944", "37.041111"), {atc=true, tower="V120.60, U250.80", runways={{name="10", hdg=100}, {name="28", hdg=280}}})},
+            {name="ALEPPO INTL", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("36.180556", "37.224167"), {atc=true, tower="V119.10, U250.85", runways={{name="09", hdg=90}, {name="27", hdg=270}}})},
+            {name="KUWEIRES AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("36.186944", "37.583056"), {atc=true, tower="V120.50, U251.10", runways={{name="10", hdg=100}, {name="28", hdg=280}}})},
+            {name="JIRAH AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("36.097500", "37.940278"), {atc=true, tower="V118.10, U250.30", runways={{name="10", hdg=100}, {name="28", hdg=280}}})},
+            {name="TAFTANAZ HELIPT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("35.972222", "36.783056"), {atc=true, tower="V122.80, U251.45", runways={{name="10", hdg=100}, {name="28", hdg=280}}})},
+            {name="ABU AL DUHUR AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("35.732778", "37.101667"), {atc=true, tower="V122.20, U250.45", runways={{name="09", hdg=90}, {name="27", hdg=270}}})},
+            {name="TABQA AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("35.754444", "38.566667"), {atc=true, tower="V118.50, U251.40", runways={{name="09", hdg=90}, {name="27", hdg=270}}})}, 
+            {name="BASSEL AL ASSAD (KHMEIMIM)", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("35.400833", "35.948611"), {atc=true, tower="V118.10, U250.55", runways={{name="17", hdg=170, ils="109.10"}, {name="35", hdg=350}}})}, 
+            {name="HAMA AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("35.118056", "36.711111"), {atc=true, tower="V118.05, U250.20", runways={{name="09", hdg=90}, {name="27", hdg=270}}})},
+            {name="AL QUSAYR AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("34.570833", "36.571944"),  {atc=true, tower="V119.20, U251.55", runways={{name="10", hdg=100}, {name="28", hdg=280}}})}, 
+            {name="PALYMYRA AIRPORT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("34.557222", "38.316667"), {atc=true, tower="V121.90, U250.90", runways={{name="08", hdg=80}, {name="26", hdg=260}}})}, 
+            {name="AN NASIRIYAH AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.918889", "36.866389"), {atc=true, tower="V122.30, U251.65", runways={{name="04", hdg=40}, {name="22", hdg=220}}})},
+            {name="AL DUMAYR AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.609444", "36.748889"), {atc=true, tower="V120.30, U251.95", runways={{name="06", hdg=60}, {name="24", hdg=240}}})}, 
+            {name="MEZZEH AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.477500", "36.223333"), {atc=true, tower="V120.70, U250.75", runways={{name="06", hdg=60}, {name="24", hdg=240}}})}, 
+            {name="MARJ AS SULTAN NTH HELIPT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.500278", "36.466944"), {atc=true, tower="V122.70, U250.60", runways={{name="08", hdg=80}, {name="26", hdg=260}}})}, 
+            {name="MARJ AS SULTAN STH HELIPT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.486944", "36.475278"), {atc=true, tower="V122.90, U251.90", runways={{name="09", hdg=90}, {name="27", hdg=270}}})}, 
+            {name="QABR AS SITT HELIPT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.458611", "36.357500"), {atc=true, tower="V122.60, U250.95", runways={{name="05", hdg=50}, {name="23", hdg=230}}})},
+            {name="DAMASCUS INTL", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.415000", "36.519444"), {atc=true, tower="V118.50, U251.85", runways={{name="05", hdg=50}, {name="23", hdg=230, ils="109.90"}}})},
+            {name="MARJ RUHAYYIL AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.286389", "36.457222"), {atc=true, tower="V120.80, U250.65", runways={{name="06", hdg=60}, {name="24", hdg=240}}})},
+            {name="KHALKHALAH AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.077222", "36.558056"), {atc=true, tower="V122.50, U250.35", runways={{name="07", hdg=70}, {name="25", hdg=250}}})},
+            {name="SAYQUAL AB",point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.679816", "37.218204"), {atc=true, tower="V120.40, U251.30", runways={{name="08", hdg=80}, {name="26", hdg=260}}})}, 
+            {name="SHAYRAT AB",point=veafNamedPoints.addDataToPoint(coord.LLtoLO("34.494819", "36.903173"), {atc=true, tower="V120.20, U251.35", runways={{name="11", hdg=110}, {name="29", hdg=290}}})},
+            {name="TIYAS AB",point=veafNamedPoints.addDataToPoint(coord.LLtoLO("34.522645", "37.627498"), {atc=true, tower="V120.50, U251.50", runways={{name="09", hdg=90}, {name="27", hdg=270}}})},
         
             -- Lebanese Airports
-            {name="RENE MOUAWAD AB", point=veafNamedPoints.pointFromLL(34.589444, 36.011389)},
-            {name="HAJAR AB", point=veafNamedPoints.pointFromLL(34.283333, 35.680278)},
-            {name="BEIRUT INTL", point=veafNamedPoints.pointFromLL(33.821111, 35.488333)},
-            {name="RAYAK AB", point=veafNamedPoints.pointFromLL(33.852222, 35.990278)},
-            {name="NAQOURA HELIPT",point=veafNamedPoints.pointFromLL(33.107877, 35.127728)},
+            {name="RENE MOUAWAD AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("34.589444", "36.011389"), {atc=true, tower="V121.00, U251.20", runways={{name="06", hdg=60}, {name="24", hdg=240}}})},
+            {name="HAJAR AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("34.283333", "35.680278"),  {atc=true, tower="V121.50, U251.60", runways={{name="02", hdg=20}, {name="20", hdg=200}}})},
+            {name="BEIRUT INTL", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.821111", "35.488333"), {atc=true, tower="V118.90, U251.80", runways={{name="07", hdg=70, ils="109.50"}, {name="35", hdg=350}}})},
+            {name="RAYAK AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.852222", "35.990278"),  {atc=true, tower="V124.40, U251.15", runways={{name="04", hdg=40}, {name="22", hdg=220}}})},
+            {name="NAQOURA HELIPT",point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.107877", "35.127728"), {atc=true, tower="V122.00, U251.70"})},
     
             -- Israeli Airports
-            {name="KIRYAT SHMONA AIRPORT", point=veafNamedPoints.pointFromLL(33.216667, 35.596667)},
-            {name="HAIFA INTL", point=veafNamedPoints.pointFromLL(32.809167, 35.043056)},
-            {name="RAMAT DAVID INTL", point=veafNamedPoints.pointFromLL(32.665000, 35.179444)},
-            {name="MEGIDDO AIRFIELD", point=veafNamedPoints.pointFromLL(32.597222, 35.228611)},
-            {name="EYN SHEMER AIRFIELD", point=veafNamedPoints.pointFromLL(32.440556, 35.007500)},
+            {name="KIRYAT SHMONA AIRPORT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.216667", "35.596667"), {atc=true, tower="V118.40, U250.50", runways={{name="03", hdg=30}, {name="21", hdg=210}}})},
+            {name="HAIFA INTL", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("32.809167", "35.043056"), {atc=true, tower="V127.80, U250.15", runways={{name="16", hdg=160}, {name="34", hdg=340}}})},
+            {name="RAMAT DAVID INTL", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("32.665000", "35.179444"), {atc=true, tower="V118.60, U251.05", runways={{name="09", hdg=90}, {name="27", hdg=270}}})}, 
+            {name="MEGIDDO AIRFIELD", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("32.597222", "35.228611"), {atc=true, tower="V119.90, U250.70", runways={{name="09", hdg=90}, {name="27", hdg=270}}})}, 
+            {name="EYN SHEMER AIRFIELD", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("32.440556", "35.007500"), {atc=true, tower="V123.40, U250.00", runways={{name="09", hdg=90}, {name="27", hdg=270}}})}, 
     
             -- Jordan Airports
-            {name="MAFRAQ AB", point=veafNamedPoints.pointFromLL(32.356389, 36.259167)},
-            {name="H4",point=veafNamedPoints.pointFromLL(32.539122, 38.195841)},
+            {name="MAFRAQ AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("32.356389", "36.259167"), {atc=true, tower="V118.30, U250.40", runways={{name="13", hdg=130}, {name="31", hdg=310}}})},
+            {name="H4",point=veafNamedPoints.addDataToPoint(coord.LLtoLO("32.539122", "38.195841"), {atc=true, tower="V122.60, U250.10", runways={{name="10", hdg=100}, {name="28", hdg=280}}})}, 
 
               -- points of interest
-            {name="RANGE KhalKhalah",point=veafNamedPoints.pointFromLL(33.036180, 37.196608)},
+            {name="RANGE KhalKhalah",point=coord.LLtoLO("33.036180", "37.196608")},
 	}
 
     veafNamedPoints.logInfo("Loading configuration")
 
     veafNamedPoints.logInfo("init - veafNamedPoints")
+
     veafNamedPoints.initialize()
     if theatre == "syria" then
         veafNamedPoints.addAllSyriaCities()
