@@ -5199,6 +5199,10 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 241.52777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -5208,13 +5212,9 @@ mission = {
                                                         [1] = {
                                                             ["auto"] = true,
                                                             ["enabled"] = true,
-                                                            ["id"] = "Orbit",
+                                                            ["id"] = "Tanker",
                                                             ["number"] = 1,
                                                             ["params"] = {
-                                                                ["altitude"] = 6705.6,
-                                                                ["pattern"] = "Race-Track",
-                                                                ["speed"] = 241.52777777778,
-                                                                ["speedEdited"] = true,
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
                                                         [2] = {
@@ -5250,10 +5250,14 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6705.6,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 146.29927346684,
+                                            ["ETA"] = 22.916648218946,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 241.52777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -5266,9 +5270,10 @@ mission = {
                                                             ["id"] = "Orbit",
                                                             ["number"] = 1,
                                                             ["params"] = {
-                                                                ["altitude"] = 6705.6,
+                                                                ["altitude"] = 7010.4,
+                                                                ["altitudeEdited"] = true,
                                                                 ["pattern"] = "Race-Track",
-                                                                ["speed"] = 241.52777777778,
+                                                                ["speed"] = 224.56944444444,
                                                                 ["speedEdited"] = true,
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
@@ -5571,6 +5576,10 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 241.52777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -5618,10 +5627,14 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6705.6,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 96.970926841777,
+                                            ["ETA"] = 16.144508514958,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 241.52777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -5636,7 +5649,7 @@ mission = {
                                                             ["params"] = {
                                                                 ["altitude"] = 6705.6,
                                                                 ["pattern"] = "Race-Track",
-                                                                ["speed"] = 241.52777777778,
+                                                                ["speed"] = 223.54166666667,
                                                                 ["speedEdited"] = true,
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
@@ -5927,6 +5940,10 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 241.52777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -5974,10 +5991,14 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 57.604001740855,
+                                            ["ETA"] = 24.633556784119,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 241.52777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -5990,9 +6011,10 @@ mission = {
                                                             ["id"] = "Orbit",
                                                             ["number"] = 1,
                                                             ["params"] = {
-                                                                ["altitude"] = 6096,
+                                                                ["altitude"] = 6401.1048,
+                                                                ["altitudeEdited"] = true,
                                                                 ["pattern"] = "Race-Track",
-                                                                ["speed"] = 241.52777777778,
+                                                                ["speed"] = 223.54166666667,
                                                                 ["speedEdited"] = true,
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
@@ -6295,6 +6317,10 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 241.52777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -6342,10 +6368,14 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6705.6,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 63.920299526397,
+                                            ["ETA"] = 26.01434910325,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 241.52777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -6360,7 +6390,7 @@ mission = {
                                                             ["params"] = {
                                                                 ["altitude"] = 6705.6,
                                                                 ["pattern"] = "Race-Track",
-                                                                ["speed"] = 241.52777777778,
+                                                                ["speed"] = 223.54166666667,
                                                                 ["speedEdited"] = true,
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
@@ -51030,7 +51060,7 @@ mission = {
             [8] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 240823,
+    ["currentKey"] = 244841,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -57299,9 +57329,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -155596.75855968,
-        ["centerY"] = 137591.78143352,
-        ["zoom"] = 8544.6952577483,
+        ["centerX"] = 143159.76331361,
+        ["centerY"] = 0,
+        ["zoom"] = 800788.95463511,
     }, -- end of ["map"]
     ["maxDictId"] = 1914,
     ["pictureFileNameB"] = {
