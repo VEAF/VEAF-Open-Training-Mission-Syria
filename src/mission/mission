@@ -4502,10 +4502,6 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 41.666666666667,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -4547,7 +4543,7 @@ mission = {
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 5.4454272662223,
                                         ["livery_id"] = "USA UN",
-                                        ["name"] = "helicargo #701",
+                                        ["name"] = "helicargo #016",
                                         ["onboard_num"] = "092",
                                         ["parking"] = "7",
                                         ["parking_id"] = "H07",
@@ -4619,10 +4615,6 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 41.666666666667,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -4664,7 +4656,7 @@ mission = {
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 5.4454272662223,
                                         ["livery_id"] = "USA UN",
-                                        ["name"] = "helicargo #702",
+                                        ["name"] = "helicargo #017",
                                         ["onboard_num"] = "092",
                                         ["parking"] = "4",
                                         ["parking_id"] = "H08",
@@ -4736,10 +4728,6 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 41.666666666667,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -4781,7 +4769,7 @@ mission = {
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 5.4454272662223,
                                         ["livery_id"] = "USA UN",
-                                        ["name"] = "helicargo #703",
+                                        ["name"] = "helicargo #018",
                                         ["onboard_num"] = "092",
                                         ["parking"] = "6",
                                         ["parking_id"] = "H05",
@@ -4853,10 +4841,6 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 41.666666666667,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -4898,7 +4882,7 @@ mission = {
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 5.4454272662223,
                                         ["livery_id"] = "USA UN",
-                                        ["name"] = "helicargo #704",
+                                        ["name"] = "helicargo #019",
                                         ["onboard_num"] = "092",
                                         ["parking"] = "5",
                                         ["parking_id"] = "H03",
@@ -29555,10 +29539,6 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 41.666666666667,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -29604,7 +29584,7 @@ mission = {
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 5.4454272662223,
                                         ["livery_id"] = "France NAVY",
-                                        ["name"] = "helicargo #801",
+                                        ["name"] = "helicargo #020",
                                         ["onboard_num"] = "092",
                                         ["parking"] = "2",
                                         ["parking_id"] = "H04",
@@ -29692,10 +29672,6 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 41.666666666667,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -29741,7 +29717,7 @@ mission = {
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 5.4454272662223,
                                         ["livery_id"] = "France NAVY",
-                                        ["name"] = "helicargo #802",
+                                        ["name"] = "helicargo #021",
                                         ["onboard_num"] = "092",
                                         ["parking"] = "3",
                                         ["parking_id"] = "H06",
@@ -29829,10 +29805,6 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 41.666666666667,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -29878,7 +29850,7 @@ mission = {
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 5.4454272662223,
                                         ["livery_id"] = "France NAVY",
-                                        ["name"] = "helicargo #803",
+                                        ["name"] = "helicargo #022",
                                         ["onboard_num"] = "092",
                                         ["parking"] = "1",
                                         ["parking_id"] = "H02",
@@ -29966,10 +29938,6 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 41.666666666667,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -30015,7 +29983,7 @@ mission = {
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 5.4454272662223,
                                         ["livery_id"] = "France NAVY",
-                                        ["name"] = "helicargo #804",
+                                        ["name"] = "helicargo #023",
                                         ["onboard_num"] = "092",
                                         ["parking"] = "0",
                                         ["parking_id"] = "H01",
@@ -52188,7 +52156,7 @@ mission = {
             [8] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 253305,
+    ["currentKey"] = 255406,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -58457,8 +58425,8 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -210427.9225646,
-        ["centerY"] = -77852.92201645,
+        ["centerX"] = -210222.41121078,
+        ["centerY"] = -77965.492560159,
         ["zoom"] = 9400.9147856136,
     }, -- end of ["map"]
     ["maxDictId"] = 1914,

@@ -521,15 +521,15 @@ if ctld then
     }
 
     for i = 1, 24 do
-        table.insert(ctld.transportPilotNames, "yak"..i)
+        table.insert(ctld.transportPilotNames, string.format("yak #%03d",i))
     end
 
     for i = 1, 10 do
-        table.insert(ctld.transportPilotNames, "transport"..i)
+        table.insert(ctld.transportPilotNames, string.format("transport #%03d",i))
     end
 
     for i = 1, 79 do
-        table.insert(ctld.transportPilotNames, "helicargo"..i)
+        table.insert(ctld.transportPilotNames, string.format("helicargo #%03d",i))
     end
 
     -- *************** Optional Extractable GROUPS *****************
