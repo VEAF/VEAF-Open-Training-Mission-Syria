@@ -1088,6 +1088,10 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 55.555555555556,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -1560,6 +1564,10 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 55.555555555556,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -1844,6 +1852,10 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 55.555555555556,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -1986,6 +1998,10 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 46.25,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -3981,6 +3997,10 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 55.555555555556,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -4103,6 +4123,10 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 55.555555555556,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -4225,6 +4249,10 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 55.555555555556,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -4347,6 +4375,10 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 55.555555555556,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -4451,6 +4483,474 @@ mission = {
                                 ["x"] = -225933.04036921,
                                 ["y"] = -37622.082256123,
                             }, -- end of [13]
+                            [14] = {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 1466,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "UH-1H Naqoura-1",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 52,
+                                            ["alt"] = 116,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 41.666666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -209930.640625,
+                                            ["y"] = -78770.2109375,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Transport",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["EngineResource"] = 90,
+                                            ["ExhaustScreen"] = true,
+                                            ["GunnersAISkill"] = 90,
+                                            ["NetCrewControlPriority"] = 0,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 116,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 1,
+                                            [2] = 3,
+                                            [3] = 1,
+                                            ["name"] = "Enfield31",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 5.4454272662223,
+                                        ["livery_id"] = "USA UN",
+                                        ["name"] = "helicargo #701",
+                                        ["onboard_num"] = "092",
+                                        ["parking"] = "7",
+                                        ["parking_id"] = "H07",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 60,
+                                            ["fuel"] = "631",
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4454272662223,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 251,
+                                                    [2] = 264,
+                                                    [3] = 265,
+                                                    [4] = 256,
+                                                    [5] = 254,
+                                                    [6] = 250,
+                                                    [7] = 270,
+                                                    [8] = 257,
+                                                    [9] = 255,
+                                                    [10] = 262,
+                                                    [11] = 259,
+                                                    [12] = 268,
+                                                    [13] = 269,
+                                                    [14] = 260,
+                                                    [15] = 263,
+                                                    [16] = 261,
+                                                    [17] = 267,
+                                                    [18] = 251,
+                                                    [19] = 253,
+                                                    [20] = 266,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "UH-1H",
+                                        ["unitId"] = 3210,
+                                        ["x"] = -209930.640625,
+                                        ["y"] = -78770.2109375,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -209930.640625,
+                                ["y"] = -78770.2109375,
+                            }, -- end of [14]
+                            [15] = {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 1467,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "UH-1H Naqoura-2",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 52,
+                                            ["alt"] = 116,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 41.666666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -210058.65625,
+                                            ["y"] = -78711.3203125,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Transport",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["EngineResource"] = 90,
+                                            ["ExhaustScreen"] = true,
+                                            ["GunnersAISkill"] = 90,
+                                            ["NetCrewControlPriority"] = 0,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 116,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 1,
+                                            [2] = 3,
+                                            [3] = 1,
+                                            ["name"] = "Enfield31",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 5.4454272662223,
+                                        ["livery_id"] = "USA UN",
+                                        ["name"] = "helicargo #702",
+                                        ["onboard_num"] = "092",
+                                        ["parking"] = "4",
+                                        ["parking_id"] = "H08",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 60,
+                                            ["fuel"] = "631",
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4454272662223,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 251,
+                                                    [2] = 264,
+                                                    [3] = 265,
+                                                    [4] = 256,
+                                                    [5] = 254,
+                                                    [6] = 250,
+                                                    [7] = 270,
+                                                    [8] = 257,
+                                                    [9] = 255,
+                                                    [10] = 262,
+                                                    [11] = 259,
+                                                    [12] = 268,
+                                                    [13] = 269,
+                                                    [14] = 260,
+                                                    [15] = 263,
+                                                    [16] = 261,
+                                                    [17] = 267,
+                                                    [18] = 251,
+                                                    [19] = 253,
+                                                    [20] = 266,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "UH-1H",
+                                        ["unitId"] = 3211,
+                                        ["x"] = -210058.65625,
+                                        ["y"] = -78711.3203125,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -210058.65625,
+                                ["y"] = -78711.3203125,
+                            }, -- end of [15]
+                            [16] = {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 1468,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "UH-1H Naqoura-3",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 52,
+                                            ["alt"] = 115,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 41.666666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -209899.1875,
+                                            ["y"] = -78671.0703125,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Transport",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["EngineResource"] = 90,
+                                            ["ExhaustScreen"] = true,
+                                            ["GunnersAISkill"] = 90,
+                                            ["NetCrewControlPriority"] = 0,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 115,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 1,
+                                            [2] = 3,
+                                            [3] = 1,
+                                            ["name"] = "Enfield31",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 5.4454272662223,
+                                        ["livery_id"] = "USA UN",
+                                        ["name"] = "helicargo #703",
+                                        ["onboard_num"] = "092",
+                                        ["parking"] = "6",
+                                        ["parking_id"] = "H05",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 60,
+                                            ["fuel"] = "631",
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4454272662223,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 251,
+                                                    [2] = 264,
+                                                    [3] = 265,
+                                                    [4] = 256,
+                                                    [5] = 254,
+                                                    [6] = 250,
+                                                    [7] = 270,
+                                                    [8] = 257,
+                                                    [9] = 255,
+                                                    [10] = 262,
+                                                    [11] = 259,
+                                                    [12] = 268,
+                                                    [13] = 269,
+                                                    [14] = 260,
+                                                    [15] = 263,
+                                                    [16] = 261,
+                                                    [17] = 267,
+                                                    [18] = 251,
+                                                    [19] = 253,
+                                                    [20] = 266,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "UH-1H",
+                                        ["unitId"] = 3212,
+                                        ["x"] = -209899.1875,
+                                        ["y"] = -78671.0703125,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -209899.1875,
+                                ["y"] = -78671.0703125,
+                            }, -- end of [16]
+                            [17] = {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 1469,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "UH-1H Naqoura-4",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 52,
+                                            ["alt"] = 115,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 41.666666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -209858.875,
+                                            ["y"] = -78579.859375,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Transport",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["EngineResource"] = 90,
+                                            ["ExhaustScreen"] = true,
+                                            ["GunnersAISkill"] = 90,
+                                            ["NetCrewControlPriority"] = 0,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 115,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 1,
+                                            [2] = 3,
+                                            [3] = 1,
+                                            ["name"] = "Enfield31",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 5.4454272662223,
+                                        ["livery_id"] = "USA UN",
+                                        ["name"] = "helicargo #704",
+                                        ["onboard_num"] = "092",
+                                        ["parking"] = "5",
+                                        ["parking_id"] = "H03",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 60,
+                                            ["fuel"] = "631",
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4454272662223,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 251,
+                                                    [2] = 264,
+                                                    [3] = 265,
+                                                    [4] = 256,
+                                                    [5] = 254,
+                                                    [6] = 250,
+                                                    [7] = 270,
+                                                    [8] = 257,
+                                                    [9] = 255,
+                                                    [10] = 262,
+                                                    [11] = 259,
+                                                    [12] = 268,
+                                                    [13] = 269,
+                                                    [14] = 260,
+                                                    [15] = 263,
+                                                    [16] = 261,
+                                                    [17] = 267,
+                                                    [18] = 251,
+                                                    [19] = 253,
+                                                    [20] = 266,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "UH-1H",
+                                        ["unitId"] = 3213,
+                                        ["x"] = -209858.875,
+                                        ["y"] = -78579.859375,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -209858.875,
+                                ["y"] = -78579.859375,
+                            }, -- end of [17]
                         }, -- end of ["group"]
                     }, -- end of ["helicopter"]
                     ["id"] = 2,
@@ -9421,6 +9921,10 @@ mission = {
                                             ["helipadId"] = 20,
                                             ["linkUnit"] = 20,
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -10300,6 +10804,10 @@ mission = {
                                             ["helipadId"] = 20,
                                             ["linkUnit"] = 20,
                                             ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
                                             ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -28954,10 +29462,630 @@ mission = {
                                 ["x"] = 215364.46895773,
                                 ["y"] = -33237.875316651,
                             }, -- end of [5]
+                            [6] = {
+                                ["groupId"] = 1474,
+                                ["hidden"] = false,
+                                ["name"] = "Logi-Naqoura",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 115,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -209923.17202862,
+                                            ["y"] = -78609.212806423,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] = {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["heading"] = 1.1868238913561,
+                                        ["name"] = "logistic #001",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Excellent",
+                                        ["transportable"] = {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "M 818",
+                                        ["unitId"] = 3218,
+                                        ["x"] = -209923.17202862,
+                                        ["y"] = -78609.212806423,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["heading"] = 1.1519173063163,
+                                        ["name"] = "Logi-Naqoura-2",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Excellent",
+                                        ["transportable"] = {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "M978 HEMTT Tanker",
+                                        ["unitId"] = 3219,
+                                        ["x"] = -209959.72084761,
+                                        ["y"] = -78596.651730898,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -209923.17202862,
+                                ["y"] = -78609.212806423,
+                            }, -- end of [6]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [2]
                 [3] = {
+                    ["helicopter"] = {
+                        ["group"] = {
+                            [1] = {
+                                ["communication"] = true,
+                                ["frequency"] = 127.5,
+                                ["groupId"] = 1470,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "Mi8 Naqoura-1",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 52,
+                                            ["alt"] = 115,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 41.666666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -209981.640625,
+                                            ["y"] = -78541.1796875,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["AdditionalArmor"] = true,
+                                            ["CargoHalfdoor"] = true,
+                                            ["ExhaustScreen"] = true,
+                                            ["GunnersAISkill"] = 90,
+                                            ["LeftEngineResource"] = 90,
+                                            ["NetCrewControlPriority"] = 1,
+                                            ["NS430allow"] = true,
+                                            ["RightEngineResource"] = 90,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 115,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Enfield11",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 5.4454272662223,
+                                        ["livery_id"] = "France NAVY",
+                                        ["name"] = "helicargo #801",
+                                        ["onboard_num"] = "092",
+                                        ["parking"] = "2",
+                                        ["parking_id"] = "H04",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1929",
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4454272662223,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 127.5,
+                                                    [2] = 135,
+                                                    [3] = 136,
+                                                    [4] = 127,
+                                                    [5] = 125,
+                                                    [6] = 121,
+                                                    [7] = 141,
+                                                    [8] = 128,
+                                                    [9] = 126,
+                                                    [10] = 133,
+                                                    [11] = 130,
+                                                    [12] = 129,
+                                                    [13] = 123,
+                                                    [14] = 131,
+                                                    [15] = 134,
+                                                    [16] = 132,
+                                                    [17] = 138,
+                                                    [18] = 122,
+                                                    [19] = 124,
+                                                    [20] = 137,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 21.5,
+                                                    [2] = 25.7,
+                                                    [3] = 27,
+                                                    [4] = 28,
+                                                    [5] = 30,
+                                                    [6] = 32,
+                                                    [7] = 40,
+                                                    [8] = 50,
+                                                    [9] = 55.5,
+                                                    [10] = 59.9,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "Mi-8MT",
+                                        ["unitId"] = 3214,
+                                        ["x"] = -209981.640625,
+                                        ["y"] = -78541.1796875,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -209981.640625,
+                                ["y"] = -78541.1796875,
+                            }, -- end of [1]
+                            [2] = {
+                                ["communication"] = true,
+                                ["frequency"] = 127.5,
+                                ["groupId"] = 1471,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "Mi8 Naqoura-2",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 52,
+                                            ["alt"] = 115,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 41.666666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -210024.25,
+                                            ["y"] = -78626.3984375,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["AdditionalArmor"] = true,
+                                            ["CargoHalfdoor"] = true,
+                                            ["ExhaustScreen"] = true,
+                                            ["GunnersAISkill"] = 90,
+                                            ["LeftEngineResource"] = 90,
+                                            ["NetCrewControlPriority"] = 1,
+                                            ["NS430allow"] = true,
+                                            ["RightEngineResource"] = 90,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 115,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Enfield11",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 5.4454272662223,
+                                        ["livery_id"] = "France NAVY",
+                                        ["name"] = "helicargo #802",
+                                        ["onboard_num"] = "092",
+                                        ["parking"] = "3",
+                                        ["parking_id"] = "H06",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1929",
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4454272662223,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 127.5,
+                                                    [2] = 135,
+                                                    [3] = 136,
+                                                    [4] = 127,
+                                                    [5] = 125,
+                                                    [6] = 121,
+                                                    [7] = 141,
+                                                    [8] = 128,
+                                                    [9] = 126,
+                                                    [10] = 133,
+                                                    [11] = 130,
+                                                    [12] = 129,
+                                                    [13] = 123,
+                                                    [14] = 131,
+                                                    [15] = 134,
+                                                    [16] = 132,
+                                                    [17] = 138,
+                                                    [18] = 122,
+                                                    [19] = 124,
+                                                    [20] = 137,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 21.5,
+                                                    [2] = 25.7,
+                                                    [3] = 27,
+                                                    [4] = 28,
+                                                    [5] = 30,
+                                                    [6] = 32,
+                                                    [7] = 40,
+                                                    [8] = 50,
+                                                    [9] = 55.5,
+                                                    [10] = 59.9,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "Mi-8MT",
+                                        ["unitId"] = 3215,
+                                        ["x"] = -210024.25,
+                                        ["y"] = -78626.3984375,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -210024.25,
+                                ["y"] = -78626.3984375,
+                            }, -- end of [2]
+                            [3] = {
+                                ["communication"] = true,
+                                ["frequency"] = 127.5,
+                                ["groupId"] = 1472,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "Mi8 Naqoura-3",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 52,
+                                            ["alt"] = 115,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 41.666666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -209946.015625,
+                                            ["y"] = -78453.2109375,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["AdditionalArmor"] = true,
+                                            ["CargoHalfdoor"] = true,
+                                            ["ExhaustScreen"] = true,
+                                            ["GunnersAISkill"] = 90,
+                                            ["LeftEngineResource"] = 90,
+                                            ["NetCrewControlPriority"] = 1,
+                                            ["NS430allow"] = true,
+                                            ["RightEngineResource"] = 90,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 115,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Enfield11",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 5.4454272662223,
+                                        ["livery_id"] = "France NAVY",
+                                        ["name"] = "helicargo #803",
+                                        ["onboard_num"] = "092",
+                                        ["parking"] = "1",
+                                        ["parking_id"] = "H02",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1929",
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4454272662223,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 127.5,
+                                                    [2] = 135,
+                                                    [3] = 136,
+                                                    [4] = 127,
+                                                    [5] = 125,
+                                                    [6] = 121,
+                                                    [7] = 141,
+                                                    [8] = 128,
+                                                    [9] = 126,
+                                                    [10] = 133,
+                                                    [11] = 130,
+                                                    [12] = 129,
+                                                    [13] = 123,
+                                                    [14] = 131,
+                                                    [15] = 134,
+                                                    [16] = 132,
+                                                    [17] = 138,
+                                                    [18] = 122,
+                                                    [19] = 124,
+                                                    [20] = 137,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 21.5,
+                                                    [2] = 25.7,
+                                                    [3] = 27,
+                                                    [4] = 28,
+                                                    [5] = 30,
+                                                    [6] = 32,
+                                                    [7] = 40,
+                                                    [8] = 50,
+                                                    [9] = 55.5,
+                                                    [10] = 59.9,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "Mi-8MT",
+                                        ["unitId"] = 3216,
+                                        ["x"] = -209946.015625,
+                                        ["y"] = -78453.2109375,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -209946.015625,
+                                ["y"] = -78453.2109375,
+                            }, -- end of [3]
+                            [4] = {
+                                ["communication"] = true,
+                                ["frequency"] = 127.5,
+                                ["groupId"] = 1473,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "Mi8 Naqoura-4",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 52,
+                                            ["alt"] = 115,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 41.666666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -209818.171875,
+                                            ["y"] = -78489.2578125,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["AdditionalArmor"] = true,
+                                            ["CargoHalfdoor"] = true,
+                                            ["ExhaustScreen"] = true,
+                                            ["GunnersAISkill"] = 90,
+                                            ["LeftEngineResource"] = 90,
+                                            ["NetCrewControlPriority"] = 1,
+                                            ["NS430allow"] = true,
+                                            ["RightEngineResource"] = 90,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 115,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Enfield11",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 5.4454272662223,
+                                        ["livery_id"] = "France NAVY",
+                                        ["name"] = "helicargo #804",
+                                        ["onboard_num"] = "092",
+                                        ["parking"] = "0",
+                                        ["parking_id"] = "H01",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1929",
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -5.4454272662223,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 127.5,
+                                                    [2] = 135,
+                                                    [3] = 136,
+                                                    [4] = 127,
+                                                    [5] = 125,
+                                                    [6] = 121,
+                                                    [7] = 141,
+                                                    [8] = 128,
+                                                    [9] = 126,
+                                                    [10] = 133,
+                                                    [11] = 130,
+                                                    [12] = 129,
+                                                    [13] = 123,
+                                                    [14] = 131,
+                                                    [15] = 134,
+                                                    [16] = 132,
+                                                    [17] = 138,
+                                                    [18] = 122,
+                                                    [19] = 124,
+                                                    [20] = 137,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 21.5,
+                                                    [2] = 25.7,
+                                                    [3] = 27,
+                                                    [4] = 28,
+                                                    [5] = 30,
+                                                    [6] = 32,
+                                                    [7] = 40,
+                                                    [8] = 50,
+                                                    [9] = 55.5,
+                                                    [10] = 59.9,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "Mi-8MT",
+                                        ["unitId"] = 3217,
+                                        ["x"] = -209818.171875,
+                                        ["y"] = -78489.2578125,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -209818.171875,
+                                ["y"] = -78489.2578125,
+                            }, -- end of [4]
+                        }, -- end of ["group"]
+                    }, -- end of ["helicopter"]
                     ["id"] = 5,
                     ["name"] = "France",
                     ["plane"] = {
@@ -51060,7 +52188,7 @@ mission = {
             [8] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 244841,
+    ["currentKey"] = 253305,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -57329,9 +58457,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = 143159.76331361,
-        ["centerY"] = 0,
-        ["zoom"] = 800788.95463511,
+        ["centerX"] = -210427.9225646,
+        ["centerY"] = -77852.92201645,
+        ["zoom"] = 9400.9147856136,
     }, -- end of ["map"]
     ["maxDictId"] = 1914,
     ["pictureFileNameB"] = {
@@ -57590,6 +58718,23 @@ mission = {
                 ["y"] = 24856.789707787,
                 ["zoneId"] = 2110,
             }, -- end of [10]
+            [11] = {
+                ["color"] = {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "pickzone3",
+                ["properties"] = {
+                }, -- end of ["properties"]
+                ["radius"] = 1200.6072,
+                ["type"] = 0,
+                ["x"] = -209928.30805276,
+                ["y"] = -78592.605938315,
+                ["zoneId"] = 2171,
+            }, -- end of [11]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] = {
