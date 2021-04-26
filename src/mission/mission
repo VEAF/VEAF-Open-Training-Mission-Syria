@@ -4375,10 +4375,6 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 55.555555555556,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -4389,8 +4385,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffGround",
-                                            ["x"] = -225933.04036921,
-                                            ["y"] = -37622.082256123,
+                                            ["x"] = -225801.49980893,
+                                            ["y"] = -37489.484309624,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -4476,12 +4472,12 @@ mission = {
                                         ["speed"] = 55.555555555556,
                                         ["type"] = "UH-1H",
                                         ["unitId"] = 3145,
-                                        ["x"] = -225933.04036921,
-                                        ["y"] = -37622.082256123,
+                                        ["x"] = -225801.49980893,
+                                        ["y"] = -37489.484309624,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -225933.04036921,
-                                ["y"] = -37622.082256123,
+                                ["x"] = -225801.49980893,
+                                ["y"] = -37489.484309624,
                             }, -- end of [13]
                             [14] = {
                                 ["communication"] = true,
@@ -28402,8 +28398,8 @@ mission = {
                             [1] = {
                                 ["dead"] = false,
                                 ["groupId"] = 1449,
-                                ["heading"] = 0,
-                                ["name"] = "pickzone1",
+                                ["heading"] = 4.2236967898263,
+                                ["name"] = "Logi-RoshPina",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -28413,8 +28409,8 @@ mission = {
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = -225524.5333308,
-                                            ["y"] = -37594.764629619,
+                                            ["x"] = -225742.33867665,
+                                            ["y"] = -37475.379581203,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -28423,24 +28419,24 @@ mission = {
                                         ["category"] = "Fortifications",
                                         ["effectPreset"] = "1",
                                         ["effectTransparency"] = 1,
-                                        ["heading"] = 0,
+                                        ["heading"] = 4.2236967898263,
                                         ["name"] = "logistic #001",
                                         ["rate"] = 50,
                                         ["shape_name"] = "SetkaKP",
                                         ["type"] = "FARP Ammo Dump Coating",
                                         ["unitId"] = 3154,
-                                        ["x"] = -225524.5333308,
-                                        ["y"] = -37594.764629619,
+                                        ["x"] = -225742.33867665,
+                                        ["y"] = -37475.379581203,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -225524.5333308,
-                                ["y"] = -37594.764629619,
+                                ["x"] = -225742.33867665,
+                                ["y"] = -37475.379581203,
                             }, -- end of [1]
                             [2] = {
                                 ["dead"] = false,
                                 ["groupId"] = 1450,
                                 ["heading"] = 0,
-                                ["name"] = "pickzone2",
+                                ["name"] = "Logi-Mezzeh",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -28450,8 +28446,8 @@ mission = {
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = -172527.32038219,
-                                            ["y"] = 24896.803281753,
+                                            ["x"] = -172526.58110784,
+                                            ["y"] = 24894.585458706,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -28466,12 +28462,12 @@ mission = {
                                         ["shape_name"] = "SetkaKP",
                                         ["type"] = "FARP Ammo Dump Coating",
                                         ["unitId"] = 3155,
-                                        ["x"] = -172527.32038219,
-                                        ["y"] = 24896.803281753,
+                                        ["x"] = -172526.58110784,
+                                        ["y"] = 24894.585458706,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -172527.32038219,
-                                ["y"] = 24896.803281753,
+                                ["x"] = -172526.58110784,
+                                ["y"] = 24894.585458706,
                             }, -- end of [2]
                             [3] = {
                                 ["dead"] = false,
@@ -29494,7 +29490,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["heading"] = 1.1519173063163,
-                                        ["name"] = "Logi-Naqoura-2",
+                                        ["name"] = "logistic #004",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["transportable"] = {
@@ -52152,7 +52148,7 @@ mission = {
             [8] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 265779,
+    ["currentKey"] = 269941,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -58421,9 +58417,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -209952.40622426,
-        ["centerY"] = -78570.745540877,
-        ["zoom"] = 689.23962770656,
+        ["centerX"] = -225727.67047007,
+        ["centerY"] = -37719.175586054,
+        ["zoom"] = 2496.6443090246,
     }, -- end of ["map"]
     ["maxDictId"] = 1914,
     ["pictureFileNameB"] = {
@@ -58659,10 +58655,10 @@ mission = {
                 ["name"] = "pickzone1",
                 ["properties"] = {
                 }, -- end of ["properties"]
-                ["radius"] = 60.96,
+                ["radius"] = 182.88,
                 ["type"] = 0,
-                ["x"] = -225523.16698369,
-                ["y"] = -37592.650795351,
+                ["x"] = -225742.38190465,
+                ["y"] = -37477.285073083,
                 ["zoneId"] = 2109,
             }, -- end of [9]
             [10] = {
@@ -58676,10 +58672,10 @@ mission = {
                 ["name"] = "pickzone2",
                 ["properties"] = {
                 }, -- end of ["properties"]
-                ["radius"] = 60.96,
+                ["radius"] = 182.88,
                 ["type"] = 0,
-                ["x"] = -172513.22036089,
-                ["y"] = 24856.789707787,
+                ["x"] = -172513.36239112,
+                ["y"] = 24856.576662448,
                 ["zoneId"] = 2110,
             }, -- end of [10]
             [11] = {
