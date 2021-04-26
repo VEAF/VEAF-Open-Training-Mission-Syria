@@ -146,9 +146,9 @@ if veafCombatMission then
     veafCombatMission.addCapMission("CAP-Kuznetsov-Su33-Fox1-Easy", "CAP over Kuznetzov Easy", "Kill the fighters defending the russian fleet.", true, true)
     veafCombatMission.addCapMission("CAP-Tabqa-Su27-Fox1", "CAP from Tabqa over CU05 Fox1 (Scud factory)", "Kill all the ennemy fighters.", true, true)
     veafCombatMission.addCapMission("CAP-Tabqa-Mig29S-Fox3", "CAP from Tabqa over CU05 Fox3 (Scud factory)", "Kill all the ennemy fighters.", true, true)
-    veafCombatMission.addCapMission("CAP-Palmyra-Mig21-Fox1", "CAP from Tabqa over CT44 Fox1(Desert camp)", "Kill all the ennemy fighters.", true, true)
-    veafCombatMission.addCapMission("CAP-Palmyra-F14A-Fox3", "CAP from Tabqa over CT44 F14A(Desert camp)", "Kill all the ennemy fighters.", true, true)
-    veafCombatMission.addCapMission("CAP-Palmyra-F14B-Fox3", "CAP from Tabqa over CT44 F14B(Desert camp)", "Kill all the ennemy fighters.", true, true)
+    veafCombatMission.addCapMission("CAP-Palmyra-Mig21-Fox1", "CAP from Palmyra over CT44 Fox1(Desert camp)", "Kill all the ennemy fighters.", true, true)
+    veafCombatMission.addCapMission("CAP-Palmyra-F14A-Fox3", "CAP from Palmyra over CT44 F14A(Desert camp)", "Kill all the ennemy fighters.", true, true)
+    veafCombatMission.addCapMission("CAP-Palmyra-F14B-Fox3", "CAP from Palmyra over CT44 F14B(Desert camp)", "Kill all the ennemy fighters.", true, true)
 
 	veaf.logInfo("init - veafCombatMission")
     veafCombatMission.initialize()
