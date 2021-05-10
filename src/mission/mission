@@ -9901,10 +9901,6 @@ mission = {
                                             ["helipadId"] = 20,
                                             ["linkUnit"] = 20,
                                             ["name"] = "",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -12604,8 +12600,8 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 79,
-                                        ["x"] = -212780.50885525,
-                                        ["y"] = -174599.8038854,
+                                        ["x"] = -212740.50885525,
+                                        ["y"] = -174639.8038854,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
                                 ["x"] = -212740.50885525,
@@ -27714,6 +27710,2000 @@ mission = {
                                 ["x"] = -61449.114602506,
                                 ["y"] = 52318.291798146,
                             }, -- end of [42]
+                            [43] = {
+                                ["communication"] = true,
+                                ["frequency"] = 305,
+                                ["groupId"] = 1475,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "T-45 Stennis-1",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["helipadId"] = 20,
+                                            ["linkUnit"] = 20,
+                                            ["name"] = "",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -212740.50885525,
+                                            ["y"] = -174639.8038854,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 1775.9116801639,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "FRONTLINE",
+                                            ["speed"] = 200.41666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -47905.524647652,
+                                            ["y"] = 8810.2273706511,
+                                        }, -- end of [2]
+                                        [3] = {
+                                            ["action"] = "LandingReFuAr",
+                                            ["airdromeId"] = 6,
+                                            ["alt"] = 12,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 2519.3449182844,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DIVERT",
+                                            ["speed"] = 200.41666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["timeReFuAr"] = 10,
+                                            ["type"] = "LandingReFuAr",
+                                            ["x"] = -131310.812942,
+                                            ["y"] = -42286.496216,
+                                        }, -- end of [3]
+                                        [4] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 3413.3078302205,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "BULLS",
+                                            ["speed"] = 200.41666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -51923.361435951,
+                                            ["y"] = 60189.97456974,
+                                        }, -- end of [4]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NetCrewControlPriority"] = -1,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 0,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 2,
+                                            [2] = 2,
+                                            [3] = 1,
+                                            ["name"] = "Springfield21",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0.83879509670382,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "T-45 Stennis-1-1",
+                                        ["onboard_num"] = "035",
+                                        ["parking"] = "1",
+                                        ["parking_id"] = "1",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1317,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.83879509670382,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "T-45",
+                                        ["unitId"] = 3220,
+                                        ["x"] = -212740.50885525,
+                                        ["y"] = -174639.8038854,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NetCrewControlPriority"] = -1,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 0,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 2,
+                                            [2] = 2,
+                                            [3] = 2,
+                                            ["name"] = "Springfield22",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0.83879509670382,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "T-45 Stennis-1-2",
+                                        ["onboard_num"] = "117",
+                                        ["parking"] = 1,
+                                        ["parking_id"] = "1",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1317,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.83879509670382,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "T-45",
+                                        ["unitId"] = 3222,
+                                        ["x"] = -212780.50885525,
+                                        ["y"] = -174599.8038854,
+                                    }, -- end of [2]
+                                    [3] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NetCrewControlPriority"] = -1,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 0,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 2,
+                                            [2] = 2,
+                                            [3] = 3,
+                                            ["name"] = "Springfield23",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0.83879509670382,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "T-45 Stennis-1-3",
+                                        ["onboard_num"] = "118",
+                                        ["parking"] = 1,
+                                        ["parking_id"] = "1",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1317,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.83879509670382,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "T-45",
+                                        ["unitId"] = 3223,
+                                        ["x"] = -212820.50885525,
+                                        ["y"] = -174559.8038854,
+                                    }, -- end of [3]
+                                    [4] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NetCrewControlPriority"] = -1,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 0,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 2,
+                                            [2] = 2,
+                                            [3] = 4,
+                                            ["name"] = "Springfield24",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0.83879509670382,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "T-45 Stennis-1-4",
+                                        ["onboard_num"] = "119",
+                                        ["parking"] = 1,
+                                        ["parking_id"] = "1",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1317,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.83879509670382,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "T-45",
+                                        ["unitId"] = 3224,
+                                        ["x"] = -212860.50885525,
+                                        ["y"] = -174519.8038854,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = -212740.50885525,
+                                ["y"] = -174639.8038854,
+                            }, -- end of [43]
+                            [44] = {
+                                ["communication"] = true,
+                                ["frequency"] = 305,
+                                ["groupId"] = 1476,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "T-45 Roosevelt-1",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 13,
+                                            ["alt"] = 6,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -242570.578125,
+                                            ["y"] = -88062.0546875,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 1744.7175136719,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "FRONTLINE",
+                                            ["speed"] = 200.41666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -48080.387186929,
+                                            ["y"] = 8546.582803058,
+                                        }, -- end of [2]
+                                        [3] = {
+                                            ["action"] = "LandingReFuAr",
+                                            ["airdromeId"] = 6,
+                                            ["alt"] = 12,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 2446.6712055022,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DIVERT",
+                                            ["speed"] = 200.41666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["timeReFuAr"] = 10,
+                                            ["type"] = "LandingReFuAr",
+                                            ["x"] = -131310.812942,
+                                            ["y"] = -42286.496216,
+                                        }, -- end of [3]
+                                        [4] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 3379.9868021867,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "BULLS",
+                                            ["speed"] = 200.41666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -51909.940924465,
+                                            ["y"] = 60185.249897965,
+                                        }, -- end of [4]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NetCrewControlPriority"] = -1,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 6,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 7,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Chevy11",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0.46102622962336,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "T-45 Roosevelt-1-1",
+                                        ["onboard_num"] = "028",
+                                        ["parking"] = "4",
+                                        ["parking_id"] = "A4",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1317.2338090011,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.46102622962336,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "T-45",
+                                        ["unitId"] = 3225,
+                                        ["x"] = -242570.578125,
+                                        ["y"] = -88062.0546875,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NetCrewControlPriority"] = -1,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 6,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 7,
+                                            [2] = 1,
+                                            [3] = 2,
+                                            ["name"] = "Chevy12",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0.46102622962336,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "T-45 Roosevelt-1-2",
+                                        ["onboard_num"] = "120",
+                                        ["parking"] = "5",
+                                        ["parking_id"] = "A3",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1317.2338090011,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.46102622962336,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "T-45",
+                                        ["unitId"] = 3229,
+                                        ["x"] = -242545.734375,
+                                        ["y"] = -88004.9375,
+                                    }, -- end of [2]
+                                    [3] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NetCrewControlPriority"] = -1,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 6,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 7,
+                                            [2] = 1,
+                                            [3] = 3,
+                                            ["name"] = "Chevy13",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0.46102622962336,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "T-45 Roosevelt-1-3",
+                                        ["onboard_num"] = "121",
+                                        ["parking"] = "6",
+                                        ["parking_id"] = "A2",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1317.2338090011,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.46102622962336,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "T-45",
+                                        ["unitId"] = 3230,
+                                        ["x"] = -242533.3125,
+                                        ["y"] = -87969.4375,
+                                    }, -- end of [3]
+                                    [4] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NetCrewControlPriority"] = -1,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 6,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 7,
+                                            [2] = 1,
+                                            [3] = 4,
+                                            ["name"] = "Chevy14",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0.46102622962336,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "T-45 Roosevelt-1-4",
+                                        ["onboard_num"] = "122",
+                                        ["parking"] = "7",
+                                        ["parking_id"] = "A1",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1317.2338090011,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.46102622962336,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "T-45",
+                                        ["unitId"] = 3231,
+                                        ["x"] = -242520.921875,
+                                        ["y"] = -87929.8671875,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = -242570.578125,
+                                ["y"] = -88062.0546875,
+                            }, -- end of [44]
+                            [45] = {
+                                ["communication"] = true,
+                                ["frequency"] = 305,
+                                ["groupId"] = 1477,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "T-45 Beirut-1",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 6,
+                                            ["alt"] = 12,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -131632.953125,
+                                            ["y"] = -41746.82421875,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 4572,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 422.41651720884,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "FRONTLINE",
+                                            ["speed"] = 200.41666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -48207.581498128,
+                                            ["y"] = 9073.6954562154,
+                                        }, -- end of [2]
+                                        [3] = {
+                                            ["action"] = "LandingReFuAr",
+                                            ["airdromeId"] = 32,
+                                            ["alt"] = 909,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 777.48561285434,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "Deroutement",
+                                            ["speed"] = 200.41666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["timeReFuAr"] = 10,
+                                            ["type"] = "LandingReFuAr",
+                                            ["x"] = -130132.492188,
+                                            ["y"] = 4053.336304,
+                                        }, -- end of [3]
+                                        [4] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 909,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 1706.9466744128,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "BULLS",
+                                            ["speed"] = 200.41666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -51954.795796773,
+                                            ["y"] = 60327.10371394,
+                                        }, -- end of [4]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NetCrewControlPriority"] = -1,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 12,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 7,
+                                            [2] = 2,
+                                            [3] = 1,
+                                            ["name"] = "Chevy21",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0.54713737903327,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "T-45 Beirut-1-1",
+                                        ["onboard_num"] = "069",
+                                        ["parking"] = "25",
+                                        ["parking_id"] = "G12",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1317,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.54713737903327,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "T-45",
+                                        ["unitId"] = 3232,
+                                        ["x"] = -131632.953125,
+                                        ["y"] = -41746.82421875,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NetCrewControlPriority"] = -1,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 12,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 7,
+                                            [2] = 2,
+                                            [3] = 2,
+                                            ["name"] = "Chevy22",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0.54713737903327,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "T-45 Beirut-1-2",
+                                        ["onboard_num"] = "123",
+                                        ["parking"] = "24",
+                                        ["parking_id"] = "G11",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1317,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.54713737903327,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "T-45",
+                                        ["unitId"] = 3236,
+                                        ["x"] = -131682.546875,
+                                        ["y"] = -41763.52734375,
+                                    }, -- end of [2]
+                                    [3] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NetCrewControlPriority"] = -1,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 12,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 7,
+                                            [2] = 2,
+                                            [3] = 3,
+                                            ["name"] = "Chevy23",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0.54713737903327,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "T-45 Beirut-1-3",
+                                        ["onboard_num"] = "124",
+                                        ["parking"] = "28",
+                                        ["parking_id"] = "G10",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1317,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.54713737903327,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "T-45",
+                                        ["unitId"] = 3237,
+                                        ["x"] = -131735.46875,
+                                        ["y"] = -41775.55859375,
+                                    }, -- end of [3]
+                                    [4] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NetCrewControlPriority"] = -1,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 12,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 7,
+                                            [2] = 2,
+                                            [3] = 4,
+                                            ["name"] = "Chevy24",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0.54713737903327,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "T-45 Beirut-1-4",
+                                        ["onboard_num"] = "125",
+                                        ["parking"] = "27",
+                                        ["parking_id"] = "G9",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1317,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.54713737903327,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "T-45",
+                                        ["unitId"] = 3238,
+                                        ["x"] = -131794.03125,
+                                        ["y"] = -41787.97265625,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = -131632.953125,
+                                ["y"] = -41746.82421875,
+                            }, -- end of [45]
+                            [46] = {
+                                ["communication"] = true,
+                                ["frequency"] = 305,
+                                ["groupId"] = 1479,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "T-45 Ramat-1",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 30,
+                                            ["alt"] = 48,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -258874.171875,
+                                            ["y"] = -74506.359375,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 4572,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 987.93857367553,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "FRONTLINE",
+                                            ["speed"] = 200.41666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -48792.37181065,
+                                            ["y"] = 8390.1724298825,
+                                        }, -- end of [2]
+                                        [3] = {
+                                            ["action"] = "LandingReFuAr",
+                                            ["airdromeId"] = 13,
+                                            ["alt"] = 6,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 1058.1364508935,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "Deroutement",
+                                            ["speed"] = 200.41666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["timeReFuAr"] = 10,
+                                            ["type"] = "LandingReFuAr",
+                                            ["x"] = -242620.8125,
+                                            ["y"] = -87704.417969,
+                                        }, -- end of [3]
+                                        [4] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 527,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 4283.4421326885,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "Bullseye",
+                                            ["speed"] = 200.41666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -51948.392465409,
+                                            ["y"] = 60273.587842137,
+                                        }, -- end of [4]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NetCrewControlPriority"] = -1,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 48,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 8,
+                                            [2] = 2,
+                                            [3] = 1,
+                                            ["name"] = "Pontiac21",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0.37581458324958,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "T-45 Ramat-1-1",
+                                        ["onboard_num"] = "079",
+                                        ["parking"] = "15",
+                                        ["parking_id"] = "33",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1317.2338090011,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.37583536071109,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "T-45",
+                                        ["unitId"] = 3243,
+                                        ["x"] = -258874.171875,
+                                        ["y"] = -74506.359375,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NetCrewControlPriority"] = -1,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 48,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 8,
+                                            [2] = 2,
+                                            [3] = 2,
+                                            ["name"] = "Pontiac22",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "T-45 Ramat-1-2",
+                                        ["onboard_num"] = "126",
+                                        ["parking"] = "25",
+                                        ["parking_id"] = "32",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1317.2338090011,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.37583536071109,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "T-45",
+                                        ["unitId"] = 3247,
+                                        ["x"] = -258892.796875,
+                                        ["y"] = -74483.296875,
+                                    }, -- end of [2]
+                                    [3] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NetCrewControlPriority"] = -1,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 48,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 8,
+                                            [2] = 2,
+                                            [3] = 3,
+                                            ["name"] = "Pontiac23",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "T-45 Ramat-1-3",
+                                        ["onboard_num"] = "127",
+                                        ["parking"] = "26",
+                                        ["parking_id"] = "31",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1317.2338090011,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.37583536071109,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 251.8,
+                                                    [3] = 251.15,
+                                                    [4] = 250.75,
+                                                    [5] = 250.5,
+                                                    [6] = 250.4,
+                                                    [7] = 251.05,
+                                                    [8] = 250.15,
+                                                    [9] = 251.6,
+                                                    [10] = 360.1,
+                                                    [11] = 250.25,
+                                                    [12] = 227,
+                                                    [13] = 221,
+                                                    [14] = 225,
+                                                    [15] = 282.2,
+                                                    [16] = 281.1,
+                                                    [17] = 290.1,
+                                                    [18] = 290.3,
+                                                    [19] = 290.4,
+                                                    [20] = 290.5,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "T-45",
+                                        ["unitId"] = 3248,
+                                        ["x"] = -258909.03125,
+                                        ["y"] = -74462.171875,
+                                    }, -- end of [3]
+                                }, -- end of ["units"]
+                                ["x"] = -258874.171875,
+                                ["y"] = -74506.359375,
+                            }, -- end of [46]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] = {
@@ -52148,7 +54138,7 @@ mission = {
             [8] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 269941,
+    ["currentKey"] = 274380,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -58417,9 +60407,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -225727.67047007,
-        ["centerY"] = -37719.175586054,
-        ["zoom"] = 2496.6443090246,
+        ["centerX"] = -258699.25826631,
+        ["centerY"] = -74621.402280753,
+        ["zoom"] = 3105.7059218616,
     }, -- end of ["map"]
     ["maxDictId"] = 1914,
     ["pictureFileNameB"] = {
@@ -58429,6 +60419,7 @@ mission = {
     ["pictureFileNameR"] = {
     }, -- end of ["pictureFileNameR"]
     ["requiredModules"] = {
+        ["T-45"] = "T-45",
     }, -- end of ["requiredModules"]
     ["result"] = {
         ["blue"] = {
