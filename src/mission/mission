@@ -538,7 +538,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["LeftEngineResource"] = 90,
-                                            ["NetCrewControlPriority"] = 1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["NS430allow"] = true,
                                             ["RightEngineResource"] = 90,
                                         }, -- end of ["AddPropAircraft"]
@@ -683,7 +683,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["LeftEngineResource"] = 90,
-                                            ["NetCrewControlPriority"] = 1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["NS430allow"] = true,
                                             ["RightEngineResource"] = 90,
                                         }, -- end of ["AddPropAircraft"]
@@ -828,7 +828,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["LeftEngineResource"] = 90,
-                                            ["NetCrewControlPriority"] = 1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["NS430allow"] = true,
                                             ["RightEngineResource"] = 90,
                                         }, -- end of ["AddPropAircraft"]
@@ -973,7 +973,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["LeftEngineResource"] = 90,
-                                            ["NetCrewControlPriority"] = 1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["NS430allow"] = true,
                                             ["RightEngineResource"] = 90,
                                         }, -- end of ["AddPropAircraft"]
@@ -1597,7 +1597,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["LeftEngineResource"] = 90,
-                                            ["NetCrewControlPriority"] = 1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["NS430allow"] = true,
                                             ["RightEngineResource"] = 90,
                                         }, -- end of ["AddPropAircraft"]
@@ -1739,7 +1739,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["LeftEngineResource"] = 90,
-                                            ["NetCrewControlPriority"] = 1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["NS430allow"] = true,
                                             ["RightEngineResource"] = 90,
                                         }, -- end of ["AddPropAircraft"]
@@ -1885,7 +1885,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["LeftEngineResource"] = 90,
-                                            ["NetCrewControlPriority"] = 1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["NS430allow"] = true,
                                             ["RightEngineResource"] = 90,
                                         }, -- end of ["AddPropAircraft"]
@@ -3303,7 +3303,7 @@ mission = {
                                             ["EngineResource"] = 90,
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["NetCrewControlPriority"] = 0,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 613,
@@ -3650,7 +3650,7 @@ mission = {
                                             ["EngineResource"] = 90,
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["NetCrewControlPriority"] = 0,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 611,
@@ -3775,7 +3775,7 @@ mission = {
                                             ["EngineResource"] = 90,
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["NetCrewControlPriority"] = 0,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 612,
@@ -3900,7 +3900,7 @@ mission = {
                                             ["EngineResource"] = 90,
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["NetCrewControlPriority"] = 0,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 611,
@@ -4028,7 +4028,7 @@ mission = {
                                             ["EngineResource"] = 90,
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["NetCrewControlPriority"] = 0,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
@@ -4154,7 +4154,7 @@ mission = {
                                             ["EngineResource"] = 90,
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["NetCrewControlPriority"] = 0,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
@@ -4280,7 +4280,7 @@ mission = {
                                             ["EngineResource"] = 90,
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["NetCrewControlPriority"] = 0,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
@@ -4402,7 +4402,7 @@ mission = {
                                             ["EngineResource"] = 90,
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["NetCrewControlPriority"] = 0,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
@@ -4525,7 +4525,7 @@ mission = {
                                             ["EngineResource"] = 90,
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["NetCrewControlPriority"] = 0,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 116,
@@ -4638,7 +4638,7 @@ mission = {
                                             ["EngineResource"] = 90,
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["NetCrewControlPriority"] = 0,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 116,
@@ -4751,7 +4751,7 @@ mission = {
                                             ["EngineResource"] = 90,
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["NetCrewControlPriority"] = 0,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 115,
@@ -4864,7 +4864,7 @@ mission = {
                                             ["EngineResource"] = 90,
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["NetCrewControlPriority"] = 0,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 115,
@@ -27820,7 +27820,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
-                                            ["NetCrewControlPriority"] = -1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 0,
@@ -27924,7 +27924,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
-                                            ["NetCrewControlPriority"] = -1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 0,
@@ -28027,7 +28027,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
-                                            ["NetCrewControlPriority"] = -1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 0,
@@ -28130,7 +28130,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
-                                            ["NetCrewControlPriority"] = -1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 0,
@@ -28344,7 +28344,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
-                                            ["NetCrewControlPriority"] = -1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 6,
@@ -28448,7 +28448,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
-                                            ["NetCrewControlPriority"] = -1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 6,
@@ -28551,7 +28551,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
-                                            ["NetCrewControlPriority"] = -1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 6,
@@ -28654,7 +28654,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
-                                            ["NetCrewControlPriority"] = -1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 6,
@@ -28868,7 +28868,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
-                                            ["NetCrewControlPriority"] = -1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 12,
@@ -28972,7 +28972,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
-                                            ["NetCrewControlPriority"] = -1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 12,
@@ -29075,7 +29075,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
-                                            ["NetCrewControlPriority"] = -1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 12,
@@ -29178,7 +29178,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
-                                            ["NetCrewControlPriority"] = -1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 12,
@@ -29392,7 +29392,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
-                                            ["NetCrewControlPriority"] = -1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 48,
@@ -29496,7 +29496,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
-                                            ["NetCrewControlPriority"] = -1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 48,
@@ -29599,7 +29599,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
-                                            ["NetCrewControlPriority"] = -1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 48,
@@ -31551,7 +31551,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["LeftEngineResource"] = 90,
-                                            ["NetCrewControlPriority"] = 1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["NS430allow"] = true,
                                             ["RightEngineResource"] = 90,
                                         }, -- end of ["AddPropAircraft"]
@@ -31684,7 +31684,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["LeftEngineResource"] = 90,
-                                            ["NetCrewControlPriority"] = 1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["NS430allow"] = true,
                                             ["RightEngineResource"] = 90,
                                         }, -- end of ["AddPropAircraft"]
@@ -31817,7 +31817,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["LeftEngineResource"] = 90,
-                                            ["NetCrewControlPriority"] = 1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["NS430allow"] = true,
                                             ["RightEngineResource"] = 90,
                                         }, -- end of ["AddPropAircraft"]
@@ -31950,7 +31950,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["LeftEngineResource"] = 90,
-                                            ["NetCrewControlPriority"] = 1,
+                                            ["NetCrewControlPriority"] = -2,
                                             ["NS430allow"] = true,
                                             ["RightEngineResource"] = 90,
                                         }, -- end of ["AddPropAircraft"]
