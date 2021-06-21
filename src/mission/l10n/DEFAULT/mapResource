@@ -28,4 +28,6 @@ mapResource = {
     ["DictKey_ActionText_10229"] = "veafSanctuary.lua",
     ["DictKey_ActionText_10401"] = "missionConfig.lua",
     ["ResKey_Action_1916"] = "CTLD.lua",
+    ["ResKey_Action_1918"] = "HoundElint.lua",
+    ["ResKey_Action_1919"] = "veafHoundElintHelper.lua",
 } -- end of mapResource
