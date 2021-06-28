@@ -519,7 +519,7 @@ if veafHoundElint then
             },
             controller = {
                 freq = 282.225,
-                voice = true
+                voiceEnabled = true
             }
         }
     )
