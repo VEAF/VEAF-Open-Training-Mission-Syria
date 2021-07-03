@@ -402,22 +402,16 @@ if ctld then
     -- Use any of the predefined names or set your own ones
     ctld.transportPilotNames = {}
 
-    for i = 1, 10 do
-        local name = string.format("yak #%03d",i)
-        veaf.logTrace(string.format("name=%s", veaf.p(name)))
-        table.insert(ctld.transportPilotNames, name)
+    for i = 1, 24 do
+        table.insert(ctld.transportPilotNames, "yak"..i)
     end
 
     for i = 1, 10 do
-        local name = string.format("transport #%03d",i)
-        veaf.logTrace(string.format("name=%s", veaf.p(name)))
-        table.insert(ctld.transportPilotNames, name)
+        table.insert(ctld.transportPilotNames, "transport"..i)
     end
 
     for i = 1, 79 do
-        local name = string.format("helicargo #%03d",i)
-        veaf.logTrace(string.format("name=%s", veaf.p(name)))
-        table.insert(ctld.transportPilotNames, name)
+        table.insert(ctld.transportPilotNames, "helicargo"..i)
     end
 
     -- ************** Logistics UNITS FOR CRATE SPAWNING ******************
@@ -448,11 +442,13 @@ if ctld then
         "logistic #020",
     }
 
-    -- automatically add all the human-manned transport helicopters to ctld.transportPilotNames
-    veafTransportMission.initializeAllHelosInCTLD()
+    if veafTransportMission then
+        -- automatically add all the human-manned transport helicopters to ctld.transportPilotNames
+        veafTransportMission.initializeAllHelosInCTLD()
 
-    -- automatically add all the carriers and FARPs to ctld.logisticUnits
-    veafTransportMission.initializeAllLogisticInCTLD()
+        -- automatically add all the carriers and FARPs to ctld.logisticUnits
+        veafTransportMission.initializeAllLogisticInCTLD()
+    end
     
     veaf.logInfo("init - ctld")
     ctld.initialize()
