@@ -549,6 +549,7 @@ veafShortcuts.AddAlias(
         :setBatchAliases({
             "-convoy#U36SYC5520894925, side red, defense 3, armor 3, spacing 0.5, dest C001-Wujha",
         })
+        :setPassword("4190b6cb3eae1a1affe99114accccc36a9f1be4d") -- briefingsyria21
 )
 
 veafShortcuts.AddAlias(
@@ -559,6 +560,7 @@ veafShortcuts.AddAlias(
             "-sa8#U36SYC5015196779, side red, radius 0",
             "-sa15#U36SYC5019896649, side red, radius 0",            
         })
+        :setPassword("4190b6cb3eae1a1affe99114accccc36a9f1be4d") -- briefingsyria21
 )
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -584,6 +586,7 @@ veafShortcuts.AddAlias(
             --"-airstart CAP-Tabqa-Su27-Fox1/Excellent/1, silent",
             "-cap#u37sdv133260 su27-fox1, skill excellent, dist 110, capradius 80, hdg 238",
         })
+        :setPassword("4190b6cb3eae1a1affe99114accccc36a9f1be4d") -- briefingsyria21
 )
 
 veafShortcuts.AddAlias(
@@ -594,6 +597,7 @@ veafShortcuts.AddAlias(
             --"-airstart CAP-Tabqa-Mig29S-Fox3/Excellent/2, silent",        
             "-cap#u37sdv133260 Mig29S-fox3, skill excellent, dist 110, capradius 80, hdg 238, multiplier 2",
         })
+        :setPassword("4190b6cb3eae1a1affe99114accccc36a9f1be4d") -- briefingsyria21
 )
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -641,4 +645,5 @@ veafShortcuts.AddAlias(
             -- Alliés, démarrer le convoi NEPTUNE à destination du PALAIS
             "-transport#U37SBS685995, side blue, armor 1, defense 0, size 4, dest PALAIS",
         })
+        :setPassword("4190b6cb3eae1a1affe99114accccc36a9f1be4d") -- briefingsyria21
 )
