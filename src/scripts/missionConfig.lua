@@ -527,3 +527,118 @@ end
 -- automatically start the two ELINT missions
 veafCombatMission.ActivateMission("ELINT-Mission-East", true)
 veafCombatMission.ActivateMission("ELINT-Mission-West", true)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Mission S001 - Défense de Wujha Al Hajar - https://github.com/VEAF/VEAF-Open-Training-Mission-Syria/wiki/Mission-S001
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+veafShortcuts.AddAlias(
+    VeafAlias:new()
+        :setName("-s001-1")
+        :setDescription("Mission S001 - 1 - before mission start")
+        :setBatchAliases({
+            "-armor#u36SYC4652696450, side blue, radius 10",
+            "-point#u36SYC4652696450 C001-Wujha",
+        })
+        :setPassword("4190b6cb3eae1a1affe99114accccc36a9f1be4d") -- briefingsyria21
+)
+
+veafShortcuts.AddAlias(
+    VeafAlias:new()
+        :setName("-s001-2")
+        :setDescription("Mission S001 - 2 - before takeoff")
+        :setBatchAliases({
+            "-convoy#U36SYC5520894925, side red, defense 3, armor 3, spacing 0.5, dest C001-Wujha",
+        })
+)
+
+veafShortcuts.AddAlias(
+    VeafAlias:new()
+        :setName("-s001-3")
+        :setDescription("Mission S001 - 3 - optional (more defenses)")
+        :setBatchAliases({
+            "-sa8#U36SYC5015196779, side red, radius 0",
+            "-sa15#U36SYC5019896649, side red, radius 0",            
+        })
+)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Mission S002 - Attaque de l'usine de SCUD - https://github.com/VEAF/VEAF-Open-Training-Mission-Syria/wiki/Mission-S002
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+veafShortcuts.AddAlias(
+    VeafAlias:new()
+        :setName("-s002-1")
+        :setDescription("Mission S002 - 1 - before mission start")
+        :setBatchAliases({
+            "-zonestart combatZone_SCUD_Factory",
+            "-point#U37SCU0477856197 SCUD",
+            "-convoy#U37SCU0150289523!120, side red, size 5, defense 4, armor 3, dest SCUD, name TIGER",           
+        })
+        :setPassword("4190b6cb3eae1a1affe99114accccc36a9f1be4d") -- briefingsyria21
+)
+
+veafShortcuts.AddAlias(
+    VeafAlias:new()
+        :setName("-s002-2")
+        :setDescription("Mission S002 - 2 - before takeoff (CAP)")
+        :setBatchAliases({
+            --"-airstart CAP-Tabqa-Su27-Fox1/Excellent/1, silent",
+            "-cap#u37sdv133260 su27-fox1, skill excellent, dist 110, capradius 80, hdg 238",
+        })
+)
+
+veafShortcuts.AddAlias(
+    VeafAlias:new()
+        :setName("-s002-3")
+        :setDescription("Mission S002 - 3 - optional (more CAP)")
+        :setBatchAliases({
+            --"-airstart CAP-Tabqa-Mig29S-Fox3/Excellent/2, silent",        
+            "-cap#u37sdv133260 Mig29S-fox3, skill excellent, dist 110, capradius 80, hdg 238, multiplier 2",
+        })
+)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Mission S501 - Escorte / CAS - https://github.com/VEAF/VEAF-Open-Training-Mission-Syria/wiki/Mission-S501
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+veafShortcuts.AddAlias(
+    VeafAlias:new()
+        :setName("-s501-1")
+        :setDescription("Mission S501 - 1 - before mission start")
+        :setBatchAliases({
+
+            -- Alliés
+            "-point#U37SBT44561200 PALAIS",
+            "-infantry#U37SBT44561200, side blue, radius 50",
+            
+            -- Héliport Qabr as Sitt
+            "-infantry#U37SBT5442105271, side red, defense 0, armor 0, multiplier 2",
+            
+            -- CP1 - infantry
+            "-infantry#U37SBT51460900, side red, defense 0, armor 0, multiplier 2, radius 50, spacing 2",
+            "-point#U37SBT51460900 W3",
+            
+            -- CP2 - infantry
+            "-infantry#U37SBT50571054, side red, defense 0, armor 0, multiplier 4, radius 50, spacing 2",
+            "-point#U37SBT50571054 W4",
+            
+            -- CP3 - infantry & light armor
+            "-infantry#U37SBT47031156, side red, defense 0, armor 2, multiplier 2, radius 50, spacing 2",
+            "-point#U37SBT47031156 W5",
+            
+            -- armor (uniquement si flight CAS disponible)
+            "-armor#U37SBT558031, side red, defense 0, radius 50, spacing 3",
+            "-armor#U37SBT591012, side red, defense 0, radius 50, spacing 3",
+            "-armor#U37SBT446113, side red, defense 2, radius 50, spacing 3",
+
+        })
+        :setPassword("4190b6cb3eae1a1affe99114accccc36a9f1be4d") -- briefingsyria21
+)
+
+veafShortcuts.AddAlias(
+    VeafAlias:new()
+        :setName("-s501-2")
+        :setDescription("Mission S501 - 2 - after arrival at DAMAS")
+        :setBatchAliases({
+            -- Alliés, démarrer le convoi NEPTUNE à destination du PALAIS
+            "-transport#U37SBS685995, side blue, armor 1, defense 0, size 4, dest PALAIS",
+        })
+)
