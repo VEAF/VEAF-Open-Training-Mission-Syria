@@ -498,6 +498,7 @@ end
 -- initialize Hound Elint
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafHoundElint then
+    --[[
     veaf.loggers.get(veaf.Id):info("init - veafHoundElint")
     veafHoundElint.initialize(
         "ELINT", -- prefix
@@ -522,11 +523,17 @@ if veafHoundElint then
             }
         }
     )
+    ]]
 end
 
 -- automatically start the two ELINT missions
+--[[
 veafCombatMission.ActivateMission("ELINT-Mission-East", true)
 veafCombatMission.ActivateMission("ELINT-Mission-West", true)
+]]
+
+-- Silence ATC on all the airdromes
+veaf.silenceAtcOnAllAirbases()
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- Mission S001 - Défense de Wujha Al Hajar - https://github.com/VEAF/VEAF-Open-Training-Mission-Syria/wiki/Mission-S001
@@ -647,3 +654,4 @@ veafShortcuts.AddAlias(
         })
         :setPassword("4190b6cb3eae1a1affe99114accccc36a9f1be4d") -- briefingsyria21
 )
+
