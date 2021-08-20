@@ -1,5 +1,5 @@
 dictionary = {
-    ["DictKey_ActionText_10501"] = "return false -- set to true for dynamic loading",
+    ["DictKey_ActionText_10501"] = "return true -- set to true for dynamic loading",
     ["DictKey_ActionText_10601"] = "return VEAF_DYNAMIC_PATH~=nil",
     ["DictKey_ActionText_10701"] = "return VEAF_DYNAMIC_PATH==nil",
     ["DictKey_ActionText_10801"] = "return VEAF_DYNAMIC_PATH~=nil",
