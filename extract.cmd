@@ -42,7 +42,7 @@ echo ----------------------------------------
 
 echo.
 echo fetching the veaf-mission-creation-tools package
-call yarn install
+call yarn upgrade
 rem echo on
 
 rem extracting MIZ files

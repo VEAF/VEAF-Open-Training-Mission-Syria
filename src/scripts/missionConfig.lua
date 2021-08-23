@@ -249,6 +249,17 @@ Les photos prises par les Mirages F1 de la ER 2/33 montre quelques ZU-23, mais i
             :setTraining(true)
 	)
 
+    veafCombatZone.AddZone(
+		VeafCombatZone.new()
+			:setMissionEditorZoneName("combatzone_ProtectHama")
+			:setFriendlyName("Protect HAMA")
+			:setBriefing(
+[[Les alliés protègent des archéologues occupés à étudier les ruines proches du stade de HAMA.
+On nous a averti qu'un convoi d'artillerie autotractée était en cours d'acheminement (ETA 30 minutes).
+Ce sont nos cibles principales !
+La zone de rassemblement du convoi est protégée par des blindés et de la défense anti-aérienne (cibles secondaires)
+]])
+    )
 
     veaf.loggers.get(veaf.Id):info("init - veafCombatZone")
     veafCombatZone.initialize()
