@@ -3,7 +3,7 @@ settings = {
     --["dials"]=
     {
         ["mode_dial"] = 0,
-        ["manual_frequency"] = 124600000,
+        ["manual_frequency"] = 121500000,
         ["selection_dial"] = 2,
         ["channel_dial"] = 0
     },
