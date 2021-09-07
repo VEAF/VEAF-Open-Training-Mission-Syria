@@ -286,7 +286,6 @@ if veafNamedPoints then
     veaf.loggers.get(veaf.Id):info("Loading configuration")
 
     veaf.loggers.get(veaf.Id):info("init - veafNamedPoints")
-    veafNamedPoints.initialize()
     if theatre == "syria" then
         veafNamedPoints.Points = {
             -- Turkish Airports
@@ -396,6 +395,7 @@ if veafNamedPoints then
     table.insert(veafNamedPoints.Points,
         {name="RANGE KhalKhalah",point=coord.LLtoLO("33.036180", "37.196608")},
     )
+    veafNamedPoints.initialize()
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -420,14 +420,6 @@ end
 if veafCarrierOperations then
     veaf.loggers.get(veaf.Id):info("init - veafCarrierOperations")
     veafCarrierOperations.initialize(true)
-end
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------
--- configure CTLD
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-if ctld then
-    veaf.loggers.get(veaf.Id):info("init - ctld")
-    ctld.initialize()
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -499,7 +491,6 @@ if veafHoundElint and false then -- don't use Hound Elint
     veafCombatMission.ActivateMission("ELINT-Mission-East", true)
     veafCombatMission.ActivateMission("ELINT-Mission-West", true)
 end
-
 
 -- Silence ATC on all the airdromes
 veaf.silenceAtcOnAllAirbases()
