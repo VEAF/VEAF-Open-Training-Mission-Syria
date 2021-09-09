@@ -393,7 +393,7 @@ if veafNamedPoints then
     end
     -- points of interest
     table.insert(veafNamedPoints.Points,
-        {name="RANGE KhalKhalah",point=coord.LLtoLO("33.036180", "37.196608")},
+        {name="RANGE KhalKhalah",point=coord.LLtoLO("33.036180", "37.196608")}
     )
     veafNamedPoints.initialize()
 end
