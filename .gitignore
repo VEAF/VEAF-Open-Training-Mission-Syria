@@ -5,7 +5,7 @@
 /setup_*.cmd
 package-lock.json
 cache/
-
+/.idea
 configuration.json
 
 build-zip.cmd
