@@ -856,6 +856,57 @@ radioSettings =
         }, -- end of ["Radio"]
     },
 
+    ["blue Mi-8MT"] =
+    {
+        type = "Mi-8MT",
+        coalition = "blue",
+        country = nil,
+        ["Radio"] = {
+            [1] = {
+                ["channels"] = {
+                    [1]  = radioPresets["##RADIO1_01##"],
+                    [2]  = radioPresets["##RADIO1_02##"],
+                    [3]  = radioPresets["##RADIO1_03##"],
+                    [4]  = radioPresets["##RADIO1_04##"],
+                    [5]  = radioPresets["##RADIO1_05##"],
+                    [6]  = radioPresets["##RADIO1_06##"],
+                    [7]  = radioPresets["##RADIO1_07##"],
+                    [8]  = radioPresets["##RADIO1_08##"],
+                    [9]  = radioPresets["##RADIO1_09##"],
+                    [10] = radioPresets["##RADIO1_10##"],
+                    [11] = radioPresets["##RADIO1_11##"],
+                    [12] = radioPresets["##RADIO1_12##"],
+                    [13] = radioPresets["##RADIO1_13##"],
+                    [14] = radioPresets["##RADIO1_14##"],
+                    [15] = radioPresets["##RADIO1_15##"],
+                    [16] = radioPresets["##RADIO1_16##"],
+                    [17] = radioPresets["##RADIO1_17##"],
+                    [18] = radioPresets["##RADIO1_18##"],
+                    [19] = radioPresets["##RADIO1_19##"],
+                    [20] = radioPresets["##RADIO1_20##"],
+                }, -- end of ["channels"]
+                ["modulations"] = {
+                }, -- end of ["modulations"]
+            }, -- end of [1]
+            [2] = {
+                ["channels"] = {
+                    [1]  = radioPresets["##RADIO3_01##"],
+                    [2]  = radioPresets["##RADIO3_02##"],
+                    [3]  = radioPresets["##RADIO3_03##"],
+                    [4]  = radioPresets["##RADIO3_04##"],
+                    [5]  = radioPresets["##RADIO3_05##"],
+                    [6]  = radioPresets["##RADIO3_06##"],
+                    [7]  = radioPresets["##RADIO3_07##"],
+                    [8]  = radioPresets["##RADIO3_08##"],
+                    [9]  = radioPresets["##RADIO3_09##"],
+                    [10] = radioPresets["##RADIO3_10##"],
+                }, -- end of ["channels"]
+                ["modulations"] = {
+                }, -- end of ["modulations"]
+            }, -- end of [2]
+        }, -- end of ["Radio"]
+    },
+    
     ["blue Mi-24P"] =
     {
         type = "Mi-24P",
@@ -933,6 +984,99 @@ radioSettings =
                     [7]  = 0,
                 }, -- end of ["modulations"]
             }, -- end of [1]
+        }, -- end of ["Radio"]
+    },
+
+    ["blue AH-64D"] =
+    {
+        type = "AH-64D",
+        coalition = "blue",
+        country = nil,
+        ["Radio"] = {
+            [1] = {
+                ["channels"] = {
+                    [1]  = radioPresets["##RADIO1_01##"],
+                    [2]  = radioPresets["##RADIO1_02##"],
+                    [3]  = radioPresets["##RADIO1_03##"],
+                    [4]  = radioPresets["##RADIO1_04##"],
+                    [5]  = radioPresets["##RADIO1_05##"],
+                    [6]  = radioPresets["##RADIO1_06##"],
+                    [7]  = radioPresets["##RADIO1_07##"],
+                    [8]  = radioPresets["##RADIO1_08##"],
+                    [9]  = radioPresets["##RADIO1_09##"],
+                    [10] = radioPresets["##RADIO1_10##"],
+                }, -- end of ["channels"]
+                ["modulations"] = {
+                    [1] = 0,
+                    [2] = 0,
+                    [3] = 0,
+                    [4] = 0,
+                    [5] = 0,
+                    [6] = 0,
+                    [7] = 0,
+                    [8] = 0,
+                    [9] = 0,
+                    [10] = 0,
+                }, -- end of ["modulations"]
+            }, -- end of [1]
+            [2] = {
+                ["channels"] = {
+                    [1]  = radioPresets["##RADIO2_01##"],
+                    [2]  = radioPresets["##RADIO2_02##"],
+                    [3]  = radioPresets["##RADIO2_03##"],
+                    [4]  = radioPresets["##RADIO2_04##"],
+                    [5]  = radioPresets["##RADIO2_05##"],
+                    [6]  = radioPresets["##RADIO2_06##"],
+                    [7]  = radioPresets["##RADIO2_07##"],
+                    [8]  = radioPresets["##RADIO2_08##"],
+                    [9]  = radioPresets["##RADIO2_09##"],
+                    [10] = radioPresets["##RADIO2_10##"],
+                }, -- end of ["channels"]
+                ["modulations"] = {
+                    [1] = 0,
+                    [2] = 0,
+                    [3] = 0,
+                    [4] = 0,
+                    [5] = 0,
+                    [6] = 0,
+                    [7] = 0,
+                    [8] = 0,
+                    [9] = 0,
+                    [10] = 0,
+                }, -- end of ["modulations"]
+            }, -- end of [2]
+            [3] = {
+                ["channels"] = {
+                    [1]  = radioPresets["##RADIO3_01##"],
+                    [2]  = radioPresets["##RADIO3_02##"],
+                    [3]  = radioPresets["##RADIO3_03##"],
+                    [4]  = radioPresets["##RADIO3_04##"],
+                    [5]  = radioPresets["##RADIO3_05##"],
+                    [6]  = radioPresets["##RADIO3_06##"],
+                    [7]  = radioPresets["##RADIO3_07##"],
+                    [8]  = radioPresets["##RADIO3_08##"],
+                    [9]  = radioPresets["##RADIO3_09##"],
+                    [10] = radioPresets["##RADIO3_10##"],
+                }, -- end of ["channels"]
+                ["modulations"] = {
+                }, -- end of ["modulations"]
+            }, -- end of [3]
+            [4] = {
+                ["channels"] = {
+                    [1] = 30,
+                    [2] = 30.01,
+                    [3] = 30.015,
+                    [4] = 30.02,
+                    [5] = 30.025,
+                    [6] = 30.03,
+                    [7] = 30.035,
+                    [8] = 30.04,
+                    [9] = 30.045,
+                    [10] = 30.05,
+                }, -- end of ["channels"]
+                ["modulations"] = {
+                }, -- end of ["modulations"]
+            }, -- end of [4]
         }, -- end of ["Radio"]
     },
 
@@ -1155,5 +1299,99 @@ radioSettings =
                 }, -- end of ["modulations"]
             }, -- end of [1]
         }, -- end of ["Radio"]
+    },
+
+    ["blue UH-1H"] =
+    {
+        type = "UH-1H",
+        coalition = "blue",
+        country = nil,
+        ["Radio"] = {
+            [1] = {
+                ["channels"] = {
+                    [1]  = radioPresets["##RADIO1_01##"],
+                    [2]  = radioPresets["##RADIO1_02##"],
+                    [3]  = radioPresets["##RADIO1_03##"],
+                    [4]  = radioPresets["##RADIO1_04##"],
+                    [5]  = radioPresets["##RADIO1_05##"],
+                    [6]  = radioPresets["##RADIO1_06##"],
+                    [7]  = radioPresets["##RADIO1_07##"],
+                    [8]  = radioPresets["##RADIO1_08##"],
+                    [9]  = radioPresets["##RADIO1_09##"],
+                    [10] = radioPresets["##RADIO1_10##"],
+                    [11] = radioPresets["##RADIO1_11##"],
+                    [12] = radioPresets["##RADIO1_12##"],
+                    [13] = radioPresets["##RADIO1_13##"],
+                    [14] = radioPresets["##RADIO1_14##"],
+                    [15] = radioPresets["##RADIO1_15##"],
+                    [16] = radioPresets["##RADIO1_16##"],
+                    [17] = radioPresets["##RADIO1_17##"],
+                    [18] = radioPresets["##RADIO1_18##"],
+                    [19] = radioPresets["##RADIO1_19##"],
+                    [20] = radioPresets["##RADIO1_20##"],
+                }, -- end of ["channels"]
+                ["modulations"] = {
+                }, -- end of ["modulations"]
+            }, -- end of [1]
+        }, -- end of ["Radio"]
+    },
+
+    ["blue A-4E-C"] =
+    {
+        type = "A-4E-C",
+        coalition = "blue",
+        country = nil,
+        ["Radio"] =
+        {
+            [1] =
+            {
+                ["modulations"] =
+                {
+                    [1] =  0,
+                    [2] =  0,
+                    [3] =  0,
+                    [4] =  0,
+                    [5] =  0,
+                    [6] =  0,
+                    [7] =  0,
+                    [8] =  0,
+                    [9] =  0,
+                    [10] = 0,
+                    [11] = 0,
+                    [12] = 0,
+                    [13] = 0,
+                    [14] = 0,
+                    [15] = 0,
+                    [16] = 0,
+                    [17] = 0,
+                    [18] = 0,
+                    [19] = 0,
+                    [20] = 0,
+                }, -- end of ["modulations"]
+                ["channels"] =
+                {
+                    [1]  = radioPresets["##RADIO1_01##"],
+                    [2]  = radioPresets["##RADIO1_02##"],
+                    [3]  = radioPresets["##RADIO1_03##"],
+                    [4]  = radioPresets["##RADIO1_04##"],
+                    [5]  = radioPresets["##RADIO1_05##"],
+                    [6]  = radioPresets["##RADIO1_06##"],
+                    [7]  = radioPresets["##RADIO1_07##"],
+                    [8]  = radioPresets["##RADIO1_08##"],
+                    [9]  = radioPresets["##RADIO1_09##"],
+                    [10] = radioPresets["##RADIO1_10##"],
+                    [11] = radioPresets["##RADIO1_11##"],
+                    [12] = radioPresets["##RADIO1_12##"],
+                    [13] = radioPresets["##RADIO1_13##"],
+                    [14] = radioPresets["##RADIO1_14##"],
+                    [15] = radioPresets["##RADIO1_15##"],
+                    [16] = radioPresets["##RADIO1_16##"],
+                    [17] = radioPresets["##RADIO1_17##"],
+                    [18] = radioPresets["##RADIO1_18##"],
+                    [19] = radioPresets["##RADIO1_19##"],
+                    [20] = radioPresets["##RADIO1_20##"],
+                }, -- end of ["channels"]
+            }, -- end of [1]
+        }
     },
 }
