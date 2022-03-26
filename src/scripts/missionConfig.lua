@@ -615,3 +615,50 @@ veafShortcuts.AddAlias(
         :setPassword("4190b6cb3eae1a1affe99114accccc36a9f1be4d") -- briefingsyria21
 )
 
+veafShortcuts.AddAlias(
+    VeafAlias:new()
+        :setName("-s502")
+        :setDescription("Mission S502 - Naqoura")
+        :setBatchAliases({
+            
+        -- checkpoints XB94
+        "-infantry#U36SXB9608344273, side red, size 5, defense 0, spacing 0.5, armor 1",
+        "-infantry#U36SXB9545447899, side red, size 6, defense 1, spacing 0.5, armor 2",
+
+        -- checkpoints XB95
+        "-infantry#U36SXB9623854088, side red, size 8, defense 2, spacing 0.5, armor 3",
+        "-infantry#U36SXB9658555153, side red, size 8, defense 2, spacing 0.5, armor 3",
+
+        -- checkpoints XB96
+        "-armor#U36SXB9732261900, side red, spacing 0.5",
+        "-armor#U36SXB9674163486, side red, spacing 0.5",
+
+        -- Contested Heliport Naqoura XB96
+        "-armor#U36SXB9886165320, side red, spacing 0.5",
+
+        -- Optional: SEAD mission Naqoura (XB96)
+        "-sa6#U36SXB9903665467, side red, spacing 0.5",
+
+        -- Eglantine - Convoi bleu de Haifa vers Naqoura (CAS)
+        "-transport#U36SXB9145429587, side blue, defense 1, dest NAQOURA HELIPT, size 3, armor 1, spacing 0.5"
+        })
+        :setPassword("4190b6cb3eae1a1affe99114accccc36a9f1be4d") -- briefingsyria21
+)
+
+veafShortcuts.AddAlias(
+    VeafAlias:new()
+        :setName("-s503")
+        :setDescription("Mission S502 - Majdal Shams")
+        :setBatchAliases({
+            
+        "-point#N33:15:26E35:45:51 YB58",
+        "-point#U36SYB6040388494 ANTENNA",
+        "-point#U36SYB5758091493 ANTENNA2",
+        "-sa18#N33:16:32E35:48:21",
+        "-manpads#N33:18:13E35:47:44, radius 2500",
+        "-armor#N33:18:42E35:47:25, dest YB58",
+        "-armor#N33:19:53E35:46:04",
+        "-transport#N33:19:53E35:46:04, dest YB58"
+        })
+        :setPassword("4190b6cb3eae1a1affe99114accccc36a9f1be4d") -- briefingsyria21
+)
