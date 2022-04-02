@@ -114,6 +114,7 @@ if veafAssets then
         
 		{sort=12, name="Overlordsky", description="100 (A-50, RED)", information="U312", linked="Overlordsky-escort"}, 
         {sort=13, name="P1-Petrolsky", description="900 (IL-78M, RED)", information="U267", linked="P1-Petrolsky-escort"},  
+		{sort=14, name="CSG Kuznetsov", description="Kuznetsov (CVN)", information="CV 1143.5 Admiral Kuznetsov"},
     }
 
     veaf.loggers.get(veaf.Id):info("init - veafAssets")
