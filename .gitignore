@@ -10,3 +10,4 @@ configuration.json
 
 build-zip.cmd
 yarn.lock
+build-dev.cmd

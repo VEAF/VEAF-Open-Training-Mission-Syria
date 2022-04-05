@@ -649,7 +649,7 @@ veafShortcuts.AddAlias(
 veafShortcuts.AddAlias(
     VeafAlias:new()
         :setName("-s503")
-        :setDescription("Mission S502 - Majdal Shams")
+        :setDescription("Mission S503 - Majdal Shams")
         :setBatchAliases({
             
         "-point#N33:15:26E35:45:51 YB58",
