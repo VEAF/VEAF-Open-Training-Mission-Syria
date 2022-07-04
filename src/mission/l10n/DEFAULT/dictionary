@@ -38,6 +38,6 @@ Nous contacter:\
 \
 =======\
 \
-METAR : ${METAR}",
+METAR : OJAI 301300Z 27014KT 5000 HZ NSC 32/07 Q1010 NOSIG",
     ["DictKey_sortie_5"] = "",
 } -- end of dictionary
