@@ -18,8 +18,9 @@ veafBeacons = false
 if veaf then
     VeafQRA.new()
     :setName("QRA_Palmyra")
+	:setTriggerZone("QRA_Palmyra")
     :addGroup("QRA_Palmyra")
-    :setRadius(30000)
+    :setZoneRadius(30000)
     :setCoalition(coalition.side.RED)
     :addEnnemyCoalition(coalition.side.BLUE)
     :setReactOnHelicopters()
@@ -27,8 +28,9 @@ if veaf then
 
     VeafQRA.new()
     :setName("QRA_Bassel")
+	:setTriggerZone("QRA_Bassel")
     :addGroup("QRA_Bassel")
-    :setRadius(30000)
+    :setZoneRadius(30000)
     :setCoalition(coalition.side.RED)
     :addEnnemyCoalition(coalition.side.BLUE)
     :setReactOnHelicopters()
