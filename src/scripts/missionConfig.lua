@@ -15,6 +15,8 @@ veafBeacons = false
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize QRA
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+VeafQRA.ToggleAllSilence(false) --this will set all QRA messages ON if the argument is "true" and all QRA messages to OFF is the argument is "false".
+
 if veaf then
     VeafQRA.new()
     :setName("QRA_Palmyra")
@@ -24,6 +26,7 @@ if veaf then
     :setCoalition(coalition.side.RED)
     :addEnnemyCoalition(coalition.side.BLUE)
     :setReactOnHelicopters()
+--  :setSilent() --mutes this QRA only, VeafQRA.AllSilence has to be false for this to have an effect
     :start()
 
     VeafQRA.new()
@@ -434,14 +437,6 @@ if veafRemote then
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
--- initialize the interpreter
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veafInterpreter then
-    veaf.loggers.get(veaf.Id):info("init - veafInterpreter")
-    veafInterpreter.initialize()
-end
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize Skynet-IADS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafSkynet then
@@ -452,6 +447,14 @@ if veafSkynet then
         false, --includeBlueInRadio
         false --debugBlue
     )
+end
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- initialize the interpreter
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+if veafInterpreter then
+    veaf.loggers.get(veaf.Id):info("init - veafInterpreter")
+    veafInterpreter.initialize()
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
