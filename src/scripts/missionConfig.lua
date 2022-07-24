@@ -15,7 +15,7 @@ veafBeacons = false
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize QRA
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
---VeafQRA.ToggleAllSilence() --this will toggle between all QRA messages OFF and all QRA messages ON. First call toggles the messages OFF 
+VeafQRA.ToggleAllSilence(false) --this will set all QRA messages ON if the argument is "true" and all QRA messages to OFF is the argument is "false".
 
 if veaf then
     VeafQRA.new()
@@ -452,11 +452,9 @@ end
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize the interpreter
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-local delay = 1
-
 if veafInterpreter then
     veaf.loggers.get(veaf.Id):info("init - veafInterpreter")
-    mist.scheduleFunction(veafInterpreter.initialize, {}, timer.getTime()+delay)
+    veafInterpreter.initialize()
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
