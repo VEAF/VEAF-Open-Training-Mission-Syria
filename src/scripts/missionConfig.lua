@@ -143,24 +143,24 @@ if veafAssets then
     veaf.loggers.get(veaf.Id):info("Loading configuration")
     veafAssets.Assets = {
 		-- list the assets in the mission below
-		{sort=1, name="A1-Magic", description="Magic (E-2D)", information="U282.20 (15)", linked="A1-Magic-escort"},  
-		{sort=2, name="A2-Focus", description="Focus (E-3A)", information="U281.10 (16)", linked="A2-Focus-escort"},  
+		{sort=1, name="A1-Magic", description="Magic (E-2D)", information="U282.20 (15)", linked="A1-Magic escort"},  
+		{sort=2, name="A2-Focus", description="Focus (E-3A)", information="U281.10 (16)", linked="A2-Focus escort"},  
         
-        {sort=3, name="CSG-71 Roosevelt", description="Roosevelt (CVN)", information="Tacan 12X RHR\nICLS 11\nU227 (12)"},  
-		{sort=4, name="CSG-74 Stennis", description="Stennis (CVN)", information="Tacan 13X STS\nICLS 13\nU221 (13)"},  
+        {sort=3, name="CSG-71 Roosevelt", description="Roosevelt (CVN)", information="Tacan 12X RHR\nICLS 11\nU227 (12)\nLink4 227MHz\nACLS available"},  
+		{sort=4, name="CSG-74 Stennis", description="Stennis (CVN)", information="Tacan 13X STS\nICLS 13\nU226 (13)\nLink4 226MHz\nACLS available"},  
 		{sort=5, name="CSG-01 Tarawa", description="Tarawa (LHA)", information="Tacan 14X TAA\nU225 (14)"},  
+        {sort=6, name="CSG Kuznetsov", description="Kuznetsov (CVN)", information="V127.5"},
 		
-        {sort=6, name="T1-Texaco-N", description="Texaco-N (KC-135 MPRS)", information="Tacan 60Y\nU290.10 (17)\nZone NORD", linked="T1-Texaco-N-escort"},  
-		{sort=7, name="T2-Texaco-S", description="Texaco-S (KC-135 MPRS)", information="Tacan 61Y\nU290.30 (18)\nZone SUD", linked="T2-Texaco-S-escort"},  
-		{sort=8, name="S1-Shell-N", description="Shell-N (KC-135)", information="Tacan 62Y\nU290.40 (19)\nZone NORD", linked="S1-Shell-N-escort"},  
-		{sort=9, name="S2-Shell-S", description="Shell-S (KC-135)", information="Tacan 63Y\nU290.50 (20)\nZone SUD", linked="S2-Shell-S-escort"},  
+        {sort=7, name="T1-Texaco-N", description="Texaco-N (KC-135 MPRS)", information="Tacan 60Y\nU290.10 (17)\nZone NORD", linked="T1-Texaco-N escort"},  
+		{sort=8, name="T2-Texaco-S", description="Texaco-S (KC-135 MPRS)", information="Tacan 61Y\nU290.30 (18)\nZone SUD", linked="T2-Texaco-S escort"},  
+		{sort=9, name="S1-Shell-N", description="Shell-N (KC-135)", information="Tacan 62Y\nU290.40 (19)\nZone NORD", linked="S1-Shell-N escort"},  
+		{sort=10, name="S2-Shell-S", description="Shell-S (KC-135)", information="Tacan 63Y\nU290.50 (20)\nZone SUD", linked="S2-Shell-S escort"},  
         
-		{sort=10, name="CVN-74 Stennis S3B-Tanker", description="Texaco-7 (S3-B)", information="Tacan 74X\nU290.70\nZone PA"},  
-		{sort=11, name="CVN-71 Roosevelt S3B-Tanker", description="Texaco-8 (S3-B)", information="Tacan 71X\nU290.80\nZone PA"},  
+		{sort=11, name="CVN-74 Stennis S3B-Tanker", description="Texaco-7 (S3-B)", information="Tacan 74X\nU290.70\nZone PA"},  
+		{sort=12, name="CVN-71 Roosevelt S3B-Tanker", description="Texaco-8 (S3-B)", information="Tacan 71X\nU290.80\nZone PA"},  
         
-		{sort=12, name="Overlordsky", description="100 (A-50, RED)", information="U312", linked="Overlordsky-escort"}, 
-        {sort=13, name="P1-Petrolsky", description="900 (IL-78M, RED)", information="U267", linked="P1-Petrolsky-escort"},  
-		{sort=14, name="CSG Kuznetsov", description="Kuznetsov (CVN)", information="CV 1143.5 Admiral Kuznetsov"},
+		{sort=13, name="Overlordsky", description="100 (A-50, RED)", information="U282.2 (15)", linked="Overlordsky escort"}, 
+        {sort=14, name="P1-Petrolsky", description="900 (IL-78M, RED)", information="U290.1 (17)", linked="P1-Petrolsky escort"},  
     }
 
     veaf.loggers.get(veaf.Id):info("init - veafAssets")
@@ -550,7 +550,7 @@ if veafHoundElint and false then -- don't use Hound Elint
                     transmitterUnit = nil, --use the Unit/Pilot name to set who the transmitter is for the ATIS etc. This can be a static, and aircraft or a vehicule/ship
                     disableTTS = false,
                 },
-                --sector named "Maykop", will be geofenced to the mission editor drawing called "Maykop" (case sensitive)
+                --sector named "Latakia", will be geofenced to the mission editor polygon drawing (free or rect.) called "Latakia" (case sensitive)
                 ["Latakia"] = {
                     callsign = true, --defines a specific callsign for the sector which will be used by the ATIS etc., if absent or nil Hound will assign it a callsign automatically, NATO format of regular Hound format. If true, callsign will be equal to the sector name
                     atis = {
