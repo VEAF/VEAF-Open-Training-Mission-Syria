@@ -149,7 +149,7 @@ if veafAssets then
         {sort=3, name="CSG-71 Roosevelt", description="Roosevelt (CVN)", information="Tacan 12X RHR\nICLS 11\nU227 (12)\nLink4 227MHz\nACLS available"},  
 		{sort=4, name="CSG-74 Stennis", description="Stennis (CVN)", information="Tacan 13X STS\nICLS 13\nU226 (13)\nLink4 226MHz\nACLS available"},  
 		{sort=5, name="CSG-01 Tarawa", description="Tarawa (LHA)", information="Tacan 14X TAA\nU225 (14)"},  
-        {sort=6, name="CSG Kuznetsov", description="Kuznetsov (CVN)", information="V127.5"},
+        {sort=6, name="CSG Kuznetsov", description="Kuznetsov (CV)", information="V121.5"},
 		
         {sort=7, name="T1-Texaco-N", description="Texaco-N (KC-135 MPRS)", information="Tacan 60Y\nU290.10 (17)\nZone NORD", linked="T1-Texaco-N escort"},  
 		{sort=8, name="T2-Texaco-S", description="Texaco-S (KC-135 MPRS)", information="Tacan 61Y\nU290.30 (18)\nZone SUD", linked="T2-Texaco-S escort"},  
