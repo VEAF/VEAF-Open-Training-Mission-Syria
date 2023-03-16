@@ -18,7 +18,7 @@ veafBeacons = false
 VeafQRA.ToggleAllSilence(false) --this will set all QRA messages ON if the argument is "true" and all QRA messages to OFF is the argument is "false".
 
 if veaf then
-    VeafQRA.new()
+    VeafQRA:new()
     :setName("QRA_Palmyra")
 	:setTriggerZone("QRA_Palmyra")
     :setZoneRadius(30000)
@@ -62,7 +62,7 @@ if veaf then
 --  :setSilent() --mutes this QRA only, VeafQRA.AllSilence has to be false for this to have an effect
     :start()
 
-    VeafQRA.new()
+    VeafQRA:new()
     :setName("QRA_Bassel")
 	:setTriggerZone("QRA_Bassel")
     :setZoneRadius(30000)
@@ -126,7 +126,7 @@ if veafShortcuts then
     -- here are some examples :
 
     -- veafShortcuts.AddAlias(
-    --     VeafAlias.new()
+    --     VeafAlias:new()
     --         :setName("-sa11")
     --         :setDescription("SA-11 Gadfly (9K37 Buk) battery")
     --         :setVeafCommand("_spawn group, name sa11")
@@ -196,7 +196,7 @@ if veafCombatMission then
     veafCombatMission.addCapMission("CAP-Palmyra-F14B-Fox3", "CAP from Palmyra over CT44 (Desert camp) Fox3 (F14B)", "Kill all the ennemy fighters.", true, true)
 
     veafCombatMission.AddMission(
-		VeafCombatMission.new()
+		VeafCombatMission:new()
 		:setName("ELINT-Mission-West")
 		:setFriendlyName("ELINT gathering over the West zone")
 		:setBriefing([[
@@ -204,7 +204,7 @@ ATIS on 282.125, SAM CONTROL on 282.225
 A C-130 pair will fly reciprocical headings, trying to pinpoint enemy SAMS.
 Don't let them be destroyed by the enemy !]])
 		:addElement(
-			VeafCombatMissionElement.new()
+			VeafCombatMissionElement:new()
 			:setName("ELINT-W")
 			:setGroups({
 				"ELINT-C-130-W-1",
@@ -217,7 +217,7 @@ Don't let them be destroyed by the enemy !]])
 	)
 
     veafCombatMission.AddMission(
-		VeafCombatMission.new()
+		VeafCombatMission:new()
 		:setName("ELINT-Mission-East")
 		:setFriendlyName("ELINT gathering over the East zone")
 		:setBriefing([[
@@ -225,7 +225,7 @@ ATIS on 282.125, SAM CONTROL on 282.225
 A C-130 pair will fly reciprocical headings, trying to pinpoint enemy SAMS.
 Don't let them be destroyed by the enemy !]])
 		:addElement(
-			VeafCombatMissionElement.new()
+			VeafCombatMissionElement:new()
 			:setName("ELINT-E")
 			:setGroups({
 				"ELINT-C-130-E-1",
@@ -248,7 +248,7 @@ if veafCombatZone then
     veaf.loggers.get(veaf.Id):info("Loading configuration")
 
 	veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatZone_desertRangeEasy")
 			:setFriendlyName("Training at KhalKhalah Desert RANGE")
 			:setBriefing("The KhalKhalah RANGE is located 35 nm east of the KhalKhalah airbase, in the desert")
@@ -256,7 +256,7 @@ if veafCombatZone then
 	)
 
     veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatZone_Camp")
 			:setFriendlyName("Camp militaire")
 			:setBriefing(
@@ -266,14 +266,14 @@ Les photos prises par les Mirages F1 de la ER 2/33 montre quelques ZU-23, mais i
     )
 
 	veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatZone_SCUD_Factory")
 			:setFriendlyName("combatZone_SCUD_Factory")
 			:setBriefing("TBD briefing for combatZone_SCUD_Factory")
 	)
 
 	veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatZone_antakya")
 			:setFriendlyName("Antakya Urban Operations")
             :setBriefing("Destroy the road block located on the West of Antakya City\nNeutralize streets patrols.\nNo fly zone on North-East (Manpads)!")
@@ -281,7 +281,7 @@ Les photos prises par les Mirages F1 de la ER 2/33 montre quelques ZU-23, mais i
 	)
 
     veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatZone_rangeKiryatEasy")
 			:setFriendlyName("Kiryat RANGE - easy")
 			:setBriefing("The Kiryat RANGE (located 7 nm south of Kiryat airbase) is set-up for training with defenseless targets")
@@ -289,7 +289,7 @@ Les photos prises par les Mirages F1 de la ER 2/33 montre quelques ZU-23, mais i
 	)
 
 	veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatZone_rangeKiryatMedium")
 			:setFriendlyName("Kiryat RANGE - medium")
             :setBriefing("The Kiryat RANGE (located 7 nm south of Kiryat airbase) is set-up for training with some defense")
@@ -297,7 +297,7 @@ Les photos prises par les Mirages F1 de la ER 2/33 montre quelques ZU-23, mais i
 	)
 
     veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatzone_ProtectHama")
 			:setFriendlyName("Protect HAMA")
 			:setBriefing(
