@@ -19,6 +19,12 @@
         "moment": "beforedawn"
       },
       {
+        "version": "sunrise-real-clear",
+        "realweather": true,
+        "clearsky": true,
+        "moment": "sunrise-30"
+      },
+      {
         "version": "dawn-real",
         "realweather": true,
         "moment": "dawn"
