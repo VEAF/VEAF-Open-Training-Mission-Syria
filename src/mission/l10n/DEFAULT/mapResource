@@ -8,4 +8,8 @@ mapResource = {
     ["DictKey_ActionText_10208"] = "HoundElint.lua",
     ["DictKey_ActionText_10308"] = "veaf-scripts.lua",
     ["DictKey_ActionText_10309"] = "missionConfig.lua",
+    ["ResKey_Action_1930"] = "beacon.ogg",
+    ["ResKey_Action_1931"] = "beaconsilent.ogg",
+    ["ResKey_Action_1933"] = "CSAR.lua",
+    ["ResKey_Action_1934"] = "csar-beacon.ogg",
 } -- end of mapResource
