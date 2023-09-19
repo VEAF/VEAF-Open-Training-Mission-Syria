@@ -405,6 +405,7 @@ end
 -- initialize veafSanctuary
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafSanctuary then
+    veaf.loggers.get(veaf.Id):info("init - veafSanctuary")
     veafSanctuary.initialize()
 end
 
