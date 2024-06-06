@@ -4287,6 +4287,128 @@ radioSettings =
         }, -- end of ["Radio"]
     },
 
+    ["blue OH-58D"] = {
+        type = "OH58D",
+        coalition = "blue",
+        country = nil,
+
+        ["Radio"] = {
+            [1] = {
+                ["channels"] = {
+                     [1] = radioPresetsBlue["##RADIO1_01##"],
+                     [2] = radioPresetsBlue["##RADIO1_02##"],
+                     [3] = radioPresetsBlue["##RADIO1_03##"],
+                     [4] = radioPresetsBlue["##RADIO1_04##"],
+                     [5] = radioPresetsBlue["##RADIO1_05##"],
+                     [6] = radioPresetsBlue["##RADIO1_06##"],
+                     [7] = radioPresetsBlue["##RADIO1_07##"],
+                     [8] = radioPresetsBlue["##RADIO1_08##"],
+                     [9] = radioPresetsBlue["##RADIO1_09##"],
+                    [10] = radioPresetsBlue["##RADIO1_10##"],
+                    [11] = radioPresetsBlue["##RADIO1_11##"],
+                    [12] = radioPresetsBlue["##RADIO1_12##"],
+                    [13] = radioPresetsBlue["##RADIO1_13##"],
+                    [14] = radioPresetsBlue["##RADIO1_14##"],
+                    [15] = radioPresetsBlue["##RADIO1_15##"],
+                    [16] = radioPresetsBlue["##RADIO1_16##"],
+                    [17] = radioPresetsBlue["##RADIO1_17##"],
+                    [18] = radioPresetsBlue["##RADIO1_18##"],
+                    [19] = radioPresetsBlue["##RADIO1_19##"],
+                    [20] = radioPresetsBlue["##RADIO1_20##"]
+                }, -- end of ["channels"]
+                ["channelsNames"] = {
+                }, -- end of ["channelsNames"]
+                ["modulations"] = {
+                }, -- end of ["modulations"]
+            }, -- end of [1]
+            [2] = {
+                ["channels"] = {
+                    [1] = radioPresetsBlue["##RADIO2_01##"],
+                    [2] = radioPresetsBlue["##RADIO2_02##"],
+                    [3] = radioPresetsBlue["##RADIO2_03##"],
+                    [4] = radioPresetsBlue["##RADIO2_04##"],
+                    [5] = radioPresetsBlue["##RADIO2_05##"],
+                    [6] = radioPresetsBlue["##RADIO2_06##"],
+                    [7] = radioPresetsBlue["##RADIO2_07##"],
+                    [8] = radioPresetsBlue["##RADIO2_08##"],
+                    [9] = radioPresetsBlue["##RADIO2_09##"],
+                   [10] = radioPresetsBlue["##RADIO2_10##"],
+                   [11] = radioPresetsBlue["##RADIO2_11##"],
+                   [12] = radioPresetsBlue["##RADIO2_12##"],
+                   [13] = radioPresetsBlue["##RADIO2_13##"],
+                   [14] = radioPresetsBlue["##RADIO2_14##"],
+                   [15] = radioPresetsBlue["##RADIO2_15##"],
+                   [16] = radioPresetsBlue["##RADIO2_16##"],
+                   [17] = radioPresetsBlue["##RADIO2_17##"],
+                   [18] = radioPresetsBlue["##RADIO2_18##"],
+                   [19] = radioPresetsBlue["##RADIO2_19##"],
+                   [20] = radioPresetsBlue["##RADIO2_20##"]
+               }, -- end of ["channels"]
+                ["channelsNames"] = {
+                }, -- end of ["channelsNames"]
+                ["modulations"] = {
+                }, -- end of ["modulations"]
+            }, -- end of [2]
+            [3] = {
+                ["channels"] = {
+                    [1] = radioPresetsBlue["##RADIO3_01##"],
+                    [2] = radioPresetsBlue["##RADIO3_02##"],
+                    [3] = radioPresetsBlue["##RADIO3_03##"],
+                    [4] = radioPresetsBlue["##RADIO3_04##"],
+                    [5] = radioPresetsBlue["##RADIO3_05##"],
+                    [6] = radioPresetsBlue["##RADIO3_06##"],
+                    [7] = radioPresetsBlue["##RADIO3_07##"],
+                    [8] = radioPresetsBlue["##RADIO3_08##"],
+                    [9] = radioPresetsBlue["##RADIO3_09##"],
+                   [10] = radioPresetsBlue["##RADIO3_10##"],
+                   [11] = radioPresetsBlue["##RADIO3_11##"],
+                   [12] = radioPresetsBlue["##RADIO3_12##"],
+                   [13] = radioPresetsBlue["##RADIO3_13##"],
+                   [14] = radioPresetsBlue["##RADIO3_14##"],
+                   [15] = radioPresetsBlue["##RADIO3_15##"],
+                   [16] = radioPresetsBlue["##RADIO3_16##"],
+                   [17] = radioPresetsBlue["##RADIO3_17##"],
+                   [18] = radioPresetsBlue["##RADIO3_18##"],
+                   [19] = radioPresetsBlue["##RADIO3_19##"],
+                   [20] = radioPresetsBlue["##RADIO3_20##"]
+                }, -- end of ["channels"]
+                ["channelsNames"] = {
+                }, -- end of ["channelsNames"]
+                ["modulations"] = {
+                }, -- end of ["modulations"]
+            }, -- end of [3]
+            [4] = {
+                ["channels"] = {
+                    [1] = 30,
+                    [2] = 40.4,
+                    [3] = 30,
+                    [4] = 32,
+                    [5] = 36,
+                    [6] = 38,
+                    [7] = 42,
+                    [8] = 44,
+                    [9] = 48,
+                    [10] = 50,
+                    [11] = 54,
+                    [12] = 56,
+                    [13] = 60,
+                    [14] = 62,
+                    [15] = 66,
+                    [16] = 68,
+                    [17] = 72,
+                    [18] = 74,
+                    [19] = 78,
+                    [20] = 80,
+                    [21] = 84,
+                }, -- end of ["channels"]
+                ["channelsNames"] = {
+                }, -- end of ["channelsNames"]
+                ["modulations"] = {
+                }, -- end of ["modulations"]
+            }, -- end of [4]
+        }, -- end of ["Radio"]
+    },
+
     ["red AH-64D"] = {
         type = "AH-64D_BLK_II",
         coalition = "red",
