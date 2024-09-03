@@ -14,66 +14,33 @@ veaf.config.MISSION_EXPORT_PATH = nil -- use default folder
 if veafQraManager then
 VeafQRA.ToggleAllSilence(false) --this will set all QRA messages ON if the argument is "true" and all QRA messages to OFF is the argument is "false".
 
-    VeafQRA:new()
+if veaf then
+    QRA_Palmyra = VeafQRA:new()
     :setName("QRA_Palmyra")
-	:setTriggerZone("QRA_Palmyra")
-    :setZoneRadius(30000)
-    :addGroup("QRA_Palmyra")
-    
-        --NOTE 1 : Remember that only one aircraft group at a time is deployed for each QRA
-
-    --:setQRAcount(QRAcount) --Superior or equal to -1 : Current number of aircraft groups available for deployement. By default this is set to -1 meaning an infinite amount of groups are available, no warehousing is done. -> This is you master arm for the rest of these options.
-    --:setQRAmaxCount(maxQRAcount) --Superior or equal to -1 : Maximum number of aircraft groups deployable at any time for the QRA. By default this is set to -1 meaning an infinite amount of aircrafts can be accumulated for deployement. -> Example: a QRA has 2 out of 6 groups ready for deployement, 6 is your maxQRAcount, 2 is your current QRAcount.
-    --:setQRAmaxResupplyCount(maxResupplyCount) --Superior or equal to -1 : Total number of aircraft groups which can be resupplied to the QRA. By default this is set to -1 meaning an infinite amount of stock is available. 0 means no stock is available, no resupplies will occur, this is your master arm for resupplies  -> Take the previous example : We are missing 4 groups but only have 3 in stock to resupply the QRA, 3 is your QRAmaxResupplyCount
-    --:setQRAminCountforResupply(minCountforResupply) --Equal to -1 or superior to 0 : Number of aircraft groups which the QRA needs to have at all times, otherwise a resupply will be started. By default this is set at -1 which means that a resupply will be started as soon as an aircraft group is lost. -> Take the previous example : This minimum number of deployable groups we desire at all times for our QRA is 1, but we have 2, so no resupply will happen for now. 1 is your minCountforResupply.
-    --:setResupplyAmount(resupplyAmount) --Superior or equal to 1 : Number of aircraf groups that will be resupplied to the QRA when a resupply happens. By default it is equal to 1. -> Take the previous example : We just lost both of our groups meaning we only have none left, this will trigger a resupply, a resupply the desired amount of aircraft groups or of however many aircrafts we have in stock if this amount is less. The resupply will also be constrained by the maximum number of groups we can have ready for deployement at once.
-    --:setQRAresupplyDelay(resupplyDelay) --Superior or equal to 0 : Time that a resupply will need in order to happen.
-    :setQRAcount(1)
-    :setQRAmaxCount(2)
-    :setQRAminCountforResupply(1)
-    :setResupplyAmount(2) 
-    :setQRAresupplyDelay(3600)
-
-
-        --NOTE 2 : only one resupply can happen at a time, they may be scheduled at every possible occasion but will happen one at a time.
-        --NOTE 3 : QRA groups that have just arrived from the supply chain will need to be rearmed (see associated delay and constraints)
-
-    --:setAirportLink(airbase_name) --Unit name of the airbase in between " " : QRA will be linked to this airport and will stop operating if the airport is lost (This can be a FARP (use the FARP's unit name), a Ship (use the ship's unit name), an airfield or a building (oil rigs etc.))
-    --:setAirportMinLifePercent(value) --Ranges from 0 to 1 : minimum life percentage of the linked airport for the QRA to operate. Airports (runways) and Ships only should lose life when bombed, this needs manual testing to know what works best. Not currently functional due to a DCS bug.
+    :setCoalition(coalition.side.RED)
+    :addEnnemyCoalition(coalition.side.BLUE)
+    :setTriggerZone("QRA_Palmyra")
+    :setRandomGroupsToDeployByEnemyQuantity(1, { "QRA_Palmyra-1", "QRA_Palmyra-2", "QRA_Palmyra-3" }, 1) -- 1 human in the zone
+    :setRandomGroupsToDeployByEnemyQuantity(2, { "QRA_Palmyra-4", "QRA_Palmyra-5", "QRA_Palmyra-6" }, 1) -- 1 human in the zone
+    :setDelayBeforeRearming(10) -- seconds before the QRA is rearmed
+    :setDelayBeforeActivating(60) -- seconds before the QRA is activated, since the first enemy enters the zone
+    :setReactOnHelicopters() --Sets if the QRA reacts to helicopters entering the zone
     :setAirportLink("Palmyra")
-
-        --NOTE 1 : QRA that are just being recomissioned after an airbase is retaken will need to be rearmed (see associated delay and constraints)
-
-    --:setDelayBeforeRearming(value) --Delay between the death of a QRA and it being ready for action
-    --:setNoNeedToLeaveZoneBeforeRearming() --QRA will be rearmed (and later deployed) even though players are still in the area
-    --:setResetWhenLeavingZone() --The QRA will be despawned (and ready-ed up again immediatly) when all players leave the zone. Otherwise the QRA will patrol until they RTB at which point they will despawn on landing and be ready immediatly.
-    --:setDelayBeforeActivating(value) --activation delay between units entering the QRA zone and the QRA actually deploying
-    :setDelayBeforeRearming(120)
-    :setDelayBeforeActivating(60)
-    :setNoNeedToLeaveZoneBeforeRearming()
-
-    :setCoalition(coalition.side.RED)
-    :addEnnemyCoalition(coalition.side.BLUE)
-    :setReactOnHelicopters()
---  :setSilent() --mutes this QRA only, VeafQRA.AllSilence has to be false for this to have an effect
     :start()
+end
 
-    VeafQRA:new()
+if veaf then
+    QRA_Bassel = VeafQRA:new()
     :setName("QRA_Bassel")
-	:setTriggerZone("QRA_Bassel")
-    :setZoneRadius(30000)
-    :addGroup("QRA_Bassel")
-    :setQRAcount(2)
-    :setQRAmaxCount(2)
-    :setQRAminCountforResupply(2)
-    :setQRAresupplyDelay(3600)
-    :setAirportLink("Bassel Al-Assad")
-    :setDelayBeforeRearming(120)
-    :setDelayBeforeActivating(60)
-    :setNoNeedToLeaveZoneBeforeRearming()
     :setCoalition(coalition.side.RED)
     :addEnnemyCoalition(coalition.side.BLUE)
-    :setReactOnHelicopters()
+    :setTriggerZone("QRA_Bassel")
+    :setRandomGroupsToDeployByEnemyQuantity(1, { "QRA_Bassel-1", "QRA_Bassel-2", "QRA_Bassel-3" }, 1) -- 1 human in the zone
+    :setRandomGroupsToDeployByEnemyQuantity(2, { "QRA_Bassel-4", "QRA_Bassel-5", "QRA_Bassel-6" }, 1) -- 1 human in the zone
+    :setDelayBeforeRearming(10) -- seconds before the QRA is rearmed
+    :setDelayBeforeActivating(60) -- seconds before the QRA is activated, since the first enemy enters the zone
+    :setReactOnHelicopters() --Sets if the QRA reacts to helicopters entering the zone
+    :setAirportLink("Bassel Al-Assad")
     :start()
 end
 
@@ -126,24 +93,24 @@ if veafAssets then
     veaf.loggers.get(veaf.Id):info("Loading configuration")
     veafAssets.Assets = {
 		-- list the assets in the mission below
-		{sort=1, name="A1-Magic", description="Magic (E-2D)", information="U282.20 (15)", linked="A1-Magic escort"},  
-		{sort=2, name="A2-Focus", description="Focus (E-3A)", information="U281.10 (16)", linked="A2-Focus escort"},  
+		{sort=1, name="MAGIC", description="MAGIC (E-3A)", information="U282.20 (15)", linked="MAGIC - ESCORTE"},  
+		{sort=2, name="DARKSTAR", description="DARKSTAR (E-3A)", information="U281.10 (16)", linked="DARKSTAR - ESCORTE"},  
         
-        {sort=3, name="CSG-71 Roosevelt", description="Roosevelt (CVN)", information="Tacan 12X RHR\nICLS 11\nU227 (12)\nLink4 227MHz\nACLS available"},  
-		{sort=4, name="CSG-74 Stennis", description="Stennis (CVN)", information="Tacan 13X STS\nICLS 13\nU226 (13)\nLink4 226MHz\nACLS available"},  
-		{sort=5, name="CSG-01 Tarawa", description="Tarawa (LHA)", information="Tacan 14X TAA\nU225 (14)"},  
-        {sort=6, name="CSG Kuznetsov", description="Kuznetsov (CV)", information="V121.5"},
+        {sort=3, name="CVN-71 - Roosevelt", description="Roosevelt (CVN)", information="Tacan 12X RHR\nICLS 11\nU227 (12)\nLink4 227MHz\nACLS available"},  
+		{sort=4, name="CVN-74 - John C. Stennis", description="Stennis (CVN)", information="Tacan 13X STS\nICLS 13\nU226 (13)\nLink4 226MHz\nACLS available"},  
+		{sort=5, name="LHA-1 Tarawa", description="Tarawa (LHA)", information="Tacan 14X TAA\nU225 (14)"},  
+        {sort=6, name="Admiral Kuznetsov", description="Admiral Kuznetsov (CV)", information="V121.5"},
 		
-        {sort=7, name="T1-Texaco-N", description="Texaco-N (KC-135 MPRS)", information="Tacan 60Y\nU290.10 (17)\nZone NORD", linked="T1-Texaco-N escort"},  
-		{sort=8, name="T2-Texaco-S", description="Texaco-S (KC-135 MPRS)", information="Tacan 61Y\nU290.30 (18)\nZone SUD", linked="T2-Texaco-S escort"},  
-		{sort=9, name="S1-Shell-N", description="Shell-N (KC-135)", information="Tacan 62Y\nU290.40 (19)\nZone NORD", linked="S1-Shell-N escort"},  
-		{sort=10, name="S2-Shell-S", description="Shell-S (KC-135)", information="Tacan 63Y\nU290.50 (20)\nZone SUD", linked="S2-Shell-S escort"},  
+        {sort=7, name="TEXACO 1-1", description="Texaco 1-1 (KC-135 MPRS)", information="Tacan 60Y\nU290.10 (17)\nZone NORD", linked="TEXACO 1-1 - ESCORTE"},  
+		{sort=8, name="TEXACO 2-1", description="Texaco 2-1 (KC-135 MPRS)", information="Tacan 61Y\nU290.30 (18)\nZone SUD", linked="TEXACO 2-1 - ESCORTE"},  
+		{sort=9, name="SHELL 1-1", description="SHELL 1-1 (KC-135)", information="Tacan 62Y\nU290.40 (19)\nZone NORD", linked="SHELL 1-1 - ESCORTE"},  
+		{sort=10, name="SHELL 2-1", description="SHELL 2-1 (KC-135)", information="Tacan 63Y\nU290.50 (20)\nZone SUD", linked="SHELL 2-1 - ESCORTE"},  
         
-		{sort=11, name="CVN-74 Stennis S3B-Tanker", description="Texaco-7 (S3-B)", information="Tacan 74X\nU290.70\nZone PA"},  
-		{sort=12, name="CVN-71 Roosevelt S3B-Tanker", description="Texaco-8 (S3-B)", information="Tacan 71X\nU290.80\nZone PA"},  
+		{sort=11, name="CVN-74 - John C. Stennis - S3B", description="Navy One 1-1 (S3-B)", information="Tacan 74X\nU290.70\nZone PA"},  
+		{sort=12, name="CVN-71 - Roosevelt - S3B", description="Navy One 2-1 (S3-B)", information="Tacan 71X\nU290.80\nZone PA"},  
         
-		{sort=13, name="Overlordsky", description="100 (A-50, RED)", information="U282.2 (15)", linked="Overlordsky escort"}, 
-        {sort=14, name="P1-Petrolsky", description="900 (IL-78M, RED)", information="U290.1 (17)", linked="P1-Petrolsky escort"},  
+		{sort=13, name="A-50", description="A-50 (A-50, RED)", information="U282.2 (15)", linked="A-50 - ESCORTE"}, 
+        {sort=14, name="IL-78M", description="IL-78M (IL-78M, RED)", information="U290.1 (17)", linked="IL-78M - ESCORTE"},  
     }
 
     veaf.loggers.get(veaf.Id):info("init - veafAssets")
@@ -232,7 +199,7 @@ if veafCombatZone then
 
 	veafCombatZone.AddZone(
 		VeafCombatZone:new()
-			:setMissionEditorZoneName("combatZone_desertRangeEasy")
+			:setMissionEditorZoneName("CombatZone_Desert-Rang-Easy")
 			:setFriendlyName("Training at KhalKhalah Desert RANGE")
 			:setBriefing("The KhalKhalah RANGE is located 35 nm east of the KhalKhalah airbase, in the desert")
             :setTraining(true)
@@ -240,7 +207,7 @@ if veafCombatZone then
 
     veafCombatZone.AddZone(
 		VeafCombatZone:new()
-			:setMissionEditorZoneName("combatZone_Camp")
+			:setMissionEditorZoneName("CombatZone_Camp")
 			:setFriendlyName("Camp militaire")
 			:setBriefing(
 [[Nos services de renseignements on localisé un camp Syrien aux coordonnés N33°46’423 E37°19’659 // 37S CT 45146 38323 qui sert de camp d’entrainement aux TALIBAN pour déstabiliser nos défenses par des actions kamikazes. 
@@ -250,14 +217,14 @@ Les photos prises par les Mirages F1 de la ER 2/33 montre quelques ZU-23, mais i
 
 	veafCombatZone.AddZone(
 		VeafCombatZone:new()
-			:setMissionEditorZoneName("combatZone_SCUD_Factory")
-			:setFriendlyName("combatZone_SCUD_Factory")
-			:setBriefing("TBD briefing for combatZone_SCUD_Factory")
+			:setMissionEditorZoneName("CombatZone_SCUD-Factory")
+			:setFriendlyName("CombatZone_SCUD-Factory")
+			:setBriefing("TBD briefing for CombatZone_SCUD-Factory")
 	)
 
 	veafCombatZone.AddZone(
 		VeafCombatZone:new()
-			:setMissionEditorZoneName("combatZone_antakya")
+			:setMissionEditorZoneName("CombatZone_Antakya")
 			:setFriendlyName("Antakya Urban Operations")
             :setBriefing("Destroy the road block located on the West of Antakya City\nNeutralize streets patrols.\nNo fly zone on North-East (Manpads)!")
             :setTraining(true)
@@ -265,7 +232,7 @@ Les photos prises par les Mirages F1 de la ER 2/33 montre quelques ZU-23, mais i
 
     veafCombatZone.AddZone(
 		VeafCombatZone:new()
-			:setMissionEditorZoneName("combatZone_rangeKiryatEasy")
+			:setMissionEditorZoneName("CombatZone_Range-Kiryat-Easy")
 			:setFriendlyName("Kiryat RANGE - easy")
 			:setBriefing("The Kiryat RANGE (located 7 nm south of Kiryat airbase) is set-up for training with defenseless targets")
             :setTraining(true)
@@ -273,7 +240,7 @@ Les photos prises par les Mirages F1 de la ER 2/33 montre quelques ZU-23, mais i
 
 	veafCombatZone.AddZone(
 		VeafCombatZone:new()
-			:setMissionEditorZoneName("combatZone_rangeKiryatMedium")
+			:setMissionEditorZoneName("CombatZone_Range-Kiryat-Medium")
 			:setFriendlyName("Kiryat RANGE - medium")
             :setBriefing("The Kiryat RANGE (located 7 nm south of Kiryat airbase) is set-up for training with some defense")
             :setTraining(true)
@@ -281,7 +248,7 @@ Les photos prises par les Mirages F1 de la ER 2/33 montre quelques ZU-23, mais i
 
     veafCombatZone.AddZone(
 		VeafCombatZone:new()
-			:setMissionEditorZoneName("combatzone_ProtectHama")
+			:setMissionEditorZoneName("CombatZone_Protect-Hama")
 			:setFriendlyName("Protect HAMA")
 			:setBriefing(
 [[Les alliés protègent des archéologues occupés à étudier les ruines proches du stade de HAMA.
@@ -556,7 +523,7 @@ veafShortcuts.AddAlias(
         :setName("-s002-1")
         :setDescription("Mission S002 - 1 - before mission start")
         :setBatchAliases({
-            "-zonestart combatZone_SCUD_Factory",
+            "-zonestart CombatZone_SCUD-Factory",
             "-point#U37SCU0477856197 SCUD",
             "-convoy#U37SCU0150289523!120, side red, size 5, defense 4, armor 3, dest SCUD, name TIGER",           
         })
