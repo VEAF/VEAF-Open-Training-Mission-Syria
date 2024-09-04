@@ -11,7 +11,6 @@ veaf.config.MISSION_EXPORT_PATH = nil -- use default folder
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize QRA
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veafQraManager then
 VeafQRA.ToggleAllSilence(false) --this will set all QRA messages ON if the argument is "true" and all QRA messages to OFF is the argument is "false".
 
 if veaf then
