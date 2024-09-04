@@ -105,8 +105,8 @@ if veafAssets then
 		{sort=9, name="SHELL 1-1", description="SHELL 1-1 (KC-135)", information="Tacan 62Y\nU290.40 (19)\nZone NORD", linked="SHELL 1-1 - ESCORTE"},  
 		{sort=10, name="SHELL 2-1", description="SHELL 2-1 (KC-135)", information="Tacan 63Y\nU290.50 (20)\nZone SUD", linked="SHELL 2-1 - ESCORTE"},  
         
-		{sort=11, name="CVN-74 - John C. Stennis - S3B", description="Navy One 1-1 (S3-B)", information="Tacan 74X\nU290.70\nZone PA"},  
-		{sort=12, name="CVN-71 - Roosevelt - S3B", description="Navy One 2-1 (S3-B)", information="Tacan 71X\nU290.80\nZone PA"},  
+		{sort=11, name="CVN-74 - John C. Stennis S3B", description="Navy One 1-1 (S3-B)", information="Tacan 74X\nU290.70\nZone PA"},  
+		{sort=12, name="CVN-71 - Roosevelt S3B", description="Navy One 2-1 (S3-B)", information="Tacan 71X\nU290.80\nZone PA"},  
         
 		{sort=13, name="A-50", description="A-50 (A-50, RED)", information="U282.2 (15)", linked="A-50 - ESCORTE"}, 
         {sort=14, name="IL-78M", description="IL-78M (IL-78M, RED)", information="U290.1 (17)", linked="IL-78M - ESCORTE"},  
