@@ -348,7 +348,18 @@ end
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize Skynet-IADS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veafSkynet then
+
+function DeactivateSkynetRed()
+    veaf.loggers.get(veaf.Id):info("Deactivate Skynet for RED IADS")
+    veafSkynet.monitorDynamicSpawn(false)
+    veafSkynet.deactivateNetworkOfCoalition(coalition.side.RED)
+end
+
+if veafSkynet then -- don't use
+    veafSkynet.PointDefenceMode = veafSkynet.PointDefenceModes.Skynet
+    veafSkynet.DynamicSpawn = true
+    veafSkynet.addCommandCenterOfCoalition(coalition.side.RED, "Centre de commandement Deir ez Zor")
+    veafSkynet.DelayForStartup = 85
     veaf.loggers.get(veaf.Id):info("init - veafSkynet")
     veafSkynet.initialize(
         false, --includeRedInRadio=true
