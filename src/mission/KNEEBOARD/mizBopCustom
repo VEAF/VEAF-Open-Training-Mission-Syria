@@ -1,0 +1,52 @@
+{
+  "PreferencesMap": {
+    "ProviderName": "BingMap",
+    "Zoom": 9.0
+  },
+  "MapData": {
+    "CenterLatitude": 35.731,
+    "CenterLongitude": 37.119,
+    "Zoom": 9.0,
+    "CustomMarkers": []
+  },
+  "MizBopCoalitions": [
+    {
+      "CoalitionName": "red",
+      "BullseyeDescription": null,
+      "BullseyeWaypoint": 1,
+      "MapData": {
+        "CenterLatitude": 35.1190948813549,
+        "CenterLongitude": 36.711478301691876,
+        "Zoom": 9.0,
+        "CustomMarkers": []
+      }
+    },
+    {
+      "CoalitionName": "blue",
+      "BullseyeDescription": null,
+      "BullseyeWaypoint": 1,
+      "MapData": {
+        "CenterLatitude": 34.569244089662256,
+        "CenterLongitude": 36.57374864460207,
+        "Zoom": 9.0,
+        "CustomMarkers": []
+      }
+    },
+    {
+      "CoalitionName": "neutrals",
+      "BullseyeDescription": null,
+      "BullseyeWaypoint": 1,
+      "MapData": {
+        "CenterLatitude": 35.021918,
+        "CenterLongitude": 35.90056,
+        "Zoom": 9.0,
+        "CustomMarkers": []
+      }
+    }
+  ],
+  "MizBopAirbases": [],
+  "MizBopGroups": [],
+  "MizBopUnits": [],
+  "MizBopRoutePoints": [],
+  "BopBriefingFolders": []
+}
