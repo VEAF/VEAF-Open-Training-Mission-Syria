@@ -490,6 +490,11 @@ end
 -- Silence ATC on all the airdromes
 veaf.silenceAtcOnAllAirbases()
 
+-- Activate the new ATIS system by Flogas
+if veafWeather then
+    veafWeather.Active = true
+end
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- Mission S001 - Défense de Wujha Al Hajar - https://github.com/VEAF/VEAF-Open-Training-Mission-Syria/wiki/Mission-S001
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
