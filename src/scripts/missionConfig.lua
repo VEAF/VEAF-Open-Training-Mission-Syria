@@ -261,6 +261,15 @@ La zone de rassemblement du convoi est protégée par des blindés et de la déf
 ]])
     )
 
+    veafCombatZone.AddZone(
+		VeafCombatZone:new()
+			:setMissionEditorZoneName("combatzone_TrainingHatay")
+			:setFriendlyName("Training at Hatay - live fire")
+			:setBriefing("The Hatay training RANGE is located 11 nm east of the Hatay airbase, in the hills")
+            :setTraining(true)
+	)
+
+
     veaf.loggers.get(veaf.Id):info("init - veafCombatZone")
     veafCombatZone.initialize()
 
