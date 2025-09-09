@@ -118469,7 +118469,7 @@ mission = {
             [10] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1189612,
+    ["currentKey"] = 1233324,
     ["date"] = {
         ["Day"] = 30,
         ["Month"] = 6,
@@ -119545,14 +119545,6 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["10"]
-        [2] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = 2,
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of [2]
         [10] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119641,14 +119633,6 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["15"]
-        ["16"] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = "16",
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of ["16"]
         [16] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119657,6 +119641,14 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of [16]
+        ["16"] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "16",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["16"]
         ["17"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119673,14 +119665,6 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of [17]
-        [18] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = 18,
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of [18]
         ["18"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119689,14 +119673,14 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["18"]
-        ["19"] = {
+        [18] = {
             ["enable"] = false,
             ["hh"] = 0,
-            ["id"] = "19",
+            ["id"] = 18,
             ["mm"] = 0,
             ["mmint"] = 1,
             ["prob"] = 100,
-        }, -- end of ["19"]
+        }, -- end of [18]
         [19] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119705,6 +119689,22 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of [19]
+        ["19"] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "19",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["19"]
+        [2] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = 2,
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of [2]
         ["2"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119713,14 +119713,6 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["2"]
-        ["20"] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = "20",
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of ["20"]
         [20] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119729,6 +119721,14 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of [20]
+        ["20"] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "20",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["20"]
         ["21"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119769,6 +119769,14 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["23"]
+        [23] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = 23,
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of [23]
         ["24"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119777,6 +119785,22 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["24"]
+        [24] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = 24,
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of [24]
+        [25] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = 25,
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of [25]
         ["25"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119785,6 +119809,14 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["25"]
+        [26] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = 26,
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of [26]
         ["26"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119793,6 +119825,14 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["26"]
+        [27] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = 27,
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of [27]
         ["27"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119833,62 +119873,6 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of [3]
-        [23] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = 23,
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of [23]
-        [24] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = 24,
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of [24]
-        [25] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = 25,
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of [25]
-        [26] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = 26,
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of [26]
-        [27] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = 27,
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of [27]
-        [28] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = 28,
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of [28]
-        [29] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = 29,
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of [29]
         ["30"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119897,14 +119881,6 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["30"]
-        [30] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = 30,
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of [30]
         ["31"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119913,6 +119889,14 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["31"]
+        ["32"] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "32",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["32"]
         [4] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119961,6 +119945,30 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of [9]
+        [28] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = 28,
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of [28]
+        [29] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = 29,
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of [29]
+        [30] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = 30,
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of [30]
         [31] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -119969,14 +119977,6 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of [31]
-        ["32"] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = "32",
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of ["32"]
         [32] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -120001,14 +120001,6 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["33"]
-        [34] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = 34,
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of [34]
         ["34"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -120017,14 +120009,14 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["34"]
-        [35] = {
+        [34] = {
             ["enable"] = false,
             ["hh"] = 0,
-            ["id"] = 35,
+            ["id"] = 34,
             ["mm"] = 0,
             ["mmint"] = 1,
             ["prob"] = 100,
-        }, -- end of [35]
+        }, -- end of [34]
         ["35"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -120033,6 +120025,14 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["35"]
+        [35] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = 35,
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of [35]
         ["36"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -120049,14 +120049,6 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of [36]
-        [37] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = 37,
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of [37]
         ["37"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -120065,6 +120057,14 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["37"]
+        [37] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = 37,
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of [37]
         ["4"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -120073,14 +120073,6 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["4"]
-        ["40"] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = "40",
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of ["40"]
         [40] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -120089,14 +120081,14 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of [40]
-        [41] = {
+        ["40"] = {
             ["enable"] = false,
             ["hh"] = 0,
-            ["id"] = 41,
+            ["id"] = "40",
             ["mm"] = 0,
             ["mmint"] = 1,
             ["prob"] = 100,
-        }, -- end of [41]
+        }, -- end of ["40"]
         ["41"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -120105,14 +120097,14 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["41"]
-        ["42"] = {
+        [41] = {
             ["enable"] = false,
             ["hh"] = 0,
-            ["id"] = "42",
+            ["id"] = 41,
             ["mm"] = 0,
             ["mmint"] = 1,
             ["prob"] = 100,
-        }, -- end of ["42"]
+        }, -- end of [41]
         [42] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -120121,14 +120113,14 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of [42]
-        [43] = {
+        ["42"] = {
             ["enable"] = false,
             ["hh"] = 0,
-            ["id"] = 43,
+            ["id"] = "42",
             ["mm"] = 0,
             ["mmint"] = 1,
             ["prob"] = 100,
-        }, -- end of [43]
+        }, -- end of ["42"]
         ["43"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -120137,6 +120129,14 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["43"]
+        [43] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = 43,
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of [43]
         ["44"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -120153,14 +120153,6 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of [44]
-        [45] = {
-            ["enable"] = false,
-            ["hh"] = 0,
-            ["id"] = 45,
-            ["mm"] = 0,
-            ["mmint"] = 1,
-            ["prob"] = 100,
-        }, -- end of [45]
         ["45"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -120169,6 +120161,14 @@ mission = {
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["45"]
+        [45] = {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = 45,
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of [45]
         ["5"] = {
             ["enable"] = false,
             ["hh"] = 0,
@@ -131428,9 +131428,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = 21139.617016722,
-        ["centerY"] = 149739.29561686,
-        ["zoom"] = 780775.19124659,
+        ["centerX"] = -62358.565737052,
+        ["centerY"] = 5.8207660913467e-011,
+        ["zoom"] = 1450199.2031873,
     }, -- end of ["map"]
     ["maxDictId"] = 1934,
     ["pictureFileNameB"] = {
@@ -132161,15 +132161,15 @@ mission = {
         ["wind"] = {
             ["at2000"] = {
                 ["dir"] = 60,
-                ["speed"] = 3.2984394633431,
+                ["speed"] = 9.2984394633431,
             }, -- end of ["at2000"]
             ["at8000"] = {
                 ["dir"] = 351,
-                ["speed"] = 4.261147994117,
+                ["speed"] = 10.261147994117,
             }, -- end of ["at8000"]
             ["atGround"] = {
                 ["dir"] = 90,
-                ["speed"] = 5.14444,
+                ["speed"] = 7,
             }, -- end of ["atGround"]
         }, -- end of ["wind"]
     }, -- end of ["weather"]
